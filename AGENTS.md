@@ -66,6 +66,11 @@ Current remotes:
 - `origin`: `https://github.com/Juandi-M/machines-wiredforwar.git` — Juan's fork.
 - `upstream`: `https://github.com/WiredForWar/machines.git` — community project.
 
+The personal local `dev` branch publishes to `origin/personal/dev` in Juan's
+fork. Use the explicit refspec `dev:personal/dev`; do not assume local `dev`
+should update the fork's shared/default `dev`. Community work publishes from
+the contribution checkout to its own `upstream/<topic>` branch on `origin`.
+
 Before every commit, inspect the complete staged diff and its file list. Stage
 specific paths; do not use a blanket `git add .` or `git add -A` when the checkout
 contains unrelated work, private documents, or experiments. Keep commits focused

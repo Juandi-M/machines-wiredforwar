@@ -3,7 +3,12 @@
 This is the editable/provenance side of the personal HD HUD experiment. The
 engine receives only `mods/faithful-hd-hud/gui/**/*.png`, not these large masters.
 
-- `masters/`: 15 generated master images and the exact prompt for each render.
+The first-person HUD extension is currently being prepared. Its source manifest
+contains additional entries whose masters are not all ready; see
+[extension status](EXTENSION_STATUS.md) before running a full export. The saved
+129-asset/516-texture runtime pack remains the completed, tested version.
+
+- `masters/`: the 15 completed HUD masters, saved extension masters, and exact render prompts.
 - `references/`: source images and prepared sprite sheets used for generation.
 - `source-manifest.json`: original paths, dimensions, SHA-256, and atlas crop rectangles.
 - `requirements.txt`: pinned export-tool dependencies.

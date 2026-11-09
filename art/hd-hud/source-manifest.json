@@ -1899,6 +1899,693 @@
       ],
       "master": "camtab",
       "source_sha256": "ae7641e7a7871ca7d4da785f982cbaad3f71d3f621fb7dea118ed00d15985e85"
+    },
+    {
+      "path": "gui/misc/tplight1.bmp",
+      "size": [
+        14,
+        24
+      ],
+      "atlas": "panel-extras",
+      "rect": [
+        76,
+        48,
+        244,
+        336
+      ],
+      "source_sha256": "7df6f8621c3079188ee8eca4e62f53274fc0e35b64cfcb4359aa6b911b8d6d71"
+    },
+    {
+      "path": "gui/misc/tplight2.bmp",
+      "size": [
+        14,
+        24
+      ],
+      "atlas": "panel-extras",
+      "rect": [
+        396,
+        48,
+        564,
+        336
+      ],
+      "source_sha256": "59af8d8f21456e7d9537dcfba4a94aa61e3f9f9869d8dff55c46ff12186e508e"
+    },
+    {
+      "path": "gui/misc/red/inhead.bmp",
+      "size": [
+        20,
+        20
+      ],
+      "atlas": "panel-extras",
+      "rect": [
+        680,
+        72,
+        920,
+        312
+      ],
+      "source_sha256": "4507891123693de71559b5c89f01c24455387c16c46aafc08604dcbfe8d49706"
+    },
+    {
+      "path": "gui/misc/blue/inhead.bmp",
+      "size": [
+        20,
+        20
+      ],
+      "atlas": "panel-extras",
+      "rect": [
+        40,
+        456,
+        280,
+        696
+      ],
+      "source_sha256": "6917a240026316a72515de075224eb0eba47cf8a5a049d7d7e695213290b0fea"
+    },
+    {
+      "path": "gui/misc/green/inhead.bmp",
+      "size": [
+        20,
+        20
+      ],
+      "atlas": "panel-extras",
+      "rect": [
+        360,
+        456,
+        600,
+        696
+      ],
+      "source_sha256": "53b3f9a9d60dc22cca4033a98a73bac930eaa0f4680790a58691f09f6d7061bc"
+    },
+    {
+      "path": "gui/misc/yellow/inhead.bmp",
+      "size": [
+        20,
+        20
+      ],
+      "atlas": "panel-extras",
+      "rect": [
+        680,
+        456,
+        920,
+        696
+      ],
+      "source_sha256": "f28380bb51962430fcd179e7bd7e6f4e68a258720c420fbb4552ce314ccc6e3c"
+    },
+    {
+      "path": "gui/fstpersn/command/move_invalid.bmp",
+      "size": [
+        64,
+        24
+      ],
+      "atlas": "fp-command-labels",
+      "rect": [
+        64,
+        56,
+        448,
+        200
+      ],
+      "source_sha256": "e42ed2619c3589cea35e15ef5b4cc8aa5e63a7d4cf8fd39c715879e7ca9627b0"
+    },
+    {
+      "path": "gui/fstpersn/command/move_valid.bmp",
+      "size": [
+        64,
+        24
+      ],
+      "atlas": "fp-command-labels",
+      "rect": [
+        576,
+        56,
+        960,
+        200
+      ],
+      "source_sha256": "fec08278279faae0583c61aa59563ac76a66f9e9e340b23ccf77d6ef6100a771"
+    },
+    {
+      "path": "gui/fstpersn/command/move_activate.bmp",
+      "size": [
+        64,
+        24
+      ],
+      "atlas": "fp-command-labels",
+      "rect": [
+        1088,
+        56,
+        1472,
+        200
+      ],
+      "source_sha256": "d33e1607b693b18214539570cfc92ba13aadf7de6780911306513d55961b92fc"
+    },
+    {
+      "path": "gui/fstpersn/command/follow_invalid.bmp",
+      "size": [
+        64,
+        24
+      ],
+      "atlas": "fp-command-labels",
+      "rect": [
+        64,
+        312,
+        448,
+        456
+      ],
+      "source_sha256": "e7073ee2ec1dfceb93993fb5e914731f556a2e27d03c970984cb21a17cb391ae"
+    },
+    {
+      "path": "gui/fstpersn/command/follow_valid.bmp",
+      "size": [
+        64,
+        24
+      ],
+      "atlas": "fp-command-labels",
+      "rect": [
+        576,
+        312,
+        960,
+        456
+      ],
+      "source_sha256": "17b97d016dbab697b035b3352ea5aace8124d968baf53a41ea117c9f39da75b5"
+    },
+    {
+      "path": "gui/fstpersn/command/follow_activate.bmp",
+      "size": [
+        64,
+        24
+      ],
+      "atlas": "fp-command-labels",
+      "rect": [
+        1088,
+        312,
+        1472,
+        456
+      ],
+      "source_sha256": "258144239cbe38086db47b91324a71da2790b2acba6e9d44eb18346368056c4a"
+    },
+    {
+      "path": "gui/fstpersn/command/attack_invalid.bmp",
+      "size": [
+        64,
+        24
+      ],
+      "atlas": "fp-command-labels",
+      "rect": [
+        64,
+        568,
+        448,
+        712
+      ],
+      "source_sha256": "1a24c8ebd63270e722f27eeecf1767b0e7c1607f90480f383b75faaf10c08ae5"
+    },
+    {
+      "path": "gui/fstpersn/command/attack_valid.bmp",
+      "size": [
+        64,
+        24
+      ],
+      "atlas": "fp-command-labels",
+      "rect": [
+        576,
+        568,
+        960,
+        712
+      ],
+      "source_sha256": "77b84f0e87156052287e920d59ed061dfd54f072519549f5086031946c326f72"
+    },
+    {
+      "path": "gui/fstpersn/command/attack_activate.bmp",
+      "size": [
+        64,
+        24
+      ],
+      "atlas": "fp-command-labels",
+      "rect": [
+        1088,
+        568,
+        1472,
+        712
+      ],
+      "source_sha256": "c5e98efaf3e655807e9d7ebdb598ac0e82b3e08aa9ed8efcffbd45c544308eff"
+    },
+    {
+      "path": "gui/fstpersn/cursor/ping1.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        34,
+        37,
+        238,
+        259
+      ],
+      "source_sha256": "c3f8ff3691e8142fd97555d520ba42f9becf9dd01d7c53fe27450c3ab76c103b"
+    },
+    {
+      "path": "gui/fstpersn/cursor/ping2.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        306,
+        37,
+        510,
+        259
+      ],
+      "source_sha256": "7bb28f0edbc8fed62ae3afabed7133b0c6f836824c672ad1869216894c4d6374"
+    },
+    {
+      "path": "gui/fstpersn/cursor/ping3.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        578,
+        37,
+        782,
+        259
+      ],
+      "source_sha256": "f3d2af8e5b4c77a97d02a56cf796b3f29becfba7474fb0dcea5f310624728916"
+    },
+    {
+      "path": "gui/fstpersn/cursor/ping4.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        850,
+        37,
+        1054,
+        259
+      ],
+      "source_sha256": "ae6448b3a996bafb9e337740f1456c65c293722e07b291c6950efae5f0675957"
+    },
+    {
+      "path": "gui/fstpersn/cursor/ping5.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        1122,
+        37,
+        1326,
+        259
+      ],
+      "source_sha256": "cac79588357334e483c5661cc2584c3555f396f54dd271e60ed3271c47198f58"
+    },
+    {
+      "path": "gui/fstpersn/cursor/ping6.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        34,
+        333,
+        238,
+        555
+      ],
+      "source_sha256": "8e800b3dcfcf97e990048903b0a13b2a065935a4192c7674c35f933063fccdee"
+    },
+    {
+      "path": "gui/fstpersn/cursor/ping7.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        306,
+        333,
+        510,
+        555
+      ],
+      "source_sha256": "59d52a224e5f6125b446fe15d37289a24ccd2b79150bc78e37279a7f56fcb96f"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targ1.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        578,
+        333,
+        782,
+        555
+      ],
+      "source_sha256": "a4c203d888b24410159cb46512ffed6b8c4150fba7b96069559f1a3b0dfa980a"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targ2.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        850,
+        333,
+        1054,
+        555
+      ],
+      "source_sha256": "8f0244366aada04e667c4be8eaa66a3062dfe107d0c9c95b8aaa04981654961e"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targ3.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        1122,
+        333,
+        1326,
+        555
+      ],
+      "source_sha256": "6ebce412e28941e7b55d72c514e30e6bb2ceed4b099cb9bc5d22b0ab57a92c44"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targ4.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        34,
+        629,
+        238,
+        851
+      ],
+      "source_sha256": "383dee69b1ed5fd677ebb3b45d02aa71f9690c2538c67249b2180d0f9df9e561"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targ5.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        306,
+        629,
+        510,
+        851
+      ],
+      "source_sha256": "ca700df6fdd46eeac28626d26ab02e993ad935ceec8e4ee8ddf1db11bf4dead5"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targ6.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        578,
+        629,
+        782,
+        851
+      ],
+      "source_sha256": "d43cf8640a90f3ff0329df2c8c38556966874682480e0525d3badf12e7fd0aff"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targ7.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        850,
+        629,
+        1054,
+        851
+      ],
+      "source_sha256": "1550beac1f35ea1977047aa12745345d4ca2caa2f4acb9c18b29237005135814"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targ8.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        1122,
+        629,
+        1326,
+        851
+      ],
+      "source_sha256": "dc2b4407f290d33cac3a8ec831730a3da794872e18a57a3a6c62fc7b84acfa14"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targnv1.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        34,
+        925,
+        238,
+        1147
+      ],
+      "source_sha256": "4bc73bbbe025cb82f2049c625eed375e6ee2579f472e31917c525fdbc02fc651"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targnv2.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        306,
+        925,
+        510,
+        1147
+      ],
+      "source_sha256": "2893cafa788e64f18ae773b0e9523793b5930c8b3bb64eddb5ad8cff1f428dd7"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targv1.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        578,
+        925,
+        782,
+        1147
+      ],
+      "source_sha256": "d383437253f49496638f7097ca9e18845f28f09c5af51e188997e0d62b54f656"
+    },
+    {
+      "path": "gui/fstpersn/cursor/targv2.bmp",
+      "size": [
+        68,
+        74
+      ],
+      "atlas": "fp-reticles",
+      "rect": [
+        850,
+        925,
+        1054,
+        1147
+      ],
+      "source_sha256": "e2a6c42700ecfc034ebca0dcc3ade96a3e50944835602be5d3e0c77ea2d45853"
+    },
+    {
+      "path": "gui/fstpersn/radar/rhealth.bmp",
+      "size": [
+        11,
+        63
+      ],
+      "atlas": "fp-status",
+      "rect": [
+        95,
+        67,
+        161,
+        445
+      ],
+      "source_sha256": "3435edc1fa2ca0a3aa0a8f4470c9d4d6328152bd7f29f4c528837dff1700d2de"
+    },
+    {
+      "path": "gui/fstpersn/radar/rhealth2.bmp",
+      "size": [
+        11,
+        63
+      ],
+      "atlas": "fp-status",
+      "rect": [
+        351,
+        67,
+        417,
+        445
+      ],
+      "source_sha256": "09221413805ca367e855bd5d9707f113aa10b9432d252e8530f5f48ea862fcab"
+    },
+    {
+      "path": "gui/fstpersn/radar/rhealth3.bmp",
+      "size": [
+        11,
+        63
+      ],
+      "atlas": "fp-status",
+      "rect": [
+        607,
+        67,
+        673,
+        445
+      ],
+      "source_sha256": "6d83f9ab4e5d33659cbfd4e18c34fd7a8310e632fa3a13e14d5f78dc4a7e6918"
+    },
+    {
+      "path": "gui/fstpersn/radar/rarmour.bmp",
+      "size": [
+        11,
+        63
+      ],
+      "atlas": "fp-status",
+      "rect": [
+        95,
+        579,
+        161,
+        957
+      ],
+      "source_sha256": "d4125cf25c5ada8a550fefc58438c9cc9318ff84ca5e73ba3c94dc085ed00853"
+    },
+    {
+      "path": "gui/fstpersn/radar/rarmour2.bmp",
+      "size": [
+        11,
+        63
+      ],
+      "atlas": "fp-status",
+      "rect": [
+        351,
+        579,
+        417,
+        957
+      ],
+      "source_sha256": "925af001b9f8d79ac77921218a244df129f143859a61a759a44b3413165f1f52"
+    },
+    {
+      "path": "gui/fstpersn/radar/rarmour3.bmp",
+      "size": [
+        11,
+        63
+      ],
+      "atlas": "fp-status",
+      "rect": [
+        607,
+        579,
+        673,
+        957
+      ],
+      "source_sha256": "6d83f9ab4e5d33659cbfd4e18c34fd7a8310e632fa3a13e14d5f78dc4a7e6918"
+    },
+    {
+      "path": "gui/fstpersn/cursor/health.bmp",
+      "size": [
+        4,
+        31
+      ],
+      "atlas": "fp-status",
+      "rect": [
+        116,
+        1187,
+        140,
+        1373
+      ],
+      "source_sha256": "dc8b496c308196a639ed6e8e64fc33766777451db2faa44be6fd3a0a1fd41ae4"
+    },
+    {
+      "path": "gui/fstpersn/cursor/armour.bmp",
+      "size": [
+        4,
+        31
+      ],
+      "atlas": "fp-status",
+      "rect": [
+        372,
+        1187,
+        396,
+        1373
+      ],
+      "source_sha256": "84151be97b98244ee1761cf912a6c7cd2f5484dacd1cac6280fd209505d005dc"
+    },
+    {
+      "path": "gui/fstpersn/radar/dome.bmp",
+      "size": [
+        11,
+        11
+      ],
+      "atlas": "fp-status",
+      "rect": [
+        607,
+        1247,
+        673,
+        1313
+      ],
+      "source_sha256": "00dce25c472f8879c06f1b49121467be1c4cceaeb810279c6edcd011dece03f0"
+    },
+    {
+      "path": "gui/fstpersn/radar/rmmap.bmp",
+      "size": [
+        260,
+        185
+      ],
+      "master": "fp-radar",
+      "source_sha256": "95a8d9cd59c9b3b73a59aa6f2b95c5515180af1607bfe89e483b6ceb31a5024b"
+    },
+    {
+      "path": "gui/fstpersn/command/widget.bmp",
+      "size": [
+        130,
+        130
+      ],
+      "master": "fp-command-widget",
+      "source_sha256": "d00b3355ace9f3c1c2f88f5430777110fd3f377d7e252ef386d6979a470d6d06"
+    },
+    {
+      "path": "gui/fstpersn/machines/backgrnd.bmp",
+      "size": [
+        50,
+        50
+      ],
+      "master": "fp-blank-grid",
+      "source_sha256": "a80b40d7fe3be23a5fc5f221c0de5a56b4269db070e33a560a649084a0eb239c"
+    },
+    {
+      "path": "gui/fstpersn/cursor/compass.bmp",
+      "size": [
+        240,
+        9
+      ],
+      "atlas": "fp-compass",
+      "rect": [
+        64,
+        348,
+        1984,
+        420
+      ],
+      "source_sha256": "771955b4547e0d6c73640167da050d17b873548d1ffe34e1c67d525c7e69081c"
     }
   ],
   "atlases": {
@@ -2012,6 +2699,71 @@
         1152
       ],
       "count": 5
+    },
+    "panel-extras": {
+      "size": [
+        960,
+        768
+      ],
+      "columns": 3,
+      "rows": 2,
+      "cell": [
+        320,
+        384
+      ],
+      "count": 6
+    },
+    "fp-command-labels": {
+      "size": [
+        1536,
+        768
+      ],
+      "columns": 3,
+      "rows": 3,
+      "cell": [
+        512,
+        256
+      ],
+      "count": 9
+    },
+    "fp-reticles": {
+      "size": [
+        1360,
+        1184
+      ],
+      "columns": 5,
+      "rows": 4,
+      "cell": [
+        272,
+        296
+      ],
+      "count": 19
+    },
+    "fp-status": {
+      "size": [
+        768,
+        1536
+      ],
+      "columns": 3,
+      "rows": 3,
+      "cell": [
+        256,
+        512
+      ],
+      "count": 9
+    },
+    "fp-compass": {
+      "size": [
+        2048,
+        768
+      ],
+      "columns": 1,
+      "rows": 1,
+      "cell": [
+        2048,
+        768
+      ],
+      "count": 1
     }
   }
 }
