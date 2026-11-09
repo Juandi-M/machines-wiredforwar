@@ -1,0 +1,7345 @@
+{
+  "asset_count": 129,
+  "texture_count": 516,
+  "compressed_bytes": 6528607,
+  "rgba_bytes_all_scales": 19676040,
+  "rgba_bytes_by_scale": {
+    "1": 655868,
+    "2": 2623472,
+    "3": 5902812,
+    "4": 10493888
+  },
+  "masters": {
+    "controls": {
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "1c0433d7938498e8e157ad3e1904d594a6642d7f06c3aadc1fcafb432a3e5397"
+    },
+    "commands": {
+      "size": [
+        1100,
+        1430
+      ],
+      "sha256": "af3a0127de6f4cf5944646ec51eb6e7f90c2c24a90bd3bf0968361ef43840655"
+    },
+    "arrows": {
+      "size": [
+        992,
+        1586
+      ],
+      "sha256": "7d14aa1d31967769228577cdc93bd20168c48b9adab9218edb947c4130a0afdb"
+    },
+    "digits": {
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "67181ea943232440830fe227127e203939a67f2a060f528c1a11057bf8c3fcaf"
+    },
+    "decals-red": {
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "5cafde3b1cbed81c4d3571868364b898d00e366f287c988f5bfeb238690c9c0d"
+    },
+    "decals-blue": {
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "eb66bd458b77618d06ca94465ac133e443ad86a9033e90916f90c06905342df3"
+    },
+    "decals-green": {
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "012c560218ed99b7a40a8af529b861c96792dccb60356487d2315078dffe9ebc"
+    },
+    "decals-yellow": {
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "87b7ebf3ac76508823d986e08169cf4fb6a21e004571be087a8a22e75e1a1ddb"
+    },
+    "supplements": {
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "37634870711d5e0d802b201da60351e161d1fe3090878a879c811c0258fba8e0"
+    },
+    "rlogo": {
+      "size": [
+        1288,
+        1221
+      ],
+      "sha256": "a0f09c9f97cb52a8ec70011fa9b00d774d9cc8107b4006a96670797573f95f7d"
+    },
+    "blogo": {
+      "size": [
+        1288,
+        1221
+      ],
+      "sha256": "fbd5156b9b98ffdba34eeb6ea2f69cc3c8ad8d85cd6225853a36e19c8902cb62"
+    },
+    "glogo": {
+      "size": [
+        1288,
+        1221
+      ],
+      "sha256": "16817d2c5e8acb81243a3218e05078f64b36c3dc09617820a8554da29ec17ea7"
+    },
+    "ylogo": {
+      "size": [
+        1288,
+        1221
+      ],
+      "sha256": "e1628ab4cb22fd9877db9cec457eb0fd207c360226146f4afdd09d7fe0c9889f"
+    },
+    "backtile": {
+      "size": [
+        1823,
+        863
+      ],
+      "sha256": "fcee6405476e3165e5ea1a65779504ef532bb8676cd0caef7535f78b600d194f"
+    },
+    "camtab": {
+      "size": [
+        846,
+        1860
+      ],
+      "sha256": "2d04e3b3ca291e98ad56e8e91fec85659c27a06168fc0ebab448a0861edb36b2"
+    }
+  },
+  "textures": [
+    {
+      "path": "gui/navigate/red/machines.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1551,
+      "before_zopfli_bytes": 1631,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "25bc3d173ef02464cf118e49058bf9ed45075f1df100654b80ac1b99d1108c45",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/machines_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4828,
+      "before_zopfli_bytes": 5059,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "f87d2832b58b576cd6026d509a89d506cb0c122e20d828360558773262f476a9",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/machines_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 9699,
+      "before_zopfli_bytes": 10254,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "0096936cc825ed60b90abb86c856b082f0340897add4d6f87e837ebb9abc98de",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/machines_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 16144,
+      "before_zopfli_bytes": 17123,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "9943dc05c87f14c56c9e2732c0d30692562af34034a38c8b77028f6fc9f13097",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/construc.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1518,
+      "before_zopfli_bytes": 1553,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "d436a32c673f1c422f028e6db1e6c1edd54c7040dc2b59246360f618d28f866b",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/construc_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4717,
+      "before_zopfli_bytes": 4993,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "2a90201139771895880a08bef1f432acb5d29d220542a32b598539f111b601f2",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/construc_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 9536,
+      "before_zopfli_bytes": 10164,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "106dbca27d01892fe2c043e3b076dcc63dc5a63c7dbf2602a7b7703f1b64e05e",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/construc_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 15986,
+      "before_zopfli_bytes": 17330,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "ca0f73b9628754e8bbd5b44aa2cf63654c3bb7cf191ddda41ddb8c399344bf69",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/squads.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1588,
+      "before_zopfli_bytes": 1688,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "442a913fa4fd847b4f18616cfea1d928bf873f0ad63b6a2163674d8407e70887",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/squads_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5086,
+      "before_zopfli_bytes": 5445,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "5602a69285673c1517aad86a676e5bff6a8a8f925993da6f1290f5da789aeffd",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/squads_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 10128,
+      "before_zopfli_bytes": 10909,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "ce903a88ca68053ded28f95f996d0930d11c50888387b226e35a4afe50cb3f6a",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/red/squads_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 16738,
+      "before_zopfli_bytes": 18068,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "676c819895b3043c95c9f117213f22df890bcb0ccf445591eae515450bc6d1ef",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/machines.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1531,
+      "before_zopfli_bytes": 1597,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "48e12596a33f100abdd6624aea3a2e889756d3b06dec549562be859cd2a9b1ae",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/machines_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4850,
+      "before_zopfli_bytes": 5101,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "3e04bca3414777c4d271a05850b8f4581da8762e226a9c07f266a587e20c0991",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/machines_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 9701,
+      "before_zopfli_bytes": 10361,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "f20d26b852c15a1d9bc7709c5fee777b377a6cd46eb038c8e7a796e66957a229",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/machines_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 16366,
+      "before_zopfli_bytes": 17355,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "eb41e2d424bcdbc885a12a8455649b3536a20503a30e5d315d9739e5d0d9e705",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/construc.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1518,
+      "before_zopfli_bytes": 1555,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "157cd050ba7de5c688c20c32a711b58ae25f2b137361be86fe498335b45b0d91",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/construc_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4677,
+      "before_zopfli_bytes": 4985,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "e23f651704b73c670c25e321b9735e2090c9ab5e96654de8ddc5c84eec0874b9",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/construc_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 9379,
+      "before_zopfli_bytes": 10155,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "5dbbfb11fd52c453decbff3367713bfd0fe3e269a8440c7caff2b82b81c4e4fa",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/construc_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 15789,
+      "before_zopfli_bytes": 17233,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "2d8e9eabca0166a811fcaf70c32aaef9380e54ec3834f7d607135c41fcb55532",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/squads.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1621,
+      "before_zopfli_bytes": 1717,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "d637629c5d72d5152024af51e5ec13a1722ab4ae75aba390e947110d4a4d40d7",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/squads_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5114,
+      "before_zopfli_bytes": 5468,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "623daa63b2790042341afce8b3eff63db3f48abcfde561607feb0092256f8457",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/squads_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 10313,
+      "before_zopfli_bytes": 11096,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "f161f865fe252e33bb5a2511551b74bdd32ac3d2fd1603ed3a05cad99907d490",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/blue/squads_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 17178,
+      "before_zopfli_bytes": 18406,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "151c66986f6d4b770fac3ddc8690c1863185f2178598e56a53741f0bbe1afd2f",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/machines.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1551,
+      "before_zopfli_bytes": 1628,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "00d0c3a23a32adb88b6b3a37537d37d5962b95d84dbca5011a4fea0d9494db1b",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/machines_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4895,
+      "before_zopfli_bytes": 5150,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "ace406c93d7aca179917f5a05e2e12cfe822e493df57551452b1ebad1d16369d",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/machines_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 9976,
+      "before_zopfli_bytes": 10520,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "3aa216f3da06f4bfb47203c6626a6574f7d81b14878931b9807ca16c7001d541",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/machines_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 16521,
+      "before_zopfli_bytes": 17586,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "6483811a64b9c621e4a3371e234deddd980ca4b86aefcbc581a6363ce069c69d",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/construc.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1527,
+      "before_zopfli_bytes": 1562,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "fcb18ffdcba550986e1ccb1b3f4be60c2b5a3f85cc9f5be002b6d3915c016224",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/construc_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4788,
+      "before_zopfli_bytes": 5033,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "1ca3fdce8b1394f3747f8a37d4e44cc4bbd800847ad50fa7e2263f444b68cb87",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/construc_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 9506,
+      "before_zopfli_bytes": 10243,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "363b04c36f76c0a2861a3895dd4120d0eecd43833629ef7b544b1a379092d3ed",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/construc_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 16085,
+      "before_zopfli_bytes": 17489,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "d2c2fef7f8f25dc214cefc039467cf2f7ab49e1c0b8b1509152bb787ed7b7d26",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/squads.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1639,
+      "before_zopfli_bytes": 1733,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "c04a68e4e8c4ba5c0b7ae90fde186493847afd346fc24bfcd0c2373fd0ac43c6",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/squads_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5083,
+      "before_zopfli_bytes": 5419,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "e89f3498862627d6a645d127e3c44faaec8edb1086c23577570dd0fd11a81e10",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/squads_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 10351,
+      "before_zopfli_bytes": 11046,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "356cd41ec64bfa8c852c73dfe82b7e68e70e5af7cb49903c4f2a71aee97383de",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/green/squads_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 17043,
+      "before_zopfli_bytes": 18265,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "c7a0483b73d85f949b0f3182a85f4b8bfd415f084735ef6551e5c56c544a36d4",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/machines.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1547,
+      "before_zopfli_bytes": 1632,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "3faa63325a3564e049ad3d49a2b453901f43fe180ac2f6b4f2d2efa49c0b070f",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/machines_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4860,
+      "before_zopfli_bytes": 5127,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "efc5969415e348c5892b98119dffd13f1e0bbe865d82aa6bcf329a1450940eba",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/machines_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 9872,
+      "before_zopfli_bytes": 10408,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "0291108bb5dcc71195de871ceb59c8a2331de6d129fbc73a1399c5683ebf8eb4",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/machines_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 16505,
+      "before_zopfli_bytes": 17463,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "31ea1789eb147e9e8ca87292ea8d0a4e3c5e1ca9896d925a5e1de157425e75f7",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/construc.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1513,
+      "before_zopfli_bytes": 1546,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "dfa6bda1d48dda41cc93b37c7204b9ad543b4de04d1340fd24f071010388df6b",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/construc_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4796,
+      "before_zopfli_bytes": 5075,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "8130c0b61b77dcab629e2451493c814a4ae5462c951640f5958682135f5e5447",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/construc_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 9596,
+      "before_zopfli_bytes": 10284,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "b4af06959e6d8128baa821407cefd878be493d707c38b4d706cc246b096918ec",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/construc_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 16019,
+      "before_zopfli_bytes": 17322,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "50789bc60f3a2a2495152c8395420f412873a4b026c68f74117af6446f9cfcab",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/squads.png",
+      "size": [
+        20,
+        29
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1617,
+      "before_zopfli_bytes": 1709,
+      "decoded_rgba_bytes": 2320,
+      "sha256": "a7d7704cbe08d52672aeda96d93992a5044650690bb1a754f15ae4a58d0c3c2e",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/squads_2x.png",
+      "size": [
+        40,
+        58
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5109,
+      "before_zopfli_bytes": 5453,
+      "decoded_rgba_bytes": 9280,
+      "sha256": "c2a2888df555080251860ed4af141733fcd965d213bdd90ccfc162c8082698d8",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/squads_3x.png",
+      "size": [
+        60,
+        87
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 10185,
+      "before_zopfli_bytes": 10909,
+      "decoded_rgba_bytes": 20880,
+      "sha256": "efceeb471f7adeda3ffa82bba344c5683e0c5b1c80f395895f5099505c140f7d",
+      "master": "controls"
+    },
+    {
+      "path": "gui/navigate/yellow/squads_4x.png",
+      "size": [
+        80,
+        116
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 17114,
+      "before_zopfli_bytes": 18332,
+      "decoded_rgba_bytes": 37120,
+      "sha256": "78bffca659330144440a43e9a1375783b49b617490179102e0bfbcb2622c73ba",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/return1.png",
+      "size": [
+        20,
+        20
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1366,
+      "before_zopfli_bytes": 1401,
+      "decoded_rgba_bytes": 1600,
+      "sha256": "981368b94ef2cf9e28d454832923ef3c6eadb260a040c6937f031773655904b0",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/return1_2x.png",
+      "size": [
+        40,
+        40
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4159,
+      "before_zopfli_bytes": 4350,
+      "decoded_rgba_bytes": 6400,
+      "sha256": "fbb3ad35d18c52ba5c836f9f5c890535d24561fcf2fd4b9cf5127e9216471d43",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/return1_3x.png",
+      "size": [
+        60,
+        60
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 8112,
+      "before_zopfli_bytes": 8505,
+      "decoded_rgba_bytes": 14400,
+      "sha256": "a47588e1791aaed0e04332e9a09d22f38a5094895f2a5f92ee6cd95777d502f6",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/return1_4x.png",
+      "size": [
+        80,
+        80
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 13322,
+      "before_zopfli_bytes": 14029,
+      "decoded_rgba_bytes": 25600,
+      "sha256": "eefcd0263e2c93462a03350471f4ee8edac70b98e5f93d344d857063dc7c53b5",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/return2.png",
+      "size": [
+        20,
+        20
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1342,
+      "before_zopfli_bytes": 1368,
+      "decoded_rgba_bytes": 1600,
+      "sha256": "993fed42d31c9a29b18e58aa9984c5abc5d4e3bebab26d88354fc3bdbc45a217",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/return2_2x.png",
+      "size": [
+        40,
+        40
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4298,
+      "before_zopfli_bytes": 4374,
+      "decoded_rgba_bytes": 6400,
+      "sha256": "20781cc143d144c31217232b8dc88926bc7b2ca2eed17d35f9cb13deaee6eee2",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/return2_3x.png",
+      "size": [
+        60,
+        60
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 8687,
+      "before_zopfli_bytes": 8826,
+      "decoded_rgba_bytes": 14400,
+      "sha256": "71b2687539bc708bcef960133b78c1e091502cf364d8ee974770dccc46ffdaae",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/return2_4x.png",
+      "size": [
+        80,
+        80
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 14238,
+      "before_zopfli_bytes": 14536,
+      "decoded_rgba_bytes": 25600,
+      "sha256": "86c7dca1fd43e3b703105cc1b97cd262374cf105cff2321f84d41fd07ee3d770",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/zenith.png",
+      "size": [
+        16,
+        16
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 886,
+      "before_zopfli_bytes": 913,
+      "decoded_rgba_bytes": 1024,
+      "sha256": "77ce404af3ade23cac81ef9b810cd2720b20462988f006c06ce758cc27b0ad76",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/zenith_2x.png",
+      "size": [
+        32,
+        32
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 2681,
+      "before_zopfli_bytes": 2793,
+      "decoded_rgba_bytes": 4096,
+      "sha256": "3ed9b618dd5774d7f344dcf6ca45b52651406c3fcac2bbf15e75565294f3cb4d",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/zenith_3x.png",
+      "size": [
+        48,
+        48
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 5270,
+      "before_zopfli_bytes": 5548,
+      "decoded_rgba_bytes": 9216,
+      "sha256": "def3c4c1008c8d6ff1c756bae2a686d1cb94bb3a46fbd99db1c6b4af031444d9",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/zenith_4x.png",
+      "size": [
+        64,
+        64
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 8658,
+      "before_zopfli_bytes": 9163,
+      "decoded_rgba_bytes": 16384,
+      "sha256": "41db80ee0b2070f07b69ea5503a53c9479fd36d0f0ee2105a2b9b9928cb704ac",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/ground.png",
+      "size": [
+        16,
+        16
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 772,
+      "before_zopfli_bytes": 804,
+      "decoded_rgba_bytes": 1024,
+      "sha256": "9eaafe7bffcac746bbb9d35d565555dd176c4cb99599c2bdc650bfc524a415c6",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/ground_2x.png",
+      "size": [
+        32,
+        32
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 2244,
+      "before_zopfli_bytes": 2377,
+      "decoded_rgba_bytes": 4096,
+      "sha256": "8714543b5c7cc3badd891ca36fbf6cdf86565af871a3e8c8abbe43f56e915fd2",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/ground_3x.png",
+      "size": [
+        48,
+        48
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 4485,
+      "before_zopfli_bytes": 4743,
+      "decoded_rgba_bytes": 9216,
+      "sha256": "f660f4e3e274d7d8f7ec0298ccc92b0f91d77fbc19419bcdda372533eb77e49b",
+      "master": "controls"
+    },
+    {
+      "path": "gui/misc/ground_4x.png",
+      "size": [
+        64,
+        64
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 7415,
+      "before_zopfli_bytes": 7850,
+      "decoded_rgba_bytes": 16384,
+      "sha256": "4f98553875b468fd1376f00e1016f12a2d0fdff44cf9828abdf6ba4faa523ff6",
+      "master": "controls"
+    },
+    {
+      "path": "gui/commands/move.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1851,
+      "before_zopfli_bytes": 1975,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "19e14c638f9c7c2a47404b9e2f23445d83d07cff0620e327f622b9ebffd2ea7c",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/move_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5601,
+      "before_zopfli_bytes": 6027,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "f589bff7ff46efc7a198e01e28859199bdd1f578c2f2fd33ab99b11baaf29974",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/move_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 11296,
+      "before_zopfli_bytes": 12112,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "bdc5cec387957f0d64f2af5fb229f1fc185d664f8ced6a1133e9fa66f0146463",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/move_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 18881,
+      "before_zopfli_bytes": 20235,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "e303b87891e06bc12bc66365e0d8c09c15385a6558353e6f096bb7bb797d3134",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/stop.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1807,
+      "before_zopfli_bytes": 1936,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "ae2b461885b96c24fbb91410b2e2e5d3dddfbfce7778a880de470692f4536511",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/stop_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5540,
+      "before_zopfli_bytes": 5942,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "7843ab02a3a5b18ec312a5fd8e611e9fa34677ad6a12ecf0cc02a419d1358d91",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/stop_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 11137,
+      "before_zopfli_bytes": 11868,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "af5db3d07ef7b452fbd2b19e8f6b3a9e1eb43333342ff0786b404ec6463f952a",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/stop_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 18613,
+      "before_zopfli_bytes": 19633,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "a23d0950d89ec3466cf3ea4e64dcd8c40bc1b98a71cb2f660580345820a5bd94",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/const.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2022,
+      "before_zopfli_bytes": 2179,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "b0547a8b6182ca6a549204a6f678b8d77d68553f090adee7382fd704f4821f1b",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/const_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 6055,
+      "before_zopfli_bytes": 6559,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "37252d05d4414d611b0dd50a59112d68ea398ce09a0fab7bfc3292b2fe15a5a4",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/const_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 11812,
+      "before_zopfli_bytes": 12867,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "ac98e65a34f2414e0adf4f05f93d72f0153d156672108192b90fdd4b8868754d",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/const_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 19318,
+      "before_zopfli_bytes": 20893,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "17d90ee53a459b7b6af2812479553dc5731bd791b299a4f36ef0afda9188c4c4",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/repair.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1839,
+      "before_zopfli_bytes": 1950,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "9fadea03c6a6360e288aebe35e6d626b404824df5dfd99ee976739fb24deca69",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/repair_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5585,
+      "before_zopfli_bytes": 5983,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "37cc7879c46258b920d840569e0a31600b2ee1d5dc052bb134fb64242465f1d9",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/repair_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 11201,
+      "before_zopfli_bytes": 11875,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "0d289d39a3c9045952c089b815614cbac464490c8cf6197fcc0f36634fa9251f",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/repair_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 18698,
+      "before_zopfli_bytes": 19766,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "6248d2b4bc927dcb14958c868bde63b2dcf028e1f82652886bfe9b2b487528cf",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/capture.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1942,
+      "before_zopfli_bytes": 2102,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "3bb02416c2a3045a3a35af91af2cce6f63348629495dc7546cfbb1a14a9e8739",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/capture_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5782,
+      "before_zopfli_bytes": 6330,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "5c6ff2c7bf409a2df83005fa559794624afad33f1fb7a5db77172fa510cc0884",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/capture_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 11483,
+      "before_zopfli_bytes": 12365,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "a21cc9bb79982617e4eb37dfe048c12eacba87a8b9bfcefc51f1ce765fbc3cc3",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/capture_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 18763,
+      "before_zopfli_bytes": 20139,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "951932335f835ae9530a62fa4b223051adc754c6446efb6dcb399d4b7702104e",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/deconst.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2151,
+      "before_zopfli_bytes": 2307,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "848c40db006f0594751fb9652556bd7d39de1641674d33436a830b1c003494e4",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/deconst_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 6210,
+      "before_zopfli_bytes": 6806,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "589e276d080b27c80fad7c89a0abfee10624066c98add03d9bee1abc5a44821b",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/deconst_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 11934,
+      "before_zopfli_bytes": 13132,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "f766301392b02ad71b4950c918b03e99b7e65a7cdd4af6480abf93a4ac4d0a57",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/deconst_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 19385,
+      "before_zopfli_bytes": 21159,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "178b78f1bb63d277700da890199430d0de1c7a92a9cfdcc6c316f6d828a65c8c",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/recycle.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1966,
+      "before_zopfli_bytes": 2113,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "60e8073d66f8c6f53f9ca5f8c50f78fd451d1f0138489f858dd66552aea80633",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/recycle_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 6026,
+      "before_zopfli_bytes": 6518,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "bfa6aa1a7fc1047952b9a33590890f36b0787630e757b9307c990c991f942d51",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/recycle_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 11830,
+      "before_zopfli_bytes": 12735,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "d26fd3f06176b001260ca4b79dda2838d95e03efb24170693f282503f78dacff",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/recycle_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 19523,
+      "before_zopfli_bytes": 21005,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "bf0e20d85d013d60af372ece842cbff7a5f77f8432f2bff07f672e9295d05145",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/patrol.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1810,
+      "before_zopfli_bytes": 1925,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "463dbae6e74a737e4b24ff902da327a799a9eaaf809e2ccddd77540af3874581",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/patrol_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5509,
+      "before_zopfli_bytes": 5919,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "8b602995fee8812a58962be3e51f438766403a425a8f9426482082ede82fe2ef",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/patrol_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 11066,
+      "before_zopfli_bytes": 11728,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "44df94d65a6e1b7eb713a52fb44e63adca43967c461122c1868d0495f2ed4cac",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/patrol_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 18388,
+      "before_zopfli_bytes": 19483,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "be3ff8b15d34753225b76536ff9d9232037931f8e65c72080f5ab2d88468f818",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/formsqad.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2086,
+      "before_zopfli_bytes": 2255,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "546d86f57c4b303cf37ddeeb17d525b5d34b9a6942f591f8e1f641a207740c4f",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/formsqad_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 6063,
+      "before_zopfli_bytes": 6585,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "b360782581c063e3601e0e7c507049b2840c31f15f93cad2e536c394b302a148",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/formsqad_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 11814,
+      "before_zopfli_bytes": 12926,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "acd85096239c26ab69813a5083218886badb93323916eae931a0238e02678687",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/formsqad_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 19136,
+      "before_zopfli_bytes": 20813,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "8f3549b8ba6926c6b549c5dff6a0a0b8e6a35566ceab5e8f361bdcf516785b93",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/stand.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2155,
+      "before_zopfli_bytes": 2311,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "daf481288c2ce16197680cf3c20a09b0a58bafc4001285b57fa55f6ee492e177",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/stand_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 6238,
+      "before_zopfli_bytes": 6812,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "5eb98ec884c05a79a3155c30ec9d710defed0b4c1678547be43108678ce540a8",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/stand_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 11872,
+      "before_zopfli_bytes": 13093,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "4ff99e764dc078725481298b372fa9ee19ffbda94d552b8799332f9d58ad714b",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/stand_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 19510,
+      "before_zopfli_bytes": 21282,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "64ca5ff36c6b0491119085c0cd67ce404f99aba4700c3b4013420cc80f0565f8",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes1.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2218,
+      "before_zopfli_bytes": 2396,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "e3cdc2ec6b072a5b53c02afb8e4ba678384dd12fd23e951935a04483ddc7222c",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes1_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 6353,
+      "before_zopfli_bytes": 6965,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "6d58442eaeb7e4bf8d70a824f1223a8a6368d4f021304974032ed3cf4f41e853",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes1_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 12412,
+      "before_zopfli_bytes": 13701,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "36779faf04392be80d2ae833be9d624103a11866ccc7d59573ad13dfe051f3ea",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes1_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 20303,
+      "before_zopfli_bytes": 22341,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "b1beb910f9f8b4ea8571b22db411dfdb116470d2342ea13d31f00aa4e4d6f0fc",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes2.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1256,
+      "before_zopfli_bytes": 1348,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "b200c2631051b90001fcb4ef7e18dfdc34cdf60eafdbbbe72ace06c73e5e2b16",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes2_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4026,
+      "before_zopfli_bytes": 4239,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "418c5d6da07a89365ec7acc444ae02705076fd56173eb523c1a1e7f0dc001c71",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes2_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 8707,
+      "before_zopfli_bytes": 9120,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "7c5a29918d67b7a1b405ef54fb54f31723e6b0785547c4c28380e456e390cc22",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes2_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 15075,
+      "before_zopfli_bytes": 15886,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "9686b3f1a49971271928885972f2a1d4a9aca3f0533309ce67cfdbdf10d8bd59",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes3.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1255,
+      "before_zopfli_bytes": 1342,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "e9781a793b78822b0e92a23a39e30c2304d0005df481d1c2d404059c0a47e20f",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes3_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4019,
+      "before_zopfli_bytes": 4363,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "b87d11c16f09df52e7435432d4dc42b33fe74a6378cf8ab57cc81774789bd7ad",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes3_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 8479,
+      "before_zopfli_bytes": 9394,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "5b4fa80ed0174fc66e85d2c098afc7d414d9295e53dc89d5c3df7fa75762f420",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes3_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 14527,
+      "before_zopfli_bytes": 16243,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "008a1a58da0cc7733ab9b8d76e3e2eacd0daa297c3b7522f95b5e70ec039013a",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes4.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1676,
+      "before_zopfli_bytes": 1766,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "d77cbe2b975fbb5cb00f5a2c09764b2c324c5ae7da9ee2ebe89cf8f2dbb950d4",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes4_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4889,
+      "before_zopfli_bytes": 5394,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "7b0c62cf1ee81cb911436e4ba17d0e78355fd55217df35a7ff861525733dd4c2",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes4_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 9701,
+      "before_zopfli_bytes": 10705,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "74697dc4952d72471234f9ef87722d3e7ccb101cbb4b0853eb2177e81386756c",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes4_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 16072,
+      "before_zopfli_bytes": 17646,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "05ad889722c8dded84355029818c9c7ddfa68953e492e1d93a81523016f831a9",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes5.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1789,
+      "before_zopfli_bytes": 1851,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "3efb63464ca8f99490de2a9985951dedf19aa799a798da93dc9a5264bb9ef9f5",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes5_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5699,
+      "before_zopfli_bytes": 6055,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "25c696c2b421a4208fd16f22de7bb5b675a3acd55b39494524015c6239b502c7",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes5_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 10934,
+      "before_zopfli_bytes": 11687,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "a89cb2b8a227164f22f9787d6f7b9c57d1f02572fb84536d98c4b7900eda30b9",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes5_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 18440,
+      "before_zopfli_bytes": 19777,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "fa93a401e5f813bf7d675f94ea2d68a1f899e964c938e4faeae8031d052468ea",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes6.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2260,
+      "before_zopfli_bytes": 2289,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "b1c555f38c6f4bd41deb1038b59f16e1f2194d3514b07a3e6f28402f8ad85e27",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes6_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7434,
+      "before_zopfli_bytes": 7560,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "8498425f2f95cd2246dcca5f5c721c551c3f36ccf272f3db689d997e394ca6db",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes6_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 14341,
+      "before_zopfli_bytes": 14781,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "915dce2f1b027b2977accb8c61987b451257539d50b62994e2d9e02412249a0c",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes6_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 24279,
+      "before_zopfli_bytes": 25183,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "740a1270e951d08a5295b4cfc72aa639024fcc40df4e33002586da9c302a6a00",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes7.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2322,
+      "before_zopfli_bytes": 2350,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "27ace4f772fbb49f8aacda32d7fe3e70db07287e0576484c22e8a5235e246ab2",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes7_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7657,
+      "before_zopfli_bytes": 7772,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "555b0da6738f9393b2d4101d836eb5cc20d53e20a02c586fed79280d8427380e",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes7_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 15270,
+      "before_zopfli_bytes": 15613,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "4ca9eefc3f0ae9c03b04d3e546632177c1893b66683f38443b151ebd1e79be16",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes7_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 25387,
+      "before_zopfli_bytes": 26015,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "ac61c71e7c2ee30fcd017b7e70dc1c3de5add69210a2911db0e7f94b13c6726a",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes8.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2312,
+      "before_zopfli_bytes": 2337,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "59cf429b7d6c86674420b5b488af8d6f7a3771977fb3462a638ec9cf0ff37fde",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes8_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7535,
+      "before_zopfli_bytes": 7610,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "47683146d0cb3a4f1aa2abb0401591cb4cabd1823380fb87e3240a7173a0a455",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes8_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 15216,
+      "before_zopfli_bytes": 15464,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "48a04ff08707c8d66ba322894d58f5c976da3753854a190b5fde3737fc0e9bd1",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/selfdes8_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 25258,
+      "before_zopfli_bytes": 25757,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "a7d2123e8550bf8de8f5d7740c5c0732d8cce64be52ef82faa79cea2b0eacf2e",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco1.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2303,
+      "before_zopfli_bytes": 2404,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "6a998d206a176c75d454889bf96019a301c0fe35d89349722502ae53fe862d64",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco1_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7071,
+      "before_zopfli_bytes": 7588,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "367547962faeefc4c896f47431a2cf87b5eba7d21dd386e79d853ad74592444c",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco1_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 13591,
+      "before_zopfli_bytes": 14637,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "37b20707ce1a68572bdc2c1ef376ba6aa6e1a4b45decdc23832f093438ebaf98",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco1_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 22297,
+      "before_zopfli_bytes": 24000,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "5c1397a19ede5f306c351694b10ef1e092ba07b5bd18d4eca6fe455be37af3f0",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco2.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2304,
+      "before_zopfli_bytes": 2406,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "7a1f03b94418109d35144ddcc0b0a4f84ddfd446d4d483fe07683bda9a72e8a1",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco2_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 6944,
+      "before_zopfli_bytes": 7462,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "74a0e23847f5561a086fc90068d7d8d2e8473387d8f981576db1f282c270b790",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco2_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 13400,
+      "before_zopfli_bytes": 14523,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "264a1ca5b85923107acc369dfb9262db0b74b691d978c33a4b3a6b19b5ec6d97",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco2_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 22215,
+      "before_zopfli_bytes": 23895,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "912cf0ea71116df6b9ee29cc4f52854fde672b83f26bec11b184413aedaac47a",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco3.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2310,
+      "before_zopfli_bytes": 2410,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "0478f6be3b31d34c70a1bbcb82567be7fac36e3d954a371f0c47f5bff4240c7d",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco3_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7086,
+      "before_zopfli_bytes": 7617,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "c7f277714fe1e0846220809e6cbca237c3588b1ec14bbe4ab5f4702f81097ea4",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco3_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 13564,
+      "before_zopfli_bytes": 14531,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "63eae1c86720a4f845babe0b1e516f6001888e5314c891a74f42eeb1333ee336",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco3_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 22273,
+      "before_zopfli_bytes": 23911,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "c459ebfe18ad0365d7d5e502bd07e297712e6f70e3cab236f1dd1e52827f537f",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco12.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2314,
+      "before_zopfli_bytes": 2403,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "142c45aac3dbbbd120a6c2897254749e848a1a35aaa233aab6b488f974b53b8f",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco12_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7177,
+      "before_zopfli_bytes": 7602,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "edb32d6e32e23ed69f7796af9d6d09952e1a4fd5e9f5d73e708e75d6459e5767",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco12_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 13828,
+      "before_zopfli_bytes": 14626,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "2a2ad92af153a3bb5908d7341fde59e3c1a1f9d325d1bbfe395f9bf7aa0d89cb",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco12_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 22789,
+      "before_zopfli_bytes": 24099,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "bd220ff9e6dc332ee75293db698ca90768978c276f5923c199c677488f6ecc86",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco23.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2311,
+      "before_zopfli_bytes": 2398,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "0c231832b1577f346359e0bddcebbea5405207080db71443b6b6c3afb106dd54",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco23_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7130,
+      "before_zopfli_bytes": 7496,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "ef6d5ffe7e4d31e7b4ebb38a1d38e553eb7448598e5a02acfcd67a0def66ce70",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco23_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 13806,
+      "before_zopfli_bytes": 14540,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "a7b7b37c62affe7383993b4adad649f7858e949f41491f6d7f018d95e0e0daa3",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco23_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 22698,
+      "before_zopfli_bytes": 23977,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "25167c4956758b8c13d8c2050257c046f46d1fed558fa4f01db64307d673c930",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco123.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2325,
+      "before_zopfli_bytes": 2385,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "cd66134954340affef19a69d501cd2e3c10a95f16ae987a6d75e4ff78e9ffc90",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco123_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7146,
+      "before_zopfli_bytes": 7457,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "44348faa3c837fc06b1de785aac9b148298a0acf70bc43331a3ac4f4cce27f39",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco123_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 14025,
+      "before_zopfli_bytes": 14640,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "5cf0c7e0462f4c531a9a4b2bb9ea467dfdf7fd98f299cd8d0e565c1a4b4cca13",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco123_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 23057,
+      "before_zopfli_bytes": 24124,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "207826e4630b839977bd0b8de187977cd3bb1c6017b687c7127f3305548a603b",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco13.png",
+      "size": [
+        73,
+        10
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2310,
+      "before_zopfli_bytes": 2380,
+      "decoded_rgba_bytes": 2920,
+      "sha256": "77af6e35550160e555f796cd820acd6770261e3cafa3e2cb3699c82bf3e79f93",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco13_2x.png",
+      "size": [
+        146,
+        20
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7212,
+      "before_zopfli_bytes": 7543,
+      "decoded_rgba_bytes": 11680,
+      "sha256": "12688679e625ef4b97a69e40616d01c7d616c0264f272fb29aaa5effeeaa5618",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco13_3x.png",
+      "size": [
+        219,
+        30
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 13903,
+      "before_zopfli_bytes": 14601,
+      "decoded_rgba_bytes": 26280,
+      "sha256": "520af2bad19f159c6347c8e2a58d41c8ffe6423f7bd593a5004bfa01777f510e",
+      "master": "commands"
+    },
+    {
+      "path": "gui/commands/defco13_4x.png",
+      "size": [
+        292,
+        40
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 22766,
+      "before_zopfli_bytes": 24054,
+      "decoded_rgba_bytes": 46720,
+      "sha256": "1b7a4c94016239a4d07f15f4767d06f022e228396f3d178da7ff2cd7ce8e189e",
+      "master": "commands"
+    },
+    {
+      "path": "gui/misc/scrlf.png",
+      "size": [
+        11,
+        57
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1264,
+      "before_zopfli_bytes": 1362,
+      "decoded_rgba_bytes": 2508,
+      "sha256": "22530bf6a3903a9563d4da9ffc6c33b83bd957509832ce45c4d087e99dfaeacc",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrlf_2x.png",
+      "size": [
+        22,
+        114
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3771,
+      "before_zopfli_bytes": 4222,
+      "decoded_rgba_bytes": 10032,
+      "sha256": "cb3b0ce7c1208f9254aad3628929dcf7165b0db6896bd1e4a8c0ba69f406ee5f",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrlf_3x.png",
+      "size": [
+        33,
+        171
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7642,
+      "before_zopfli_bytes": 8672,
+      "decoded_rgba_bytes": 22572,
+      "sha256": "8a825e21bab2fbbbbe8448ba40a5b2cea32cc071f63a54a55e203290e8f477f3",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrlf_4x.png",
+      "size": [
+        44,
+        228
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 13043,
+      "before_zopfli_bytes": 15049,
+      "decoded_rgba_bytes": 40128,
+      "sha256": "24a73e5e0ecab3cf858993e56dacf98b9759a94163dd1219618e0fcba94de351",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrlfh.png",
+      "size": [
+        11,
+        57
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1320,
+      "before_zopfli_bytes": 1385,
+      "decoded_rgba_bytes": 2508,
+      "sha256": "17601bedd48dea5040eac908bab319845b52112cf60946fdeec59196ac40539a",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrlfh_2x.png",
+      "size": [
+        22,
+        114
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3916,
+      "before_zopfli_bytes": 4192,
+      "decoded_rgba_bytes": 10032,
+      "sha256": "0c4a0076d95d81dd45e00b261ec7b2fb057911862ebefc77c27684b5cceba97a",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrlfh_3x.png",
+      "size": [
+        33,
+        171
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 8032,
+      "before_zopfli_bytes": 8682,
+      "decoded_rgba_bytes": 22572,
+      "sha256": "33ad4533638e8061b365e9f868fdc075db5b3e3efbed068dd15709d367b5f012",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrlfh_4x.png",
+      "size": [
+        44,
+        228
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 13604,
+      "before_zopfli_bytes": 15071,
+      "decoded_rgba_bytes": 40128,
+      "sha256": "bd3964ea7e86d7a8f52680c41cf05cfb3037c8476ad2bb44a21d6e582eb56eea",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrll.png",
+      "size": [
+        11,
+        43
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1082,
+      "before_zopfli_bytes": 1166,
+      "decoded_rgba_bytes": 1892,
+      "sha256": "1ca72252bae27c880327d12c50f9671f0be48a50897e98b0ae849404320606e2",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrll_2x.png",
+      "size": [
+        22,
+        86
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3173,
+      "before_zopfli_bytes": 3487,
+      "decoded_rgba_bytes": 7568,
+      "sha256": "157a79b8ca864402334a8b2ac2cd5a08ef97b561555986452b0b74b25eb38460",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrll_3x.png",
+      "size": [
+        33,
+        129
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 6445,
+      "before_zopfli_bytes": 7096,
+      "decoded_rgba_bytes": 17028,
+      "sha256": "cefb1efbe8ae084c1a298c7fc2523a14b042ff8ebdf97a365420eadd6ccb144e",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrll_4x.png",
+      "size": [
+        44,
+        172
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 10703,
+      "before_zopfli_bytes": 12239,
+      "decoded_rgba_bytes": 30272,
+      "sha256": "9ea5f11365447bb843477ab39ae16525bc277e6a680195c0b454aa0c2675dd4a",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrllh.png",
+      "size": [
+        11,
+        43
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1120,
+      "before_zopfli_bytes": 1150,
+      "decoded_rgba_bytes": 1892,
+      "sha256": "8537cb0c46406f1dd3e01a46ff20eb97300daca9071b3f687a9a2822e52cbd5d",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrllh_2x.png",
+      "size": [
+        22,
+        86
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3269,
+      "before_zopfli_bytes": 3468,
+      "decoded_rgba_bytes": 7568,
+      "sha256": "c270558e5b50e36cf002a7c35a6400d6567d5fc05e4021253204ab5506ee0998",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrllh_3x.png",
+      "size": [
+        33,
+        129
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 6680,
+      "before_zopfli_bytes": 7125,
+      "decoded_rgba_bytes": 17028,
+      "sha256": "84b0820fd552315b552a4e2a2da950487ed0166b59ee79b5acf139a7b28f086a",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrllh_4x.png",
+      "size": [
+        44,
+        172
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 11445,
+      "before_zopfli_bytes": 12214,
+      "decoded_rgba_bytes": 30272,
+      "sha256": "eb8a79d67fbb6e07847a7121ba8a07b2bf832a1c71625e19b2810212c4ce3894",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrolll.png",
+      "size": [
+        13,
+        43
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1231,
+      "before_zopfli_bytes": 1299,
+      "decoded_rgba_bytes": 2236,
+      "sha256": "3484ab2c84b077fa0fbd7c310cc46d4f315058acfe0cd95a759f9f316e85f4ec",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrolll_2x.png",
+      "size": [
+        26,
+        86
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3706,
+      "before_zopfli_bytes": 3995,
+      "decoded_rgba_bytes": 8944,
+      "sha256": "07b7d3d5765fe70f61bccf69dae339aca520fafcfbf8cc6bc226f85c968b06a1",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrolll_3x.png",
+      "size": [
+        39,
+        129
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7628,
+      "before_zopfli_bytes": 8289,
+      "decoded_rgba_bytes": 20124,
+      "sha256": "a268b807f9004c75b10fb99ae58bd38cf8b40c22ed6dc725b1c67b81b4c551df",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrolll_4x.png",
+      "size": [
+        52,
+        172
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 12857,
+      "before_zopfli_bytes": 14481,
+      "decoded_rgba_bytes": 35776,
+      "sha256": "efdc7ee1c84891f63c33cc943110152000a6acede2653c5ad9f50205e4f8c986",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrolllh.png",
+      "size": [
+        13,
+        43
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1306,
+      "before_zopfli_bytes": 1325,
+      "decoded_rgba_bytes": 2236,
+      "sha256": "7809a835fc79b5431afde96c81cf40dd05320d4b34a756ae85ca16fa302f3c48",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrolllh_2x.png",
+      "size": [
+        26,
+        86
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3885,
+      "before_zopfli_bytes": 4067,
+      "decoded_rgba_bytes": 8944,
+      "sha256": "cea5f25b801005b953f743007d6e018010004523d2d35a719a60a372c3781464",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrolllh_3x.png",
+      "size": [
+        39,
+        129
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7729,
+      "before_zopfli_bytes": 8294,
+      "decoded_rgba_bytes": 20124,
+      "sha256": "cf000b0f6942720af7ce0a188eb4ec2baa262c73e2392d32fda73606b8430c6f",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrolllh_4x.png",
+      "size": [
+        52,
+        172
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 13201,
+      "before_zopfli_bytes": 14131,
+      "decoded_rgba_bytes": 35776,
+      "sha256": "210ac05d88990fc1cca1dcd9e2c2e90443002eee72ce4dbcd922b0d9454ce106",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrollr.png",
+      "size": [
+        13,
+        43
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1216,
+      "before_zopfli_bytes": 1302,
+      "decoded_rgba_bytes": 2236,
+      "sha256": "ac37753d4a4ed93794487eba0afe024cd52a6b3cbb506c77884607e238f2f246",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrollr_2x.png",
+      "size": [
+        26,
+        86
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3571,
+      "before_zopfli_bytes": 3858,
+      "decoded_rgba_bytes": 8944,
+      "sha256": "b62b0ae80b85dfad8fe35af67e93d706f5f596555ad5370dd3d4eede44e2f11a",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrollr_3x.png",
+      "size": [
+        39,
+        129
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7304,
+      "before_zopfli_bytes": 7985,
+      "decoded_rgba_bytes": 20124,
+      "sha256": "bc9788b1329b15d3937cc3d28a05cd86970bfef3a77debe443f3286bb69c9c27",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrollr_4x.png",
+      "size": [
+        52,
+        172
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 12336,
+      "before_zopfli_bytes": 13908,
+      "decoded_rgba_bytes": 35776,
+      "sha256": "d7319b2d2e0161427efb044286fa7ed2eff0d010695c4e9ca58ab56f731e2676",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrollrh.png",
+      "size": [
+        13,
+        43
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1275,
+      "before_zopfli_bytes": 1294,
+      "decoded_rgba_bytes": 2236,
+      "sha256": "fc3f92b9d1bce53a05daebd81c20b25e93cc372e07f14a53e43725fafee109aa",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrollrh_2x.png",
+      "size": [
+        26,
+        86
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3746,
+      "before_zopfli_bytes": 3963,
+      "decoded_rgba_bytes": 8944,
+      "sha256": "55a54fa6adafc7697c7464d9cd5825a407bdcaddb474dd5d06a3b60ce3717915",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrollrh_3x.png",
+      "size": [
+        39,
+        129
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7690,
+      "before_zopfli_bytes": 8169,
+      "decoded_rgba_bytes": 20124,
+      "sha256": "45946aaf7d5de75d9b3c4726bf6e62ea9c4c4df68ef5bf31524d9bcf66e97e74",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrollrh_4x.png",
+      "size": [
+        52,
+        172
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 13100,
+      "before_zopfli_bytes": 14074,
+      "decoded_rgba_bytes": 35776,
+      "sha256": "12b432a86e3ce57885d7ff79d97e006059a0fdd8ad0ae69b52b8ffb1635f6805",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrf.png",
+      "size": [
+        11,
+        57
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1273,
+      "before_zopfli_bytes": 1365,
+      "decoded_rgba_bytes": 2508,
+      "sha256": "bcecef688047b755b823ae3863a9424c75b9c60fd09c9f4d94a2282af854ed47",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrf_2x.png",
+      "size": [
+        22,
+        114
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3842,
+      "before_zopfli_bytes": 4248,
+      "decoded_rgba_bytes": 10032,
+      "sha256": "45358ebc4343f4ebaa9deed49c8f40f59807904e3c6bb026c756905e4e6aedc3",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrf_3x.png",
+      "size": [
+        33,
+        171
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7752,
+      "before_zopfli_bytes": 8779,
+      "decoded_rgba_bytes": 22572,
+      "sha256": "febff6f7075149cc4baed09160ebeb85267174549c71a1ae8c489d259e130be7",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrf_4x.png",
+      "size": [
+        44,
+        228
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 13311,
+      "before_zopfli_bytes": 15231,
+      "decoded_rgba_bytes": 40128,
+      "sha256": "7d4c3c72b31c11b1958bd7eb02489433ee9607e1294e4275c9bf3e57ef7c2d99",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrfh.png",
+      "size": [
+        11,
+        57
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1333,
+      "before_zopfli_bytes": 1403,
+      "decoded_rgba_bytes": 2508,
+      "sha256": "d0a3ddd5beb9f6923c521d6c4ac2f6d50aa7c1f195239bda74ef892afb77fd34",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrfh_2x.png",
+      "size": [
+        22,
+        114
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3885,
+      "before_zopfli_bytes": 4204,
+      "decoded_rgba_bytes": 10032,
+      "sha256": "94cf532f17083dab71022d76d8786a3bb198e41160f7f6a93550dbd6ba453df5",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrfh_3x.png",
+      "size": [
+        33,
+        171
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7922,
+      "before_zopfli_bytes": 8632,
+      "decoded_rgba_bytes": 22572,
+      "sha256": "19ffc5a67598fe4717b40cbef949802c5778f97a73ed4ed9d1c64d10a33ad834",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrfh_4x.png",
+      "size": [
+        44,
+        228
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 13419,
+      "before_zopfli_bytes": 14849,
+      "decoded_rgba_bytes": 40128,
+      "sha256": "705c7818cbfc3270b30c051524bcefa75ea3c7a7ef231ca1934c0c44834268d1",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrl.png",
+      "size": [
+        11,
+        43
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1073,
+      "before_zopfli_bytes": 1150,
+      "decoded_rgba_bytes": 1892,
+      "sha256": "2fec882555f540862af759a3b01f9d21c8dbbe645088de0f9520715a819a3d6f",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrl_2x.png",
+      "size": [
+        22,
+        86
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3127,
+      "before_zopfli_bytes": 3421,
+      "decoded_rgba_bytes": 7568,
+      "sha256": "34443b2c7889a78b3c192aa44babd2cba1f1c355e3feb9a8bad561b32e99d8e4",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrl_3x.png",
+      "size": [
+        33,
+        129
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 6293,
+      "before_zopfli_bytes": 7036,
+      "decoded_rgba_bytes": 17028,
+      "sha256": "bd2a2a13709a1638fe3009477dca21690d6dc0384729625b27693695929ce44c",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrl_4x.png",
+      "size": [
+        44,
+        172
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 10523,
+      "before_zopfli_bytes": 11991,
+      "decoded_rgba_bytes": 30272,
+      "sha256": "2f348f23509aeadd8367840e5e14767ab264bd67492a6adb4f76bcf7776a2113",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrlh.png",
+      "size": [
+        11,
+        43
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1137,
+      "before_zopfli_bytes": 1158,
+      "decoded_rgba_bytes": 1892,
+      "sha256": "791effcc00fb593e3563dd078341d5e496586b99c895ad2f139fd2105b326d1e",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrlh_2x.png",
+      "size": [
+        22,
+        86
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3343,
+      "before_zopfli_bytes": 3529,
+      "decoded_rgba_bytes": 7568,
+      "sha256": "b452970ea193decf44ae8ec44218c6c6842bfb32cd37615a6f1503ba0150af6b",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrlh_3x.png",
+      "size": [
+        33,
+        129
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 6702,
+      "before_zopfli_bytes": 7115,
+      "decoded_rgba_bytes": 17028,
+      "sha256": "67b75a31535a37dbe65819c869138681bb7bcb4fe3caf615bd47cb368cd7cf46",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/misc/scrrlh_4x.png",
+      "size": [
+        44,
+        172
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 11147,
+      "before_zopfli_bytes": 11984,
+      "decoded_rgba_bytes": 30272,
+      "sha256": "a1f2eb14ceb159b915050864011ef12a65736483da8a45d3ebfb1a9866d05df6",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup.png",
+      "size": [
+        13,
+        46
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1151,
+      "before_zopfli_bytes": 1204,
+      "decoded_rgba_bytes": 2392,
+      "sha256": "107612c85ad0664db5bcbde6243b1130a3bf0edc76acbfdae12943244857b899",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup_2x.png",
+      "size": [
+        26,
+        92
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3455,
+      "before_zopfli_bytes": 3741,
+      "decoded_rgba_bytes": 9568,
+      "sha256": "a772119fc9dbd5d6dddfb051b957c65de42416cb3bcc36f556edd621f5b49641",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup_3x.png",
+      "size": [
+        39,
+        138
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7190,
+      "before_zopfli_bytes": 7878,
+      "decoded_rgba_bytes": 21528,
+      "sha256": "87a8a7ef934192f7388794324efdd7e83ab3ce85bd8acd748e96245027b88733",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup_4x.png",
+      "size": [
+        52,
+        184
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 12477,
+      "before_zopfli_bytes": 13985,
+      "decoded_rgba_bytes": 38272,
+      "sha256": "2c8b756f7cddf2d015b7b8d87f1bf94fee07c91a7800d015fcef9c268d6e2870",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrluph.png",
+      "size": [
+        13,
+        46
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1193,
+      "before_zopfli_bytes": 1230,
+      "decoded_rgba_bytes": 2392,
+      "sha256": "a770752f813c75159344ff404d40e9f00305091b9f293e7c4c334f03d9bfbd18",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrluph_2x.png",
+      "size": [
+        26,
+        92
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3637,
+      "before_zopfli_bytes": 3881,
+      "decoded_rgba_bytes": 9568,
+      "sha256": "d0803b4783f958dc8a319fcc261c4e044958d436044d16fc208be9d1fc9bed68",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrluph_3x.png",
+      "size": [
+        39,
+        138
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7521,
+      "before_zopfli_bytes": 8075,
+      "decoded_rgba_bytes": 21528,
+      "sha256": "89122304ba60c41043a6033a6a92483a5227053dcc63bfd6845734d70693ce2e",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrluph_4x.png",
+      "size": [
+        52,
+        184
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 12941,
+      "before_zopfli_bytes": 14013,
+      "decoded_rgba_bytes": 38272,
+      "sha256": "4fa4a78badf9060399755e7d5e1eef68e6334189d2d45524d25fb61edd63b6a8",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup2.png",
+      "size": [
+        13,
+        46
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1410,
+      "before_zopfli_bytes": 1482,
+      "decoded_rgba_bytes": 2392,
+      "sha256": "cbb3384e651c80da5574ae25eb07adff2351d81336cad215a37c48b49a9aba6d",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup2_2x.png",
+      "size": [
+        26,
+        92
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4228,
+      "before_zopfli_bytes": 4629,
+      "decoded_rgba_bytes": 9568,
+      "sha256": "1aa933e50b93a40a967097e21e058eecdbb9f4237bf20409e170f3f3fce22395",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup2_3x.png",
+      "size": [
+        39,
+        138
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 8595,
+      "before_zopfli_bytes": 9451,
+      "decoded_rgba_bytes": 21528,
+      "sha256": "f18319a81d0f442bb0992b63381f3e39a3f95b2606e3db235f47c11d69951816",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup2_4x.png",
+      "size": [
+        52,
+        184
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 14654,
+      "before_zopfli_bytes": 16159,
+      "decoded_rgba_bytes": 38272,
+      "sha256": "8cead749b4c863abcfe25403198a445c11ec42eea33dd1ae1059e045239ac7ff",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup2h.png",
+      "size": [
+        13,
+        46
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1452,
+      "before_zopfli_bytes": 1501,
+      "decoded_rgba_bytes": 2392,
+      "sha256": "55e0439b65218a9e8da9d37a2d68430d687db2a4893ebd0aa32905c54d1c6d05",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup2h_2x.png",
+      "size": [
+        26,
+        92
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4488,
+      "before_zopfli_bytes": 4707,
+      "decoded_rgba_bytes": 9568,
+      "sha256": "50dab9c495c40be9867386c87cd682275a8fcd9e1999efb8ddd89fa4ade71cec",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup2h_3x.png",
+      "size": [
+        39,
+        138
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 8995,
+      "before_zopfli_bytes": 9562,
+      "decoded_rgba_bytes": 21528,
+      "sha256": "bb52b8fa445c1ae7ef17db5cec503a7fb8cc558f3a89bb909fe80dfe87f210ad",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrlup2h_4x.png",
+      "size": [
+        52,
+        184
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 15310,
+      "before_zopfli_bytes": 16281,
+      "decoded_rgba_bytes": 38272,
+      "sha256": "a73a6e59f9142f982a6900acb79622cfabb16cfc59a0f339d5f1998c06878488",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn.png",
+      "size": [
+        13,
+        46
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1111,
+      "before_zopfli_bytes": 1164,
+      "decoded_rgba_bytes": 2392,
+      "sha256": "01c5f0adbf11115e798f317c3bc7816021e813fcc355d9f7a135ee11b5cdc6e9",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn_2x.png",
+      "size": [
+        26,
+        92
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3395,
+      "before_zopfli_bytes": 3636,
+      "decoded_rgba_bytes": 9568,
+      "sha256": "ae7f91ec39885f0fbe84924d8961e0629cfd24862d59424a65a13dccb58de53e",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn_3x.png",
+      "size": [
+        39,
+        138
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7139,
+      "before_zopfli_bytes": 7816,
+      "decoded_rgba_bytes": 21528,
+      "sha256": "c5c92a83e2520c2078d0a0e74a77870b40f97cb3c6dc1b065b39e7b00d0b3451",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn_4x.png",
+      "size": [
+        52,
+        184
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 12339,
+      "before_zopfli_bytes": 13645,
+      "decoded_rgba_bytes": 38272,
+      "sha256": "db615267dea0a3b70f5f3ca6d7af73e069c126df8080c0f4d67b83fcde022cbf",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldnh.png",
+      "size": [
+        13,
+        46
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1182,
+      "before_zopfli_bytes": 1206,
+      "decoded_rgba_bytes": 2392,
+      "sha256": "c71d196809ee8a43e8b984c7b9b672820591532bd7b696eff3fb9dc23fb2ab77",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldnh_2x.png",
+      "size": [
+        26,
+        92
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3547,
+      "before_zopfli_bytes": 3821,
+      "decoded_rgba_bytes": 9568,
+      "sha256": "6a806931fc50155ad637f23cb8de9d31892222060383b595c96d53a453ad97b0",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldnh_3x.png",
+      "size": [
+        39,
+        138
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 7443,
+      "before_zopfli_bytes": 8048,
+      "decoded_rgba_bytes": 21528,
+      "sha256": "8cc09ae6da6538eebd1b310d62b673527fcf6cac37a163efbd9896ea3e292b99",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldnh_4x.png",
+      "size": [
+        52,
+        184
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 12985,
+      "before_zopfli_bytes": 14133,
+      "decoded_rgba_bytes": 38272,
+      "sha256": "9bef8800d15e9d5e733860810bc115dd42f0f1e24ec4c9497cfb187039afac5e",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn2.png",
+      "size": [
+        13,
+        46
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1307,
+      "before_zopfli_bytes": 1380,
+      "decoded_rgba_bytes": 2392,
+      "sha256": "fdda42492665789c8d72a87b849f024fae115ce6ba1a5c8aafdfaf71e9671681",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn2_2x.png",
+      "size": [
+        26,
+        92
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4002,
+      "before_zopfli_bytes": 4345,
+      "decoded_rgba_bytes": 9568,
+      "sha256": "5d5133cb60b190ccb27d33c3be81f9985aa00324b8ae60c7ed78fd870598ed40",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn2_3x.png",
+      "size": [
+        39,
+        138
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 8331,
+      "before_zopfli_bytes": 9138,
+      "decoded_rgba_bytes": 21528,
+      "sha256": "da2359b67d5fc81ca62502438254ffca1cc8d1db1277e14b4b8afb6d3685eb9b",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn2_4x.png",
+      "size": [
+        52,
+        184
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 14192,
+      "before_zopfli_bytes": 15710,
+      "decoded_rgba_bytes": 38272,
+      "sha256": "384674d9738f2e789eabdd298e503b42f857e31f1efad46d26d02a18a650705a",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn2h.png",
+      "size": [
+        13,
+        46
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1446,
+      "before_zopfli_bytes": 1479,
+      "decoded_rgba_bytes": 2392,
+      "sha256": "6b55dbd9aecfa7d33e1c3c05a158021beeaffc228e8db9a59250f497a840cc1f",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn2h_2x.png",
+      "size": [
+        26,
+        92
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 4312,
+      "before_zopfli_bytes": 4508,
+      "decoded_rgba_bytes": 9568,
+      "sha256": "3919facf3b7a71faa4fad4574e814c94d239bf94e3c81ffef3eb8b1d9427072e",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn2h_3x.png",
+      "size": [
+        39,
+        138
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 8753,
+      "before_zopfli_bytes": 9343,
+      "decoded_rgba_bytes": 21528,
+      "sha256": "26a7e5769534a2c84a882ab680a267b534d3a4eca8324e01c6f5c866c8c9113a",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/corral/scrldn2h_4x.png",
+      "size": [
+        52,
+        184
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 15092,
+      "before_zopfli_bytes": 16080,
+      "decoded_rgba_bytes": 38272,
+      "sha256": "f35f690e16b68b3676f7ea6f3a228a8540015374815cd83b621c78e50ba53bab",
+      "master": "arrows"
+    },
+    {
+      "path": "gui/navigate/navi0.png",
+      "size": [
+        4,
+        6
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 162,
+      "before_zopfli_bytes": 164,
+      "decoded_rgba_bytes": 96,
+      "sha256": "c8790ffb464c52dd3e05b5cb57cf382e3a1bbcf3b964614af4d961362055ae29",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi0_2x.png",
+      "size": [
+        8,
+        12
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 358,
+      "before_zopfli_bytes": 361,
+      "decoded_rgba_bytes": 384,
+      "sha256": "a26f1811fd657422d1d66b810d87b64a02f884d027296da49a3c08976f988e17",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi0_3x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 631,
+      "before_zopfli_bytes": 647,
+      "decoded_rgba_bytes": 864,
+      "sha256": "bc3298f3bd3a1366fa703494d3e02cd43864946b1d7e9f74f0d990679029be77",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi0_4x.png",
+      "size": [
+        16,
+        24
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 944,
+      "before_zopfli_bytes": 959,
+      "decoded_rgba_bytes": 1536,
+      "sha256": "ee251b427133b101eb608c06ca2163b47a411160eda0fa2258847171ef828ce1",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi1.png",
+      "size": [
+        3,
+        6
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 139,
+      "before_zopfli_bytes": 143,
+      "decoded_rgba_bytes": 72,
+      "sha256": "726902cb7778e51b6203f5feff1f25dd03865d30e24fb0beff7bdf60fa1ca78d",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi1_2x.png",
+      "size": [
+        6,
+        12
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 295,
+      "before_zopfli_bytes": 300,
+      "decoded_rgba_bytes": 288,
+      "sha256": "b7a1b4049434f9fbea08f365dd9bcf4c5f4e4a8b685e5f672038a979ba10ae67",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi1_3x.png",
+      "size": [
+        9,
+        18
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 518,
+      "before_zopfli_bytes": 530,
+      "decoded_rgba_bytes": 648,
+      "sha256": "9348c6b8d88ba23bbdaf708e090fde0601a0742f96a84aca030a8d21206f9313",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi1_4x.png",
+      "size": [
+        12,
+        24
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 814,
+      "before_zopfli_bytes": 823,
+      "decoded_rgba_bytes": 1152,
+      "sha256": "c83ad03076c5b220580cba2326d7d801a531c3b392fa508ecdaf87df5e599570",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi2.png",
+      "size": [
+        4,
+        6
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 170,
+      "before_zopfli_bytes": 170,
+      "decoded_rgba_bytes": 96,
+      "sha256": "dc635efc3bc0c03a5d262ddac4887b4751d6dc363326cbc518698dbb33df5278",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi2_2x.png",
+      "size": [
+        8,
+        12
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 423,
+      "before_zopfli_bytes": 439,
+      "decoded_rgba_bytes": 384,
+      "sha256": "f21693f412c4841c178b4e33c78bbccd0d080b032262ab58a1e210e2564405fd",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi2_3x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 771,
+      "before_zopfli_bytes": 794,
+      "decoded_rgba_bytes": 864,
+      "sha256": "7d124cc9134965222ea4c22aae2c9e1ca20c110cc811778eb17361b94fd235c9",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi2_4x.png",
+      "size": [
+        16,
+        24
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1185,
+      "before_zopfli_bytes": 1224,
+      "decoded_rgba_bytes": 1536,
+      "sha256": "ee77cf6e589beab4328df6d3d39c56874a179113d24417acd9e48aeacb9e80d2",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi3.png",
+      "size": [
+        4,
+        6
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 170,
+      "before_zopfli_bytes": 170,
+      "decoded_rgba_bytes": 96,
+      "sha256": "0a1dd6a24152b3562395b36f0def675363cbb011642773924e15251b191352d7",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi3_2x.png",
+      "size": [
+        8,
+        12
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 412,
+      "before_zopfli_bytes": 426,
+      "decoded_rgba_bytes": 384,
+      "sha256": "c14cb85abfee1e33599613db81673d27a60fbc231e74e063e3a3d4f8158d341c",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi3_3x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 756,
+      "before_zopfli_bytes": 776,
+      "decoded_rgba_bytes": 864,
+      "sha256": "f6039cbdfa9c4365c26a9cf4428213db20a09a834f1c3867dd2e239177418013",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi3_4x.png",
+      "size": [
+        16,
+        24
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1188,
+      "before_zopfli_bytes": 1220,
+      "decoded_rgba_bytes": 1536,
+      "sha256": "6134285ce3bb130d951012f174f083cf676b2a4247b2e6e627b151e310202a51",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi4.png",
+      "size": [
+        4,
+        6
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 170,
+      "before_zopfli_bytes": 170,
+      "decoded_rgba_bytes": 96,
+      "sha256": "5a511a704e3cb4ba53ed2fb96058705b21bcb6b835dced04648842f8682df14c",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi4_2x.png",
+      "size": [
+        8,
+        12
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 405,
+      "before_zopfli_bytes": 420,
+      "decoded_rgba_bytes": 384,
+      "sha256": "4160bd97bd58938b08428792225c560670a740e96eef67d3f0c06d0ebd956f0a",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi4_3x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 738,
+      "before_zopfli_bytes": 756,
+      "decoded_rgba_bytes": 864,
+      "sha256": "5ce2c3d71a5f44a11949723de72950bf7efccfb7d4e40c69e40d4e2716d20634",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi4_4x.png",
+      "size": [
+        16,
+        24
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1114,
+      "before_zopfli_bytes": 1154,
+      "decoded_rgba_bytes": 1536,
+      "sha256": "828a1e1e540c9e456362aae903b33a8b132460090a37455c827927868a251336",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi5.png",
+      "size": [
+        4,
+        6
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 167,
+      "before_zopfli_bytes": 170,
+      "decoded_rgba_bytes": 96,
+      "sha256": "d1fb5965b90522df201fa4cdb8f0bdb20eb1e74dbfab112faedb9a2fa407c1c7",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi5_2x.png",
+      "size": [
+        8,
+        12
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 401,
+      "before_zopfli_bytes": 419,
+      "decoded_rgba_bytes": 384,
+      "sha256": "cf28b7be7827f74de04601ea600d285ffa6abd2f052ff270d781511078513af9",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi5_3x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 718,
+      "before_zopfli_bytes": 732,
+      "decoded_rgba_bytes": 864,
+      "sha256": "7180396ec14d762459e21a0ec8df15320c1a68eaf311818f6f6f3eff5180b767",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi5_4x.png",
+      "size": [
+        16,
+        24
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1079,
+      "before_zopfli_bytes": 1103,
+      "decoded_rgba_bytes": 1536,
+      "sha256": "b9bae25c1ff5c2a4d2268bd00910e51221f13ee0cf1dd9fd80f5b54050a39d2a",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi6.png",
+      "size": [
+        4,
+        6
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 170,
+      "before_zopfli_bytes": 170,
+      "decoded_rgba_bytes": 96,
+      "sha256": "5a9d5f2d595b2a58f315a49868a764a2491011dca1044f433926bb614fb3c75a",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi6_2x.png",
+      "size": [
+        8,
+        12
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 392,
+      "before_zopfli_bytes": 394,
+      "decoded_rgba_bytes": 384,
+      "sha256": "a3c40fde4edab2d8a655956a0fd07cc072d0a45a07d9a363a95c5bfe5249e28f",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi6_3x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 689,
+      "before_zopfli_bytes": 698,
+      "decoded_rgba_bytes": 864,
+      "sha256": "964c33573d77471c6ef486c635e78b18b6248953188db2d67bff1a78249f4b18",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi6_4x.png",
+      "size": [
+        16,
+        24
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1039,
+      "before_zopfli_bytes": 1077,
+      "decoded_rgba_bytes": 1536,
+      "sha256": "aea856ac1cf1e173b4cbf95415f45d292a0b20b2b26e8bb50c5ebfe3cfc0d099",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi7.png",
+      "size": [
+        4,
+        6
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 170,
+      "before_zopfli_bytes": 170,
+      "decoded_rgba_bytes": 96,
+      "sha256": "9aad091729d76d7629b102f28daf9a41d390b0cdeb8ecb1cf7bdbfd108c919a2",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi7_2x.png",
+      "size": [
+        8,
+        12
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 399,
+      "before_zopfli_bytes": 416,
+      "decoded_rgba_bytes": 384,
+      "sha256": "40dcaecbe22c71e301d82ed7e0fab2b66770f3acf0987f5a3ad5cf6db3154f86",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi7_3x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 727,
+      "before_zopfli_bytes": 745,
+      "decoded_rgba_bytes": 864,
+      "sha256": "8aa0d5c90a7a44f0d8389599e3bee42440b6b1060385ad6ce1a3b0e277ca19fc",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi7_4x.png",
+      "size": [
+        16,
+        24
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1135,
+      "before_zopfli_bytes": 1160,
+      "decoded_rgba_bytes": 1536,
+      "sha256": "b5a3ec2e296148c8c0bc3c23a92f3b09fc56c54d472b93e722429ee22df79a55",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi8.png",
+      "size": [
+        4,
+        6
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 170,
+      "before_zopfli_bytes": 170,
+      "decoded_rgba_bytes": 96,
+      "sha256": "1dabf0bf9ce01e6b10870110b1fbd14ff4fa0319dd9a654175dc16add51022a8",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi8_2x.png",
+      "size": [
+        8,
+        12
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 415,
+      "before_zopfli_bytes": 426,
+      "decoded_rgba_bytes": 384,
+      "sha256": "f53a8ff653f0015c0cd85e2b31e57915f5c24f60369af2b1fb901f4eace049dc",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi8_3x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 753,
+      "before_zopfli_bytes": 774,
+      "decoded_rgba_bytes": 864,
+      "sha256": "610db532b6fa795b6835601e67b153797c78ea32ea615af7ad40ef46531eef74",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi8_4x.png",
+      "size": [
+        16,
+        24
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1130,
+      "before_zopfli_bytes": 1179,
+      "decoded_rgba_bytes": 1536,
+      "sha256": "4f92f982d49b2e9df1dc78b818a28bccfec93df998cfb38bd194ec16816e52bc",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi9.png",
+      "size": [
+        4,
+        6
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 170,
+      "before_zopfli_bytes": 170,
+      "decoded_rgba_bytes": 96,
+      "sha256": "abb4fbd4b633e7afff5e681ead31f8601b0540ae44028d872eef7d275f2d4e59",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi9_2x.png",
+      "size": [
+        8,
+        12
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 380,
+      "before_zopfli_bytes": 396,
+      "decoded_rgba_bytes": 384,
+      "sha256": "8733ed65fc7e688a2a674c220681c85ce9ef528bed341b0d35158585b50def45",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi9_3x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 679,
+      "before_zopfli_bytes": 695,
+      "decoded_rgba_bytes": 864,
+      "sha256": "ee027b41142c308bbfb606d8860f305925d6db8b6a878f2fb03726394f78a1c9",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/navi9_4x.png",
+      "size": [
+        16,
+        24
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1049,
+      "before_zopfli_bytes": 1070,
+      "decoded_rgba_bytes": 1536,
+      "sha256": "ad6d0988deb5006a55fcb86f1731bf26d6a4940f870bbf23b2c01fedac5d3f67",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu0.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 262,
+      "before_zopfli_bytes": 279,
+      "decoded_rgba_bytes": 216,
+      "sha256": "e86aae046de26758b21c0c3870a137560ebd0846beee2fc87765f8da81100d47",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu0_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 603,
+      "before_zopfli_bytes": 648,
+      "decoded_rgba_bytes": 864,
+      "sha256": "7f10fc501d91fed882592050e4cdc339268d28e78b21974fe7f5419aec821e91",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu0_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1121,
+      "before_zopfli_bytes": 1193,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "a672db9c7e3b1b3cdcb6b475801d9036cdfa3a544441e67c53987978be830c9f",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu0_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1767,
+      "before_zopfli_bytes": 1845,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "572be66493c711fb036dc2eed0e68913b1449ef47135e9da4d35a3a86cf2f47d",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu1.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 231,
+      "before_zopfli_bytes": 248,
+      "decoded_rgba_bytes": 216,
+      "sha256": "d18d09375c79e6742dcb6e9ce5382bc611522e56a812573197fe6fd394430b2c",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu1_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 516,
+      "before_zopfli_bytes": 560,
+      "decoded_rgba_bytes": 864,
+      "sha256": "25a5e38c8338075eea921fc28f2ada19ba729ba3239a374a394ce9f95064276f",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu1_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 814,
+      "before_zopfli_bytes": 853,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "871638b5fd925024f70f033e312ea3d3d4ed6dad97129b2bab01a57a6be9f6db",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu1_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1219,
+      "before_zopfli_bytes": 1270,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "f8ff0e6dcef12f1865f259ee9b661e58a78051ea15d69df4efed4cc6088d5dc4",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu2.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 276,
+      "before_zopfli_bytes": 290,
+      "decoded_rgba_bytes": 216,
+      "sha256": "c98096fb9ccaf7907323efd7004f6ed48e2117458dd2b3a8900d2ad268b5a73e",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu2_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 672,
+      "before_zopfli_bytes": 694,
+      "decoded_rgba_bytes": 864,
+      "sha256": "aeb1e2535efdc04cb5a990dff48377b8b5368bb19c55cc0abebaeb8d4e321ecf",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu2_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1208,
+      "before_zopfli_bytes": 1294,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "7e51b671ba7a1c5f8677f9cbef9d0c1ee139e3a63a148a6ff0ef87fd947337e0",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu2_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1877,
+      "before_zopfli_bytes": 1995,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "1af251096f8c7e6b280b2ac678059f2faf79400a8af826a5ca81dae6a5ff7c49",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu3.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 275,
+      "before_zopfli_bytes": 293,
+      "decoded_rgba_bytes": 216,
+      "sha256": "1544f78ee2c23c9d1d0c0d28d270afeaaca1fd419827811db85516c3e46dbd49",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu3_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 662,
+      "before_zopfli_bytes": 740,
+      "decoded_rgba_bytes": 864,
+      "sha256": "35cf893042ab8d7bbea8e674ea6011a5d590f15e2a1520486e60786a5623c8ad",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu3_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1247,
+      "before_zopfli_bytes": 1388,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "35fa6480ac16e75e657748273fdda50ad95d3b87ba26f5edf499b64b2083fbd6",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu3_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1940,
+      "before_zopfli_bytes": 2168,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "59db72ded7952ccf4ade3d5437057d9cedb028110aa9fd0093458f97fae6ab36",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu4.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 254,
+      "before_zopfli_bytes": 275,
+      "decoded_rgba_bytes": 216,
+      "sha256": "92e41577f7bc54f38e60acfedafa35f9cce5b3aa2c64591e94c9f2a1b24cc636",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu4_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 633,
+      "before_zopfli_bytes": 694,
+      "decoded_rgba_bytes": 864,
+      "sha256": "47ac566de65275801e15aac3ec03a1b9e0a5815c3de9a134990ea63b5f1ab114",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu4_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1138,
+      "before_zopfli_bytes": 1206,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "fe29d0baf2c8a708e4272785083c57fe6aab4004c09e3e4b43600dfebdbe6732",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu4_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1738,
+      "before_zopfli_bytes": 1821,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "b18c6fdc8a081685bcc337435de5d19a1d38f2a15047d0f153715a096be93c0b",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu5.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 275,
+      "before_zopfli_bytes": 293,
+      "decoded_rgba_bytes": 216,
+      "sha256": "7f3f500257a200d86c979f3373a008b3706a1e324b6309d11a6f8236661a8deb",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu5_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 668,
+      "before_zopfli_bytes": 711,
+      "decoded_rgba_bytes": 864,
+      "sha256": "03760c37e2fbabe478640ee55313d2ec21c13408c5c9b2a8673a16a8e41cc586",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu5_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1236,
+      "before_zopfli_bytes": 1312,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "d489cdca354546339a483409c7e6c354e361efc33033b37a450c9a8f973fbbf0",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu5_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1893,
+      "before_zopfli_bytes": 1965,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "035eb4b4771e2bba0b4896bca989799a0eb7288dda41ee5060c3073801c009d3",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu6.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 260,
+      "before_zopfli_bytes": 289,
+      "decoded_rgba_bytes": 216,
+      "sha256": "57f56683a52077e75524044bc7f2844bcf1da56b5b986c326a6ba33edc99d5ef",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu6_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 654,
+      "before_zopfli_bytes": 720,
+      "decoded_rgba_bytes": 864,
+      "sha256": "bcc91c363efe031968482efb081db6e47c89cb21798b49bc78f2f2c9f8617765",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu6_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1221,
+      "before_zopfli_bytes": 1366,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "2a5bf4fc11fdfe0cf07238397274fcc969a6e06ca4a19814f128b162a450e1e0",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu6_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1927,
+      "before_zopfli_bytes": 2061,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "fa47882cdabf9d8f86e2c971d43c1a2ef752f1a8d0bfff78c2ccd6618faa3472",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu7.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 251,
+      "before_zopfli_bytes": 279,
+      "decoded_rgba_bytes": 216,
+      "sha256": "025d51089b1de20125a4b34d574d1767fb591b9bc52d8f3de154a494dfc44b4b",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu7_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 525,
+      "before_zopfli_bytes": 563,
+      "decoded_rgba_bytes": 864,
+      "sha256": "297be0bee118700f7f8227e5c7eeb70df338955ab3b3ffbf0361326844127195",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu7_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 932,
+      "before_zopfli_bytes": 993,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "5d6acc4d2eaa8c15f941a750e3f5db0bbc4efad5855ffdfab09a8a8519bf92e1",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu7_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1410,
+      "before_zopfli_bytes": 1523,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "95c675cbed92042922bd2dfe67f77eccdf5b4d25269deb844b254068e4d78760",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu8.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 263,
+      "before_zopfli_bytes": 284,
+      "decoded_rgba_bytes": 216,
+      "sha256": "f78e5805aac03f18a38ea808cd1cdcf92d46b32019f3ab60d2768fdd2ed550e4",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu8_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 681,
+      "before_zopfli_bytes": 760,
+      "decoded_rgba_bytes": 864,
+      "sha256": "43cf2ea04182fab5778a79920edebb263e1f16030d20b7dc964b398967940ed3",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu8_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1309,
+      "before_zopfli_bytes": 1494,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "4ef3d66f3cc1cebadca6ecfbe07024ef5d7a8d6e25665bcabd2621eeb1ecd42e",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu8_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 2085,
+      "before_zopfli_bytes": 2323,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "87e83e3ee37a9ad8f49872ac7daadfae9a44e194a83a4d31bf262a9230168f00",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu9.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 258,
+      "before_zopfli_bytes": 281,
+      "decoded_rgba_bytes": 216,
+      "sha256": "8b831988f04a562a0dc92afb53b0ec40e2dd2ce158a135542c31ae1a3e82effc",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu9_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 643,
+      "before_zopfli_bytes": 737,
+      "decoded_rgba_bytes": 864,
+      "sha256": "9675af5b4fc247fc5dcd305779bf4c74de7f2293ca5abe0a91cc7921135a7587",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu9_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1250,
+      "before_zopfli_bytes": 1400,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "7f434731b9ca74725865de153300ea2ab7f2fb5b057ffc64a4cee4d4b5aa4e0f",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmu9_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1968,
+      "before_zopfli_bytes": 2123,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "09d90387299981411c27c2ecd1781e80c96de094eea73be76dec8304a2dc5ae3",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmus.png",
+      "size": [
+        5,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 211,
+      "before_zopfli_bytes": 243,
+      "decoded_rgba_bytes": 180,
+      "sha256": "ea5e9c9e0737c314e4422e2468809a43f88151336950cc53803e826d14a11aa2",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmus_2x.png",
+      "size": [
+        10,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 445,
+      "before_zopfli_bytes": 521,
+      "decoded_rgba_bytes": 720,
+      "sha256": "7d761962cae3f241319b8bf790fc45036123e56bbddbbebe287d762330b9b84e",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmus_3x.png",
+      "size": [
+        15,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 789,
+      "before_zopfli_bytes": 902,
+      "decoded_rgba_bytes": 1620,
+      "sha256": "f22a99b0ccbf1261072cbd6f78db9c699e78b1fc7503e4cf8fe1dc9e7c26c330",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numbmus_4x.png",
+      "size": [
+        20,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1196,
+      "before_zopfli_bytes": 1336,
+      "decoded_rgba_bytes": 2880,
+      "sha256": "4d838bf1346815bff0a844a7c7beff138792fcd07a0d2270ca8358eb627c4eeb",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop0.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 255,
+      "before_zopfli_bytes": 281,
+      "decoded_rgba_bytes": 216,
+      "sha256": "d30145091ff7e1fe436f139cbae15f19968f3d6759b43c71ca872ca136b22d97",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop0_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 596,
+      "before_zopfli_bytes": 656,
+      "decoded_rgba_bytes": 864,
+      "sha256": "f14d300963331d7df8e20128bb5cb6c527b15c3e518720521534e928b9615a33",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop0_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1102,
+      "before_zopfli_bytes": 1183,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "3b1735ee14a7f5edb610ee1667ce439d6e8ec923655432158370dd5cfb6244c6",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop0_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1767,
+      "before_zopfli_bytes": 1863,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "2e9116b52880c5bc298fc1e3a00c9a6bb936517386c3064d923f3104e7f2f8e1",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop1.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 237,
+      "before_zopfli_bytes": 262,
+      "decoded_rgba_bytes": 216,
+      "sha256": "e4c5f70b86ebbe0c11110a450cd084c6c779f67aeea2137c4aaaeb60482608a7",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop1_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 533,
+      "before_zopfli_bytes": 573,
+      "decoded_rgba_bytes": 864,
+      "sha256": "1982c3a71ed222ba91c8d15feb3037c4156c8786dd040bae6ad8549a44d972d2",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop1_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 901,
+      "before_zopfli_bytes": 936,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "892985be21384a8acd51347f95b68b06ad12640fcaca7778ed84d72b6c9d80bd",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop1_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1288,
+      "before_zopfli_bytes": 1334,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "9d71a6ba4d645643509ac067991d7c3e7e59e98a068518e4bdd4e3cea3686e48",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop2.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 269,
+      "before_zopfli_bytes": 293,
+      "decoded_rgba_bytes": 216,
+      "sha256": "f581f3ae1bdde5c286ae2e5db1992af42b4c7e3ea2f4e5df9ae86d6a2ddbb8db",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop2_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 652,
+      "before_zopfli_bytes": 692,
+      "decoded_rgba_bytes": 864,
+      "sha256": "571249ce0fc9e8126dd71e394c6559cb50a42fcd09e0d22aecaa3eef8ce7d9d9",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop2_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1207,
+      "before_zopfli_bytes": 1303,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "e8abeb2f52c637eb2dcd1f7052883f90ebdebcbd1e6420c6c799f111c0a19e38",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop2_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1939,
+      "before_zopfli_bytes": 2051,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "62cdd39a8edc50ed09153e99496ce50814aaabf2e768570680006f936cc93372",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop3.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 260,
+      "before_zopfli_bytes": 290,
+      "decoded_rgba_bytes": 216,
+      "sha256": "13e3e2b757012d39d5916d0014ea7acb186de398ec39f02b3d664085a7f9fb21",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop3_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 652,
+      "before_zopfli_bytes": 737,
+      "decoded_rgba_bytes": 864,
+      "sha256": "2b20763bab3e2445115c8bb81739f997b882f3fbadf055a16d9831db90bf2646",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop3_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1232,
+      "before_zopfli_bytes": 1400,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "ffcb401d01622933fbdfe00c4f3c17444e1c3f739f4f797e91834bb781c5a5bc",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop3_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1953,
+      "before_zopfli_bytes": 2208,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "fd722760f12422444b822fcfc8c05ab09be72ee15b0831c9d503afd2239b73d8",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop4.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 255,
+      "before_zopfli_bytes": 286,
+      "decoded_rgba_bytes": 216,
+      "sha256": "20eca02d678d7eab580118ad33fac9a32ed7722db61b867ccab2d6fe8287f3d3",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop4_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 623,
+      "before_zopfli_bytes": 683,
+      "decoded_rgba_bytes": 864,
+      "sha256": "95b097922fd1e1654e5e320008b180ae36368a1685efe97164bfaa77c88dec84",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop4_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1107,
+      "before_zopfli_bytes": 1176,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "d797f7a8ca23018b2296e9ed9f6fa968de761474817d26e2c5c843afed1cfc9e",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop4_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1653,
+      "before_zopfli_bytes": 1719,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "7e1d8643a6135625f5c5e4dcb3a5bac7559c122ad8c1f328b4cae35335cc3d92",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop5.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 278,
+      "before_zopfli_bytes": 293,
+      "decoded_rgba_bytes": 216,
+      "sha256": "50cf0739d9743024d26e00578d2c84b1e8082f5af9e28ff4e3493fc8dcbbd092",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop5_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 651,
+      "before_zopfli_bytes": 701,
+      "decoded_rgba_bytes": 864,
+      "sha256": "f3d0d09e53e4b292953618c059f1d1000077f435f9d0028634d45ebd50dee60b",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop5_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1252,
+      "before_zopfli_bytes": 1329,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "a80812765fe390ce36944ccef25104d873247b2cd35d78a3f85ce097a9c28ec5",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop5_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1912,
+      "before_zopfli_bytes": 1991,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "c148da5e5ce1ab3315a03771b57c49fc2244aa404ef432cb215eb1c026436643",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop6.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 262,
+      "before_zopfli_bytes": 277,
+      "decoded_rgba_bytes": 216,
+      "sha256": "84bdcb9f10e93cdad181c72989d2544ebb706c35f470c10a3c61a911a31cecaf",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop6_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 653,
+      "before_zopfli_bytes": 718,
+      "decoded_rgba_bytes": 864,
+      "sha256": "4130d4eeb98e740f6c774ea2c8305b38758138281094ed90234901fd70816876",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop6_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1258,
+      "before_zopfli_bytes": 1390,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "66bfa2052d74d8e170381e5951e76fa5d77d38d8fe025e634d9fe992d0d052cd",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop6_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1964,
+      "before_zopfli_bytes": 2137,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "0ae37cf8e1028e77be324f49831ab28fa06a23b9bbb3669e74e6c44757f5e299",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop7.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 257,
+      "before_zopfli_bytes": 273,
+      "decoded_rgba_bytes": 216,
+      "sha256": "cd3278788fb8d045094551fec8975b452f0a1dad74e483d7524962ae3294ce9b",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop7_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 532,
+      "before_zopfli_bytes": 557,
+      "decoded_rgba_bytes": 864,
+      "sha256": "ae62b23c03f36aba72f50691eb4fd76e9035e3d7844c63ac4aeb1b19f4729fa3",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop7_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 940,
+      "before_zopfli_bytes": 1020,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "453f5165f16b4e1f9e3fb89f41318ba59dfd4990298fbfc42dfb43ef67ca4e58",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop7_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1376,
+      "before_zopfli_bytes": 1464,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "920b2b6dcef17c16edd9eaa7cb1d6272db9ed5d1c26db534ce8af6f750f44b0a",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop8.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 260,
+      "before_zopfli_bytes": 278,
+      "decoded_rgba_bytes": 216,
+      "sha256": "e557e9f1e0b1816da7e91179d1158acc374e8b31eb51cadc3e0e0603c9e8ea94",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop8_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 673,
+      "before_zopfli_bytes": 741,
+      "decoded_rgba_bytes": 864,
+      "sha256": "36c14b35f7aab183b616413a0d114b2db0afb6af6c0a54817b7ef4653beca591",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop8_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1328,
+      "before_zopfli_bytes": 1496,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "87a0732f71dff4ad413db4bdf8b22419b1ecc801128170c04c7daf7d4fd0bb80",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop8_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 2084,
+      "before_zopfli_bytes": 2331,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "59c43a24cfcc4569e48a0f3b772b9672b719a53bc299214b3147bf2619912d23",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop9.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 254,
+      "before_zopfli_bytes": 280,
+      "decoded_rgba_bytes": 216,
+      "sha256": "2cccc3b3c0b60068d9bca88adb5449379be464763390041ab967624fba7fbed7",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop9_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 623,
+      "before_zopfli_bytes": 690,
+      "decoded_rgba_bytes": 864,
+      "sha256": "c0e7bef8367eb447923ca981402bf43b0f2e95c3d075e407332185aca5cd6538",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop9_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1191,
+      "before_zopfli_bytes": 1352,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "2e479f4b25d2a9d211a6b878e53d811eb4109797794855f2dac32ba7bea88803",
+      "master": "digits"
+    },
+    {
+      "path": "gui/navigate/numtop9_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1888,
+      "before_zopfli_bytes": 2075,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "361df6bbed232da31101005c5eceab064410adc1026ae8e7995a8ea7eb816399",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd0.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 267,
+      "before_zopfli_bytes": 285,
+      "decoded_rgba_bytes": 216,
+      "sha256": "f11bd1975c873896ce269ce1d2294bd293c6f8bc320868b9de423f7e6a944228",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd0_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 587,
+      "before_zopfli_bytes": 614,
+      "decoded_rgba_bytes": 864,
+      "sha256": "0696da1c3d73d90c4e75837abeac4d15cd7e368dfb16c014bfa8c84787062377",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd0_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1113,
+      "before_zopfli_bytes": 1190,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "0d80181b9ffb6da1fa8a93a05d38111ca023ce1d97c79b077be976855d36742a",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd0_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1749,
+      "before_zopfli_bytes": 1857,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "b130d7a4c080ca604e41e7be1dc273d604de60eb440a331cc63090b57c61cdb4",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd1.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 226,
+      "before_zopfli_bytes": 260,
+      "decoded_rgba_bytes": 216,
+      "sha256": "05bc28a2a6f3fc8faa8d906d7ab26f5afbd063e6a0ebd0ec05e6f1cbf0fd652d",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd1_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 507,
+      "before_zopfli_bytes": 561,
+      "decoded_rgba_bytes": 864,
+      "sha256": "87d142524770134414ed890b30e12723b73a68c22a2f75d3f44a58a5e727f614",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd1_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 821,
+      "before_zopfli_bytes": 871,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "9cd368edeed5b0116462d2cd298d43f0fc94d61ea0819a2185b0e67a5866c8f6",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd1_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1140,
+      "before_zopfli_bytes": 1191,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "c2b89ed8c6dade54a5d28e22b0e1155fd07073065f25e64ef22046ff03f82ded",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd2.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 288,
+      "before_zopfli_bytes": 293,
+      "decoded_rgba_bytes": 216,
+      "sha256": "898369ccb94a12d9afe9cb53c8cb28f7fa16f1a97c1c08011a33ccdcb115222e",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd2_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 753,
+      "before_zopfli_bytes": 802,
+      "decoded_rgba_bytes": 864,
+      "sha256": "58493fc4072e985f08181aba9f91e72e22acd354a7e97b517c6d488e18626488",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd2_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1490,
+      "before_zopfli_bytes": 1559,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "36dfb1e44d09abbfdeaf86522a84281079cdedbd789644a05dc070feed47ebaf",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd2_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 2327,
+      "before_zopfli_bytes": 2390,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "1d75d1be995962aa097317fe3b7d43aa170b83a54a8f1fbb2820f9d9f111e406",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd3.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 264,
+      "before_zopfli_bytes": 280,
+      "decoded_rgba_bytes": 216,
+      "sha256": "5099fabd299a83027a198a593eab9408616ee895150f08a7bf993406f33e2630",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd3_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 635,
+      "before_zopfli_bytes": 694,
+      "decoded_rgba_bytes": 864,
+      "sha256": "b74106440ac9ddf656b6eee4af8da51921784d1b65c363d9758fd117c793867b",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd3_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1141,
+      "before_zopfli_bytes": 1272,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "fcbd2e625931e1235bb73d7f4fd7b86118302d7e89222d69dcff1838f61fe8a5",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd3_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1794,
+      "before_zopfli_bytes": 1984,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "fa4da1a6f375e9aab714830e42364dc89cb0017322e1916bccdf235cdb58f60a",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd4.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 259,
+      "before_zopfli_bytes": 289,
+      "decoded_rgba_bytes": 216,
+      "sha256": "441a1ce8ae03fa30b0d4224c42d6e36979f672a8977841b53085e79a0b7e090f",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd4_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 590,
+      "before_zopfli_bytes": 636,
+      "decoded_rgba_bytes": 864,
+      "sha256": "96f8c91daf1dba5de451ae0047f7c659b1490293d6d070635f9b46fc91997969",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd4_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1067,
+      "before_zopfli_bytes": 1128,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "e1ee1dbd3ddd3e16c918a84526d987d03ae756714aa59f0ec68e1873519c7b50",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd4_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1646,
+      "before_zopfli_bytes": 1754,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "db9c11b99b3f9e4a8e3df5c32015bca2fc13b9f69cc3acf3a126a87491ed302a",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd5.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 270,
+      "before_zopfli_bytes": 293,
+      "decoded_rgba_bytes": 216,
+      "sha256": "c992bed88fbd1dc0a28c6b4d0b634472e6a432e9e8e0ad2b4b73a222cc7b95b9",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd5_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 618,
+      "before_zopfli_bytes": 673,
+      "decoded_rgba_bytes": 864,
+      "sha256": "922252de64846f0468e650278999e93a99226d56f535b8ae77a0d0ca80a8105b",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd5_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1165,
+      "before_zopfli_bytes": 1236,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "29b810f0c3935f039258f757bd6c107e7cb8a85a965b2fc17c4628ee4fb337ed",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd5_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1736,
+      "before_zopfli_bytes": 1842,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "9ffd6f5e340e063f749b36bd384314e0854efaf86dc5c89bf12786cc24276e32",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd6.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 260,
+      "before_zopfli_bytes": 278,
+      "decoded_rgba_bytes": 216,
+      "sha256": "52a863391aa32417042c9dce56e82c23cb24ca408fad838b5e32139e80717b27",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd6_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 634,
+      "before_zopfli_bytes": 694,
+      "decoded_rgba_bytes": 864,
+      "sha256": "9c69ecd4e97d2ee9a4847cc8d5b41cc7ba9abb80909b8ee19a0f4ebdb1e0a309",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd6_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1209,
+      "before_zopfli_bytes": 1311,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "829f34f1d19039bb42d8e262b3857b6c84c2056c27ff2ed7ee94210676e4560d",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd6_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1855,
+      "before_zopfli_bytes": 2002,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "e45b7214d7e2bf92543e1f93a964781ebdd62361db16547130cf880031eef9b9",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd7.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 285,
+      "before_zopfli_bytes": 293,
+      "decoded_rgba_bytes": 216,
+      "sha256": "955cdcfd83a885213be7ab013c2fb0c28aafee3375a73099b4b559eeee24f7c0",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd7_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 640,
+      "before_zopfli_bytes": 675,
+      "decoded_rgba_bytes": 864,
+      "sha256": "6a46872751f3fae7e29dddc764eb3421d00c9f07de1aae67456d686c498f09b0",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd7_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1155,
+      "before_zopfli_bytes": 1204,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "4953981ecdb9512fa9b86f292c1088a351382578e73d5dca76469fb64b417a88",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd7_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1838,
+      "before_zopfli_bytes": 1926,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "fad8c6780d691d12a4a1719ccca0dbe3080912e4a80837a5185fb25eef9abd9c",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd8.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 261,
+      "before_zopfli_bytes": 280,
+      "decoded_rgba_bytes": 216,
+      "sha256": "8bd59c62c1c01ebcd8feecad5c46d420ae6eb9a7989c17a2b4759e78705f02cb",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd8_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 642,
+      "before_zopfli_bytes": 694,
+      "decoded_rgba_bytes": 864,
+      "sha256": "e17fe89708354572cbc3246caeb8d518ccc60adff4d3f13a50fc7bea01d6251e",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd8_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1229,
+      "before_zopfli_bytes": 1351,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "e979feda5047c28ba64c5688597af489e8c29cbcc7fdbad0e4caf77e7ba059cc",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd8_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 1925,
+      "before_zopfli_bytes": 2101,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "beab79af904b26ffed5fae057ca56dfd6762fb1b9c8c37994b3c698ae04e105d",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd9.png",
+      "size": [
+        6,
+        9
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 280,
+      "before_zopfli_bytes": 293,
+      "decoded_rgba_bytes": 216,
+      "sha256": "69f684958ae8484b85715c36d09ace8d74c5b7476aa808943d4bda4b7a2f6fb8",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd9_2x.png",
+      "size": [
+        12,
+        18
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 762,
+      "before_zopfli_bytes": 820,
+      "decoded_rgba_bytes": 864,
+      "sha256": "9a6d0b1a360e62de5fb790c3a72c1b525354e47f8ec2877743b95016b01f8982",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd9_3x.png",
+      "size": [
+        18,
+        27
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 1492,
+      "before_zopfli_bytes": 1602,
+      "decoded_rgba_bytes": 1944,
+      "sha256": "2860c2b2ddef32de178a23623ee89af9d80eead3dc2b0818c91791285ed31f46",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/numsqd9_4x.png",
+      "size": [
+        24,
+        36
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 2432,
+      "before_zopfli_bytes": 2546,
+      "decoded_rgba_bytes": 3456,
+      "sha256": "50e3cf98f63c1588612b0cfb11ea2659e58971d76ae1e9ed49abe9da3733ef65",
+      "master": "digits"
+    },
+    {
+      "path": "gui/misc/red/decal1.png",
+      "size": [
+        89,
+        30
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 4667,
+      "before_zopfli_bytes": 4947,
+      "decoded_rgba_bytes": 10680,
+      "sha256": "95b1b2943d16d58d44f66381ece9449ed85abcb2d346ac51dfa0fbbf8acfad11",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal1_2x.png",
+      "size": [
+        178,
+        60
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 15308,
+      "before_zopfli_bytes": 15883,
+      "decoded_rgba_bytes": 42720,
+      "sha256": "fcf0a29c96f0f38c82c8a7d0c7bc14c3f3dc14968ca0ad9594c4abbc2ee09804",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal1_3x.png",
+      "size": [
+        267,
+        90
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 31230,
+      "before_zopfli_bytes": 32299,
+      "decoded_rgba_bytes": 96120,
+      "sha256": "fedd0bb489b52c676b004a4f1e93918bf6be0fc7bd1c058a284cd8c3093d44c9",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal1_4x.png",
+      "size": [
+        356,
+        120
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 52945,
+      "before_zopfli_bytes": 54546,
+      "decoded_rgba_bytes": 170880,
+      "sha256": "0b07c09f5a2c27c6fd4fffd42fd7ad41d7854254a5ff512377837cd3bac3b72a",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal2.png",
+      "size": [
+        17,
+        39
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1975,
+      "before_zopfli_bytes": 2019,
+      "decoded_rgba_bytes": 2652,
+      "sha256": "f87fb56d0507136a58bd4e64476e2806cae3c75ce3912319131d925ce08bddd8",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal2_2x.png",
+      "size": [
+        34,
+        78
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 6250,
+      "before_zopfli_bytes": 6360,
+      "decoded_rgba_bytes": 10608,
+      "sha256": "478555aa170ebdf63bc3a7066e08ac2da1a6d29c80371bc9328753976a94a3b7",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal2_3x.png",
+      "size": [
+        51,
+        117
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 12531,
+      "before_zopfli_bytes": 12987,
+      "decoded_rgba_bytes": 23868,
+      "sha256": "8cb9a32fc30d6f112cdc4aba5955b872f9e4b9679729ad8502706bf4089e1e18",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal2_4x.png",
+      "size": [
+        68,
+        156
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 21337,
+      "before_zopfli_bytes": 21978,
+      "decoded_rgba_bytes": 42432,
+      "sha256": "c6de1927dfebd14d1a854716e836139f69c41a4728bc23f002cbf45435ce610f",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal3.png",
+      "size": [
+        38,
+        23
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1628,
+      "before_zopfli_bytes": 1794,
+      "decoded_rgba_bytes": 3496,
+      "sha256": "906de02250677f81b5133d51488e3b36ebd052d2fd7094c964c9f33ea09d0de6",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal3_2x.png",
+      "size": [
+        76,
+        46
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 5045,
+      "before_zopfli_bytes": 5262,
+      "decoded_rgba_bytes": 13984,
+      "sha256": "28582cdccd066509671eaef2dd84038558595d5195f0271b3ee35a54ac235fc9",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal3_3x.png",
+      "size": [
+        114,
+        69
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 10289,
+      "before_zopfli_bytes": 10642,
+      "decoded_rgba_bytes": 31464,
+      "sha256": "cf524143944e3344ab34467466f50363e727157b6ec6b5312a32abc24169d27a",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal3_4x.png",
+      "size": [
+        152,
+        92
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 17512,
+      "before_zopfli_bytes": 18093,
+      "decoded_rgba_bytes": 55936,
+      "sha256": "4f52f41fa439a0cf6028d01c2d9497e71d0056a3776edfc69e7a1d7034d5fc1a",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal4.png",
+      "size": [
+        64,
+        54
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 7658,
+      "before_zopfli_bytes": 7971,
+      "decoded_rgba_bytes": 13824,
+      "sha256": "0e3dae99935256af4e358c5bea74d901a580a360fdebe77abfa851c04e8748cf",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal4_2x.png",
+      "size": [
+        128,
+        108
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 23927,
+      "before_zopfli_bytes": 24793,
+      "decoded_rgba_bytes": 55296,
+      "sha256": "96dd182997b44aae506ba579682211ce4767b3e3f2ab889a4055492ad2b3cc1c",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal4_3x.png",
+      "size": [
+        192,
+        162
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 48894,
+      "before_zopfli_bytes": 49931,
+      "decoded_rgba_bytes": 124416,
+      "sha256": "37405b27252332ee02bf0e7b4646e59fcb840564004df04ec4dde5709c3cc533",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/red/decal4_4x.png",
+      "size": [
+        256,
+        216
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 81559,
+      "before_zopfli_bytes": 83113,
+      "decoded_rgba_bytes": 221184,
+      "sha256": "ffdaa8784cc96c93db2e3b633bd34e004e7be0178e462e7fddb829e2195c2174",
+      "master": "decals-red"
+    },
+    {
+      "path": "gui/misc/blue/decal1.png",
+      "size": [
+        89,
+        30
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 6264,
+      "before_zopfli_bytes": 6365,
+      "decoded_rgba_bytes": 10680,
+      "sha256": "084e1ac2f96aa0e08863845f6c32ee4a5c1d856d541c8a9c90553026cbda69c4",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal1_2x.png",
+      "size": [
+        178,
+        60
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 20056,
+      "before_zopfli_bytes": 20651,
+      "decoded_rgba_bytes": 42720,
+      "sha256": "de4c6a819357fca496cc4c63fa101d9fae77ac588260e231ca71d1a5233022bd",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal1_3x.png",
+      "size": [
+        267,
+        90
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 41034,
+      "before_zopfli_bytes": 42571,
+      "decoded_rgba_bytes": 96120,
+      "sha256": "0ae9361c7e66b1b81694a0c8ac07edda419ed4412984debae411138764259496",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal1_4x.png",
+      "size": [
+        356,
+        120
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 69066,
+      "before_zopfli_bytes": 72080,
+      "decoded_rgba_bytes": 170880,
+      "sha256": "c77099af773f3f5c8b2e8ddd2b3ec78c07471f0a9a645975aad6f8cbd1d3a526",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal2.png",
+      "size": [
+        17,
+        39
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2157,
+      "before_zopfli_bytes": 2190,
+      "decoded_rgba_bytes": 2652,
+      "sha256": "dfb4112c533f03aa0dc79f9f7c8ac350f79b7f63739635773f9ee4d6768fab98",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal2_2x.png",
+      "size": [
+        34,
+        78
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7201,
+      "before_zopfli_bytes": 7285,
+      "decoded_rgba_bytes": 10608,
+      "sha256": "de33b6fdf99c3dadc22e2ebbd549c5c14500d76481a9f9b1d8180ac2413f87e1",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal2_3x.png",
+      "size": [
+        51,
+        117
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 14883,
+      "before_zopfli_bytes": 15103,
+      "decoded_rgba_bytes": 23868,
+      "sha256": "ad85ca2d6364b794dea2e51c3b22a9f2d4d337d37ac6797b572ed93987065a22",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal2_4x.png",
+      "size": [
+        68,
+        156
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 24872,
+      "before_zopfli_bytes": 25332,
+      "decoded_rgba_bytes": 42432,
+      "sha256": "fcfa29d45ec73f829fd4e9eaa4365fa2fbe58ad075062faa509a8f6e2c9c9120",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal3.png",
+      "size": [
+        38,
+        23
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2648,
+      "before_zopfli_bytes": 2698,
+      "decoded_rgba_bytes": 3496,
+      "sha256": "ad3343b2658c3d1fe181e395f6d05de4c86fb0ae4d4ec7521ed46e5e6cf06623",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal3_2x.png",
+      "size": [
+        76,
+        46
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 8371,
+      "before_zopfli_bytes": 8464,
+      "decoded_rgba_bytes": 13984,
+      "sha256": "17ddb59d3847ccedf09ef39ceda0c7876de27e5ab30fcbb7656dd22818a48bdf",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal3_3x.png",
+      "size": [
+        114,
+        69
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 16877,
+      "before_zopfli_bytes": 17085,
+      "decoded_rgba_bytes": 31464,
+      "sha256": "31f1e595b806702eca61a1396a0fe2a11442e71cc4c349151b625c1867ae84dd",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal3_4x.png",
+      "size": [
+        152,
+        92
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 28216,
+      "before_zopfli_bytes": 28800,
+      "decoded_rgba_bytes": 55936,
+      "sha256": "0561e481351fa5ce360e9cee449fe591e1ab5d1372b570f7c0fe01b433dc86f1",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal4.png",
+      "size": [
+        64,
+        54
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 8144,
+      "before_zopfli_bytes": 8367,
+      "decoded_rgba_bytes": 13824,
+      "sha256": "660c7c53a971d3ef7d8fcea40a1f2c89ee92dc03708aadd64fc727325c956070",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal4_2x.png",
+      "size": [
+        128,
+        108
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 25361,
+      "before_zopfli_bytes": 25745,
+      "decoded_rgba_bytes": 55296,
+      "sha256": "f24a8440b8af0383be65606c2c4e716c53d2d500217fa29a68ceb6fad17725bb",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal4_3x.png",
+      "size": [
+        192,
+        162
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 50140,
+      "before_zopfli_bytes": 51149,
+      "decoded_rgba_bytes": 124416,
+      "sha256": "95d771586815424c7f71ab448e887b4ba5413f10886a9dbee93b88c01c9115fd",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/blue/decal4_4x.png",
+      "size": [
+        256,
+        216
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 82586,
+      "before_zopfli_bytes": 84396,
+      "decoded_rgba_bytes": 221184,
+      "sha256": "248236f4ce136c20bdd657caf4c603d7e83f7d9bac26d704863c2ddcd0a8a1da",
+      "master": "decals-blue"
+    },
+    {
+      "path": "gui/misc/green/decal1.png",
+      "size": [
+        89,
+        30
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 5995,
+      "before_zopfli_bytes": 6100,
+      "decoded_rgba_bytes": 10680,
+      "sha256": "0e1ac2ad20ebf57f8c0aaa44f72c68af4d2637beeff7dd8d920090afd8e1f0f3",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal1_2x.png",
+      "size": [
+        178,
+        60
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 19725,
+      "before_zopfli_bytes": 20296,
+      "decoded_rgba_bytes": 42720,
+      "sha256": "a120c9e6029d8b5a01942288ce1737abe966e4b95a30f60939f61bbb9cc5ef63",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal1_3x.png",
+      "size": [
+        267,
+        90
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 41737,
+      "before_zopfli_bytes": 43239,
+      "decoded_rgba_bytes": 96120,
+      "sha256": "37857f6bafbe945db843bf99521f6a37d4891326c5b8d61756e7f804429890ac",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal1_4x.png",
+      "size": [
+        356,
+        120
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 71919,
+      "before_zopfli_bytes": 74814,
+      "decoded_rgba_bytes": 170880,
+      "sha256": "f1b2513ef8dfb5d9a9f6d47a913626c27f7d1c19fef55b69e21968f557d73e9f",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal2.png",
+      "size": [
+        17,
+        39
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2160,
+      "before_zopfli_bytes": 2206,
+      "decoded_rgba_bytes": 2652,
+      "sha256": "50bfb29fef1ce71d9617179fb83b2c2c00d7037de1c8122338f1cb5384fe7417",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal2_2x.png",
+      "size": [
+        34,
+        78
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 6853,
+      "before_zopfli_bytes": 6966,
+      "decoded_rgba_bytes": 10608,
+      "sha256": "ad0480678b624839fa448b9b9e533ee961d64c720dd67ef30085390c45b8413a",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal2_3x.png",
+      "size": [
+        51,
+        117
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 13648,
+      "before_zopfli_bytes": 13971,
+      "decoded_rgba_bytes": 23868,
+      "sha256": "b2960bc8c8b2dcd07ac0f7731d03d613fa818799592abc52514431349cc58f66",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal2_4x.png",
+      "size": [
+        68,
+        156
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 22561,
+      "before_zopfli_bytes": 23241,
+      "decoded_rgba_bytes": 42432,
+      "sha256": "6c06c564799eadebd1717066a7d5839f76b79de7bdb8f27084f7799b161721a9",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal3.png",
+      "size": [
+        38,
+        23
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2232,
+      "before_zopfli_bytes": 2276,
+      "decoded_rgba_bytes": 3496,
+      "sha256": "c0d7949b673c32d66489d41255f07655570edaeba5e823362519cf93fdac04a2",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal3_2x.png",
+      "size": [
+        76,
+        46
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7362,
+      "before_zopfli_bytes": 7482,
+      "decoded_rgba_bytes": 13984,
+      "sha256": "c811038daeae3a5aed5d0b9b81855d213e2443b32e1cd4a17b628d5de84ee9c2",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal3_3x.png",
+      "size": [
+        114,
+        69
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 15535,
+      "before_zopfli_bytes": 15963,
+      "decoded_rgba_bytes": 31464,
+      "sha256": "611bffe7b4ceb9647a404a8d7b065f17c6a9327b8bdcb5e5316db04ed5e4d6d5",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal3_4x.png",
+      "size": [
+        152,
+        92
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 26503,
+      "before_zopfli_bytes": 27425,
+      "decoded_rgba_bytes": 55936,
+      "sha256": "eb83b125245aed8ad5c42c4173e664334a102ff519b27ea2c81556367fa10506",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal4.png",
+      "size": [
+        64,
+        54
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 7205,
+      "before_zopfli_bytes": 7351,
+      "decoded_rgba_bytes": 13824,
+      "sha256": "4082c97f9d3fb5afda48d3a6b4c825bb67757680d36f3577dae484dddc7b53a0",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal4_2x.png",
+      "size": [
+        128,
+        108
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 23792,
+      "before_zopfli_bytes": 24477,
+      "decoded_rgba_bytes": 55296,
+      "sha256": "8d68426cd6dbef12278c4aa9fc8b1875c0730e6a6a6dabbc95c2b996d9d9aa99",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal4_3x.png",
+      "size": [
+        192,
+        162
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 49872,
+      "before_zopfli_bytes": 51646,
+      "decoded_rgba_bytes": 124416,
+      "sha256": "3d5714b56d6040ea0f1ca7dea47a8f257cba7524dfcd56b4edd4119ee5bf21f8",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/green/decal4_4x.png",
+      "size": [
+        256,
+        216
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 85107,
+      "before_zopfli_bytes": 88414,
+      "decoded_rgba_bytes": 221184,
+      "sha256": "11604be0bc599760eae64ef70af6c83885a964a1ef1d6f4f886df8a84b7e3c43",
+      "master": "decals-green"
+    },
+    {
+      "path": "gui/misc/yellow/decal1.png",
+      "size": [
+        89,
+        30
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 6000,
+      "before_zopfli_bytes": 6089,
+      "decoded_rgba_bytes": 10680,
+      "sha256": "96512252428e95c65af178cc4ec6a5feba32f4afc684c6d28b28e2e23926a8c0",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal1_2x.png",
+      "size": [
+        178,
+        60
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 19087,
+      "before_zopfli_bytes": 19437,
+      "decoded_rgba_bytes": 42720,
+      "sha256": "d9d60bbbf6412ea44925e1294d3e871c02629a040b8e1f5d4561a98e1e1f0033",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal1_3x.png",
+      "size": [
+        267,
+        90
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 39675,
+      "before_zopfli_bytes": 40585,
+      "decoded_rgba_bytes": 96120,
+      "sha256": "b9962bd8cbf7f911f3006c4dbc7ae2ebc9065d6a5633902969d0fcefcfeb02a3",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal1_4x.png",
+      "size": [
+        356,
+        120
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 68031,
+      "before_zopfli_bytes": 69620,
+      "decoded_rgba_bytes": 170880,
+      "sha256": "fc9f7c7c62d88dda19d79b965080ad071f73f56c8a349a9c83b22e52b30f9506",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal2.png",
+      "size": [
+        17,
+        39
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2012,
+      "before_zopfli_bytes": 2042,
+      "decoded_rgba_bytes": 2652,
+      "sha256": "7de8589fa8a36ce0c66729aa2e5b4a3458e6b5f134be8aa1060aa0a6c116d2f7",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal2_2x.png",
+      "size": [
+        34,
+        78
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 6584,
+      "before_zopfli_bytes": 6688,
+      "decoded_rgba_bytes": 10608,
+      "sha256": "58919b8d854f287c3cff720d9eb98c61efb14d1915ba3852dfbe13b41e883750",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal2_3x.png",
+      "size": [
+        51,
+        117
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 14117,
+      "before_zopfli_bytes": 14448,
+      "decoded_rgba_bytes": 23868,
+      "sha256": "db9006aaf5f341a3d39dd24172fa8cd151ee81a90825afada656662490e5d5b7",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal2_4x.png",
+      "size": [
+        68,
+        156
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 24291,
+      "before_zopfli_bytes": 25099,
+      "decoded_rgba_bytes": 42432,
+      "sha256": "bdb2b3dbec9fe70faf765ac6ae48a1e022add7c4233c0b62fc930965a5ddd5ad",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal3.png",
+      "size": [
+        38,
+        23
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2329,
+      "before_zopfli_bytes": 2383,
+      "decoded_rgba_bytes": 3496,
+      "sha256": "b10cea3235075bdc63963b638d31dbfa495b05b9a0b85bbfe27c1875787c80ab",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal3_2x.png",
+      "size": [
+        76,
+        46
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7603,
+      "before_zopfli_bytes": 7736,
+      "decoded_rgba_bytes": 13984,
+      "sha256": "98df955af90c869b14add70b34d5476ac92e7ff09bd46eda776f46954b92e4e0",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal3_3x.png",
+      "size": [
+        114,
+        69
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 16132,
+      "before_zopfli_bytes": 16443,
+      "decoded_rgba_bytes": 31464,
+      "sha256": "04e2079784ddea5422207e56287fe1dc582699f5bd9981d31d5b29c815f2388e",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal3_4x.png",
+      "size": [
+        152,
+        92
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 27841,
+      "before_zopfli_bytes": 28616,
+      "decoded_rgba_bytes": 55936,
+      "sha256": "5f5ffc3f8eb5d7e269cda501f7b0b83e1abd19110e5a9f667f773d91c1203d41",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal4.png",
+      "size": [
+        64,
+        54
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 7001,
+      "before_zopfli_bytes": 7105,
+      "decoded_rgba_bytes": 13824,
+      "sha256": "bd73775ef299a522cd7efd40a1abd1239ade76b7f28ec3ee9771c1b38abb8623",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal4_2x.png",
+      "size": [
+        128,
+        108
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 21829,
+      "before_zopfli_bytes": 22181,
+      "decoded_rgba_bytes": 55296,
+      "sha256": "0160ce6e7f48251ee6f61998f137bcf99289e8e46e6a98b84fc1cdb595aab7c7",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal4_3x.png",
+      "size": [
+        192,
+        162
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 45142,
+      "before_zopfli_bytes": 46023,
+      "decoded_rgba_bytes": 124416,
+      "sha256": "f323916120e8da35aca1569092dc4ce92b2da9e50ce800c36a8e6524f110b2eb",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/yellow/decal4_4x.png",
+      "size": [
+        256,
+        216
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 77466,
+      "before_zopfli_bytes": 79300,
+      "decoded_rgba_bytes": 221184,
+      "sha256": "58fa6e388fb9ea3268764773444a4a0e9899d3925060f70a031358e78a035f49",
+      "master": "decals-yellow"
+    },
+    {
+      "path": "gui/misc/decal5.png",
+      "size": [
+        169,
+        35
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 6866,
+      "before_zopfli_bytes": 7410,
+      "decoded_rgba_bytes": 23660,
+      "sha256": "57001cc400b268954f05cb56e27dbea0e76f3ce1229ab416c3d9b5e11b0d5244",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal5_2x.png",
+      "size": [
+        338,
+        70
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 20306,
+      "before_zopfli_bytes": 21829,
+      "decoded_rgba_bytes": 94640,
+      "sha256": "b7984fba408b4a251434188156d2160e1dfa30238890163bce22e041281a9785",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal5_3x.png",
+      "size": [
+        507,
+        105
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 39058,
+      "before_zopfli_bytes": 41642,
+      "decoded_rgba_bytes": 212940,
+      "sha256": "9270a55ebb15fa6be51f6fd50e5ddf4551782ed17faff926d479b7b99f00e64b",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal5_4x.png",
+      "size": [
+        676,
+        140
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 64509,
+      "before_zopfli_bytes": 68343,
+      "decoded_rgba_bytes": 378560,
+      "sha256": "aa6e3fdce72a560f49878872825afb9eeb396ef760f0a1cddd95597b3a699759",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal6.png",
+      "size": [
+        43,
+        74
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 4784,
+      "before_zopfli_bytes": 5043,
+      "decoded_rgba_bytes": 12728,
+      "sha256": "bccbe124c58ece57978db000b9ea228c43fbab3bfb6ffeca4543d52a31cb483e",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal6_2x.png",
+      "size": [
+        86,
+        148
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 13411,
+      "before_zopfli_bytes": 14422,
+      "decoded_rgba_bytes": 50912,
+      "sha256": "c6deaa455f9f43f0a23a9571057936155c2923d4d1a03396b261b5931af82d05",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal6_3x.png",
+      "size": [
+        129,
+        222
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 26055,
+      "before_zopfli_bytes": 28067,
+      "decoded_rgba_bytes": 114552,
+      "sha256": "c39ab58869b4e2c5aef25343c655bf2a0121fec62d84b4746102a164953bec93",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal6_4x.png",
+      "size": [
+        172,
+        296
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 42939,
+      "before_zopfli_bytes": 45894,
+      "decoded_rgba_bytes": 203648,
+      "sha256": "d49b4a134a08d46e59799e66c26f951ed4cdd10c08b2775adef59cd3b649ac10",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal7.png",
+      "size": [
+        19,
+        19
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 1230,
+      "before_zopfli_bytes": 1277,
+      "decoded_rgba_bytes": 1444,
+      "sha256": "36937a0baff5276f1d4d72c8321813fe512c411e1917e8aec019dc09be0496fc",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal7_2x.png",
+      "size": [
+        38,
+        38
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 3573,
+      "before_zopfli_bytes": 3793,
+      "decoded_rgba_bytes": 5776,
+      "sha256": "75ec7b3352260f211c1791182fc51e661920ce7ae5be0402cb50dba5d5a3e6ce",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal7_3x.png",
+      "size": [
+        57,
+        57
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 6749,
+      "before_zopfli_bytes": 7252,
+      "decoded_rgba_bytes": 12996,
+      "sha256": "e66ef10b8370aac6c0f8cbab5d6cc67b0a9c8c0495b331898e30bad128624dd5",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/decal7_4x.png",
+      "size": [
+        76,
+        76
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 10676,
+      "before_zopfli_bytes": 11382,
+      "decoded_rgba_bytes": 23104,
+      "sha256": "84ab214931537f71b436a571116204407a9cafd58eb432b5dd0d2361226508fc",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/slider.png",
+      "size": [
+        6,
+        25
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 577,
+      "before_zopfli_bytes": 584,
+      "decoded_rgba_bytes": 600,
+      "sha256": "2c664e85ea635e048000db768457aec11f0dc0a7cdb2f78d8776049571a1ce3d",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/slider_2x.png",
+      "size": [
+        12,
+        50
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 1450,
+      "before_zopfli_bytes": 1480,
+      "decoded_rgba_bytes": 2400,
+      "sha256": "2803eddddff6af7d5b15d19441b7fdb6c53a882205f6ff1d828f0469bbbc9ba6",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/slider_3x.png",
+      "size": [
+        18,
+        75
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 2714,
+      "before_zopfli_bytes": 2764,
+      "decoded_rgba_bytes": 5400,
+      "sha256": "70a22f693d21858ee566a73848eceb4e731bccd6fadaaf75643638c2a5d1def9",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/slider_4x.png",
+      "size": [
+        24,
+        100
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 4508,
+      "before_zopfli_bytes": 4638,
+      "decoded_rgba_bytes": 9600,
+      "sha256": "abb36f52f804fca6245901f0178d859a7b471aace0d47a9922b61cd21b9148e8",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/slidhole.png",
+      "size": [
+        6,
+        49
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 539,
+      "before_zopfli_bytes": 570,
+      "decoded_rgba_bytes": 1176,
+      "sha256": "e68c9db0a64619e7a190bf0d6bf1b406346691e5cf3f3a9a5f0a3d239311d87e",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/slidhole_2x.png",
+      "size": [
+        12,
+        98
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 1422,
+      "before_zopfli_bytes": 1506,
+      "decoded_rgba_bytes": 4704,
+      "sha256": "84dae7b11ff5765aa30bfea9aad09b26a9e7e15fc064537d05c57f6d6361faa0",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/slidhole_3x.png",
+      "size": [
+        18,
+        147
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 3015,
+      "before_zopfli_bytes": 3202,
+      "decoded_rgba_bytes": 10584,
+      "sha256": "d871b81ca8f8310a1903eda5962427853f33a155707143b79d1df2a4eb19f7fe",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/misc/slidhole_4x.png",
+      "size": [
+        24,
+        196
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 5131,
+      "before_zopfli_bytes": 5434,
+      "decoded_rgba_bytes": 18816,
+      "sha256": "78a8384fb16ceb04ee01c67e2c077389f1c801a94e29e428971a901d5cecdd39",
+      "master": "supplements"
+    },
+    {
+      "path": "gui/map/rlogo.png",
+      "size": [
+        134,
+        127
+      ],
+      "scale": 1,
+      "mode": "RGB",
+      "file_bytes": 22581,
+      "before_zopfli_bytes": 23276,
+      "decoded_rgba_bytes": 68072,
+      "sha256": "009a94cfaef2b3131013dc7389f2a0bbeaab97c18dbdff22fc6dbcf2cea52e8d",
+      "master": "rlogo"
+    },
+    {
+      "path": "gui/map/rlogo_2x.png",
+      "size": [
+        268,
+        254
+      ],
+      "scale": 2,
+      "mode": "RGB",
+      "file_bytes": 75436,
+      "before_zopfli_bytes": 78397,
+      "decoded_rgba_bytes": 272288,
+      "sha256": "fda87e36e6495393616fc64c641818130129f67f9b3265d6d1528da2cd888187",
+      "master": "rlogo"
+    },
+    {
+      "path": "gui/map/rlogo_3x.png",
+      "size": [
+        402,
+        381
+      ],
+      "scale": 3,
+      "mode": "RGB",
+      "file_bytes": 159783,
+      "before_zopfli_bytes": 167076,
+      "decoded_rgba_bytes": 612648,
+      "sha256": "b200feb31a3331af10e3426b4e608f82be2e8d07e351b82dc56dc7c7fa6b6527",
+      "master": "rlogo"
+    },
+    {
+      "path": "gui/map/rlogo_4x.png",
+      "size": [
+        536,
+        508
+      ],
+      "scale": 4,
+      "mode": "RGB",
+      "file_bytes": 262680,
+      "before_zopfli_bytes": 275389,
+      "decoded_rgba_bytes": 1089152,
+      "sha256": "0c3ad5d4bf31ad1f0a4815a4beb08f870a11bdb31fd595e15341950bcc294445",
+      "master": "rlogo"
+    },
+    {
+      "path": "gui/map/blogo.png",
+      "size": [
+        134,
+        127
+      ],
+      "scale": 1,
+      "mode": "RGB",
+      "file_bytes": 22673,
+      "before_zopfli_bytes": 24839,
+      "decoded_rgba_bytes": 68072,
+      "sha256": "63ce24a670206b3b0c1d2333fd95d61df7d40b14f655de09fc59bb722ce09ce9",
+      "master": "blogo"
+    },
+    {
+      "path": "gui/map/blogo_2x.png",
+      "size": [
+        268,
+        254
+      ],
+      "scale": 2,
+      "mode": "RGB",
+      "file_bytes": 76291,
+      "before_zopfli_bytes": 83451,
+      "decoded_rgba_bytes": 272288,
+      "sha256": "1beb96be76f37cf84403faf5efb89702433754ed2788c10c1d25ebdaaa343e3a",
+      "master": "blogo"
+    },
+    {
+      "path": "gui/map/blogo_3x.png",
+      "size": [
+        402,
+        381
+      ],
+      "scale": 3,
+      "mode": "RGB",
+      "file_bytes": 165231,
+      "before_zopfli_bytes": 178983,
+      "decoded_rgba_bytes": 612648,
+      "sha256": "e5f654a0e7af355ab10d3188f14f6ccc9713637f9c57a9967f5b2e102a69818b",
+      "master": "blogo"
+    },
+    {
+      "path": "gui/map/blogo_4x.png",
+      "size": [
+        536,
+        508
+      ],
+      "scale": 4,
+      "mode": "RGB",
+      "file_bytes": 283579,
+      "before_zopfli_bytes": 305147,
+      "decoded_rgba_bytes": 1089152,
+      "sha256": "6b79c66c211c8f3a6f399a3ef767120cc89a38b5f8ff939e2f7d0ad142563884",
+      "master": "blogo"
+    },
+    {
+      "path": "gui/map/glogo.png",
+      "size": [
+        134,
+        127
+      ],
+      "scale": 1,
+      "mode": "RGB",
+      "file_bytes": 24527,
+      "before_zopfli_bytes": 25834,
+      "decoded_rgba_bytes": 68072,
+      "sha256": "fa0ee250c9a6d2f4a7788b957919596d11e1eea4936a86bad52887eed05932c9",
+      "master": "glogo"
+    },
+    {
+      "path": "gui/map/glogo_2x.png",
+      "size": [
+        268,
+        254
+      ],
+      "scale": 2,
+      "mode": "RGB",
+      "file_bytes": 81709,
+      "before_zopfli_bytes": 86525,
+      "decoded_rgba_bytes": 272288,
+      "sha256": "dae5956ac45bce849cc8a8df9ffda2bbc786a18a1c8da1fac2e132a54cda3a69",
+      "master": "glogo"
+    },
+    {
+      "path": "gui/map/glogo_3x.png",
+      "size": [
+        402,
+        381
+      ],
+      "scale": 3,
+      "mode": "RGB",
+      "file_bytes": 171439,
+      "before_zopfli_bytes": 180075,
+      "decoded_rgba_bytes": 612648,
+      "sha256": "7492b9e9685e2c572cf7f439cf5b665bb0ae94d4f061a091a0b88040a25fff8f",
+      "master": "glogo"
+    },
+    {
+      "path": "gui/map/glogo_4x.png",
+      "size": [
+        536,
+        508
+      ],
+      "scale": 4,
+      "mode": "RGB",
+      "file_bytes": 285457,
+      "before_zopfli_bytes": 298661,
+      "decoded_rgba_bytes": 1089152,
+      "sha256": "470ab538f3312926217d3935abfdcea01a92fbc68f9974a4065943b82498dbc8",
+      "master": "glogo"
+    },
+    {
+      "path": "gui/map/ylogo.png",
+      "size": [
+        134,
+        127
+      ],
+      "scale": 1,
+      "mode": "RGB",
+      "file_bytes": 28139,
+      "before_zopfli_bytes": 29934,
+      "decoded_rgba_bytes": 68072,
+      "sha256": "a239407431bd426f8a80fde83f73f129a548dc42c0efb70f15bd568539c4d992",
+      "master": "ylogo"
+    },
+    {
+      "path": "gui/map/ylogo_2x.png",
+      "size": [
+        268,
+        254
+      ],
+      "scale": 2,
+      "mode": "RGB",
+      "file_bytes": 88739,
+      "before_zopfli_bytes": 95529,
+      "decoded_rgba_bytes": 272288,
+      "sha256": "114e1ed792d0042386c421086534ae8f29d5b93e1d74fa2c1c6ab619051f27cf",
+      "master": "ylogo"
+    },
+    {
+      "path": "gui/map/ylogo_3x.png",
+      "size": [
+        402,
+        381
+      ],
+      "scale": 3,
+      "mode": "RGB",
+      "file_bytes": 180766,
+      "before_zopfli_bytes": 192578,
+      "decoded_rgba_bytes": 612648,
+      "sha256": "1f6b4cf5bafd77638bea9545c1de94b1dc61ef10b8a90a05f2bf72c52f22c8dd",
+      "master": "ylogo"
+    },
+    {
+      "path": "gui/map/ylogo_4x.png",
+      "size": [
+        536,
+        508
+      ],
+      "scale": 4,
+      "mode": "RGB",
+      "file_bytes": 300317,
+      "before_zopfli_bytes": 317625,
+      "decoded_rgba_bytes": 1089152,
+      "sha256": "a82526c06c87b8ac4a7ebb69a22d9aab4efcd15f974d1e3839122592b0fc9d17",
+      "master": "ylogo"
+    },
+    {
+      "path": "gui/misc/backtile.png",
+      "size": [
+        169,
+        80
+      ],
+      "scale": 1,
+      "mode": "RGB",
+      "file_bytes": 7459,
+      "before_zopfli_bytes": 10535,
+      "decoded_rgba_bytes": 54080,
+      "sha256": "686a0df099896fee53999f7403e78da463477282c86cc134ac33de4cb3880481",
+      "master": "backtile"
+    },
+    {
+      "path": "gui/misc/backtile_2x.png",
+      "size": [
+        338,
+        160
+      ],
+      "scale": 2,
+      "mode": "RGB",
+      "file_bytes": 36970,
+      "before_zopfli_bytes": 44105,
+      "decoded_rgba_bytes": 216320,
+      "sha256": "13ea1c0da78a5489411cd2539fa0643e3c85484f8d76aa181351c13c46a2ebed",
+      "master": "backtile"
+    },
+    {
+      "path": "gui/misc/backtile_3x.png",
+      "size": [
+        507,
+        240
+      ],
+      "scale": 3,
+      "mode": "RGB",
+      "file_bytes": 89266,
+      "before_zopfli_bytes": 102470,
+      "decoded_rgba_bytes": 486720,
+      "sha256": "1a0ab3eaf628c2bc310fa7376e494eceeb85199fb4255e92ff7f1b2f6f505707",
+      "master": "backtile"
+    },
+    {
+      "path": "gui/misc/backtile_4x.png",
+      "size": [
+        676,
+        320
+      ],
+      "scale": 4,
+      "mode": "RGB",
+      "file_bytes": 164070,
+      "before_zopfli_bytes": 184473,
+      "decoded_rgba_bytes": 865280,
+      "sha256": "926e0ea88bd82fb4e5d0f9cdd6afaad86fcfa3f6e11027c6994468173490094c",
+      "master": "backtile"
+    },
+    {
+      "path": "gui/misc/camtab.png",
+      "size": [
+        30,
+        66
+      ],
+      "scale": 1,
+      "mode": "RGBA",
+      "file_bytes": 2225,
+      "before_zopfli_bytes": 2435,
+      "decoded_rgba_bytes": 7920,
+      "sha256": "f3b2015011b71f65181e3cb52723ebd6b1f7b9d334357a89e5294b62622e9cf3",
+      "master": "camtab"
+    },
+    {
+      "path": "gui/misc/camtab_2x.png",
+      "size": [
+        60,
+        132
+      ],
+      "scale": 2,
+      "mode": "RGBA",
+      "file_bytes": 7415,
+      "before_zopfli_bytes": 8171,
+      "decoded_rgba_bytes": 31680,
+      "sha256": "8323df1f8710f05a9eb51430cec75bea61f6d6a2f046ff0821dcf0d40f1d3ce6",
+      "master": "camtab"
+    },
+    {
+      "path": "gui/misc/camtab_3x.png",
+      "size": [
+        90,
+        198
+      ],
+      "scale": 3,
+      "mode": "RGBA",
+      "file_bytes": 15286,
+      "before_zopfli_bytes": 16719,
+      "decoded_rgba_bytes": 71280,
+      "sha256": "fc2de12f7e6b0ad850d59a6afba8d0b09e47597eead40d0f8d110c7f00ba5789",
+      "master": "camtab"
+    },
+    {
+      "path": "gui/misc/camtab_4x.png",
+      "size": [
+        120,
+        264
+      ],
+      "scale": 4,
+      "mode": "RGBA",
+      "file_bytes": 25625,
+      "before_zopfli_bytes": 27841,
+      "decoded_rgba_bytes": 126720,
+      "sha256": "b8b3085686db6a8f63db24ba8407c34d9f4e4c37e98459a4afa1e52b8068c8f8",
+      "master": "camtab"
+    }
+  ]
+}

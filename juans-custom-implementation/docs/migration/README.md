@@ -1,0 +1,80 @@
+# Migration record
+
+This section records what changed, why it changed, how it was checked, and what
+we learned. It complements the [practical guides](../guides/README.md).
+
+Current community work:
+
+- [Community-fork ground zero](0007-community-ground-zero.md).
+- [Display preferences and larger UI scales](0008-display-preferences-and-ui-scaling.md):
+  upstream issues #39 and #70, first implementation, and the shared-test plan.
+- [Upscaling preview](0009-upscaling-preview.md): viewport clipping, bitmap-cache
+  fixes, the initial 42-case native preview, and the subsequent 4K menu launch.
+- [Loading screen and separate experiments](0010-loading-screen-and-separated-experiments.md):
+  private-doc relocation, loading/robot scaling, the skipped gun audio, and 48 native cases.
+- [Faithful HD HUD](0011-faithful-hd-hud.md): 129 re-rendered UI assets, 516 optimized
+  PNG variants, native image-loader validation, and a separate personal preview.
+
+## Agreed decisions
+
+| ID | Decision | Reason or consequence |
+| --- | --- | --- |
+| D-001 | One root Git repository owns reference source, conversion source, and docs. | The repository represents the whole project; source folders are not independent repositories. |
+| D-002 | Preserve `original/` and make implementation changes in `conversion/`. | Retain a traceable source reference and initially comparable directory structure. |
+| D-003 | Stage one is the whole game on Windows 11 through Vulkan, including multiplayer. | A partial game or presentation prototype is not the completion milestone. |
+| D-004 | Stage two establishes stability and fidelity. | Known migration bugs may exist in stage one; they are addressed in stage two. |
+| D-005 | Stage three modernizes C++, dependencies, and architecture together. | Substantial internal restructuring is allowed while preserving the experience. |
+| D-006 | Preserve original behavior and inherited bugs by default. | Fix migration regressions; document original defects for separate future decisions. |
+| D-007 | Preserve gameplay, graphics style, and assets. | Modernization concerns the software behind the original experience. |
+| D-008 | Serve us initially and maintain both practical docs and migration history. | Public release planning is not a prerequisite; understanding the engineering journey is a deliverable. |
+| D-009 | The 1999 retail game defines fidelity; the published 2020 source is the implementation starting point. | The user does not have the 1999 source code, and obtaining it is not required. Compare observable retail behavior, and distinguish retail quirks from differences introduced by the 2020 port or our migration. |
+| D-010 | Establish ground zero before further Vulkan conversion: reproduce the OpenGL game with the upstream Linux-container build, then build/run it natively on Windows 11 without the container. | Determine the actual starting behavior and separate build-environment problems from game-code problems. The current work proceeds from the 2020 source without waiting for a retail comparison setup. |
+| D-011 | For stage three, prefer OpenAL Soft with a modern C++ audio layer and incremental ALURE replacement, preserving audio assets and behavior. | Retaining existing OpenAL semantics reduces migration risk. Pin versions/settings and verify fidelity; identical output is not guaranteed by the library. Miniaudio remains an alternative if broader replacement is justified. See the [audio architecture direction](../ARCHITECTURE.md#audio-modernization-direction). |
+| D-012 | Keep personal experiments and community contributions in independent sibling clones. | Supersedes D-001/D-002 as the current physical layout: `machines-juan-experiments` owns private planning and future Vulkan experiments; `machines-wiredforwar` owns focused upstream fixes. Each has its own branches, builds, and runtime state. |
+| D-013 | Create faithful high-resolution HUD redraws as an optional personal asset pack. | Explicit user request after the 4K test: newly rendered masters, compressed engine-sized PNGs at all UI scales, original designs and functions retained. Keep these artistic replacements separate from community scaling fixes and the retail fidelity reference. |
+
+These decisions summarize the discussion on 2026-11-08. The [project brief](../PROJECT_BRIEF.md)
+contains the scope and unresolved questions; the [roadmap](../ROADMAP.md) contains
+the stage contracts.
+
+## Initial implementation history
+
+Ground-zero experiments:
+
+- [First OpenGL build](0001-opengl-first-run.md): build setup and initial CRT link failure.
+- [ALURE rebuild](0002-alure-rebuild.md): matching compiler/runtime dependency rebuild and successful game linkage.
+- [FreeType, first launch, and music](0003-freetype-and-music.md): successful Windows launch, stop request, and headless verification of the music decoder filename fix.
+- [Intro audio queue repair](0004-intro-audio-queue.md): packet preservation and movie timing changes, headless regression checks, and an unlaunched Windows test build.
+- [Skirmish category crash](0005-skirmish-category-crash.md): Windows crash-address diagnosis and a guard for the absent optional Custom category; manual retest pending.
+- [Upstream runtime audit](0006-upstream-runtime-audit.md): README/package comparison, base-file completeness, and independent community-source confirmation of the Custom-category condition.
+
+- Obtained Nightdive's published source at
+  `2c857564ac9145fa8913ed57e533a5069faf7662` and created the project fork.
+- Added a standalone Vulkan presentation context, smoke executable, translated
+  shaders, and build/test tooling. Previously recorded checks are in the
+  [bootstrap guide](../guides/VULKAN_BOOTSTRAP.md). The full game remains unported.
+- Corrected an initial repository-layout mistake: the two source folders had
+  separate Git directories, leaving the project root outside Git. The root now
+  owns both source trees and documentation. Upstream history, Git LFS objects,
+  conversion work, and reference source were retained; reference content and file
+  modes were checked against the upstream Git tree. Old reference Git metadata
+  is backed up locally inside the root `.git` directory.
+- Started the shared documentation drafts. No game implementation changes are
+  part of this documentation round.
+
+## Record format for subsequent work
+
+For each meaningful change, capture the affected behavior/component, source
+revision or commit when available, previous implementation, change, reason,
+alternatives/tradeoffs, verification and its limits, and lessons or follow-ups.
+Practical instructions belong in the guides and should be linked from the record.
+
+For an inherited bug or quirk, record its reference version, reproduction steps,
+expected preserved behavior, migration observations, and the evidence supporting
+its classification. Distinguish behavior of the 1999 retail game, differences
+already introduced by the 2020 source port, and our own migration regressions.
+Keep proposed intentional fixes to retail behavior separate from migration
+regressions. An uncertain classification stays uncertain until investigated.
+
+No inherited game bug has yet been investigated and classified by this project;
+this document does not infer defects from the age of the code.
