@@ -1,12 +1,16 @@
 # Faithful HD HUD
 
-Personal artwork experiment for Machines: 129 HUD assets rendered anew from
-the original references, packaged as 516 PNGs at 100%, 200%, 300%, and 400%.
+Personal artwork experiment for Machines: 211 shared HUD assets rendered anew
+from original references, packaged as 844 PNGs at 100%, 200%, 300%, and 400%.
 
 Includes the four faction emblems, faction navigation tabs, return/X and camera
 buttons, scrolling arrows, the requested command buttons and their self-destruct
 and initiative states, counters, gray panel surfaces, and faction decorations.
-Unit portrait thumbnails and the rest of the game's artwork are outside this pack.
+Also includes the panel-edge indicators and first-person entry controls, radar
+housing/contacts/heading arrows, command-display housing and blank grid, command
+button states, compass tape, targeting animation frames and health/armour bars.
+Unit portrait thumbnails, weapon illustrations, radar opening animation frames,
+and the rest of the game's artwork are outside this pack.
 
 ## Install and use
 
@@ -35,7 +39,7 @@ was compared after compression. Transparent pixels retain their alpha; hidden
 RGB data under zero alpha is normalized before encoding. No JPEG or lossy
 palette conversion is used.
 
-All 516 files passed a native SDL3_image decoding and engine-style surface
+All 844 files passed a native SDL3_image decoding and engine-style surface
 conversion check, with dimensions verified against `native-check.tsv`. This did
 not create a graphics window or test GPU uploads or gameplay. In-game visual and
 input review remains necessary. `manifest.json` records file hashes, exact sizes,

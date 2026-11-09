@@ -126,17 +126,42 @@ def compressed_png(image, iterations):
     return result, len(encoded)
 
 
-def pack(iterations):
+def load_master(path, background=None):
+    image = Image.open(path).convert("RGBA")
+    if background == "magenta":
+        # Decode the generated chroma-key format, as with the source BMPs.
+        # Unmatte antialiased boundaries so magenta cannot fringe the HUD.
+        pixels = []
+        for r, g, b, _ in image.get_flattened_data():
+            alpha = 255 - max(0, min(r, b) - g)
+            if alpha <= 16:
+                pixels.append((0, 0, 0, 0))
+            else:
+                pixels.append((max(0, min(255, round((r - 255 + alpha) * 255 / alpha))),
+                               min(255, round(g * 255 / alpha)),
+                               max(0, min(255, round((b - 255 + alpha) * 255 / alpha))), alpha))
+        image.putdata(pixels)
+    return image
+
+
+def pack(iterations, only=None):
     source = json.loads((ART / "source-manifest.json").read_text())
-    output = []
+    previous = json.loads((PACK / "manifest.json").read_text()) if only else {}
+    by_path = {entry["path"]: entry for entry in previous.get("textures", [])}
+    selected = set(only or [])
+    known = {entry.get("atlas", entry.get("master")) for entry in source["assets"]}
+    if selected - known:
+        raise ValueError(f"Unknown masters: {sorted(selected - known)}")
     masters = {}
     for entry in source["assets"]:
         name = entry.get("atlas", entry.get("master"))
+        if selected and name not in selected:
+            continue
         master_path = ART / "masters" / f"{name}.png"
         if not master_path.is_file():
             raise FileNotFoundError(f"Missing generated master: {master_path}")
         if name not in masters:
-            masters[name] = Image.open(master_path).convert("RGBA")
+            masters[name] = load_master(master_path, entry.get("master_background"))
         master = masters[name]
         if "atlas" in entry:
             ref_size = source["atlases"][name]["size"]
@@ -163,19 +188,29 @@ def pack(iterations):
             destination.parent.mkdir(parents=True, exist_ok=True)
             encoded, standard_size = compressed_png(texture, iterations)
             destination.write_bytes(encoded)
-            output.append({"path": destination.relative_to(PACK).as_posix(),
+            relative = destination.relative_to(PACK).as_posix()
+            by_path[relative] = {"path": relative,
                            "size": size, "scale": scale, "mode": texture.mode,
                            "file_bytes": len(encoded), "before_zopfli_bytes": standard_size,
                            "decoded_rgba_bytes": size[0] * size[1] * 4,
-                           "sha256": sha(encoded), "master": name})
+                           "sha256": sha(encoded), "master": name}
         print(f"Packed {entry['path']}", flush=True)
+    output = []
+    for entry in source["assets"]:
+        path = Path(entry["path"])
+        for scale in (1, 2, 3, 4):
+            suffix = "" if scale == 1 else f"_{scale}x"
+            relative = (path.parent / f"{path.stem}{suffix}.png").as_posix()
+            output.append(by_path[relative])
+    master_report = dict(previous.get("masters", {}))
+    master_report.update({name: {"size": list(im.size), "sha256": sha((ART / 'masters' / f'{name}.png').read_bytes())}
+                          for name, im in masters.items()})
     report = {"asset_count": len(source["assets"]), "texture_count": len(output),
               "compressed_bytes": sum(e["file_bytes"] for e in output),
               "rgba_bytes_all_scales": sum(e["decoded_rgba_bytes"] for e in output),
               "rgba_bytes_by_scale": {str(s): sum(e["decoded_rgba_bytes"] for e in output if e["scale"] == s)
                                       for s in (1, 2, 3, 4)},
-              "masters": {name: {"size": list(im.size), "sha256": sha((ART / 'masters' / f'{name}.png').read_bytes())}
-                          for name, im in masters.items()}, "textures": output}
+              "masters": master_report, "textures": output}
     if report["rgba_bytes_all_scales"] > 64 * 1024 * 1024:
         raise ValueError("Aggregate texture memory budget exceeded")
     (PACK / "manifest.json").write_text(json.dumps(report, indent=2) + "\n")
@@ -189,10 +224,11 @@ if __name__ == "__main__":
     parser.add_argument("command", choices=("prepare", "pack"))
     parser.add_argument("--source", type=Path)
     parser.add_argument("--iterations", type=int, default=15)
+    parser.add_argument("--only", nargs="+", help="Export selected masters, retaining other packaged textures")
     args = parser.parse_args()
     if args.command == "prepare":
         if not args.source:
             parser.error("prepare requires --source")
         prepare(args.source)
     else:
-        pack(args.iterations)
+        pack(args.iterations, args.only)

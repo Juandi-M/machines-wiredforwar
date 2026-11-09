@@ -18,7 +18,9 @@ for asset in manifest["assets"]:
     buffer = io.BytesIO()
     original.save(buffer, format="PNG", optimize=True)
     entries.append({"path": asset["path"], "size": asset["size"],
-                    "group": asset.get("atlas", "emblems" if "/map/" in asset["path"] else "panels"),
+                    "group": asset.get("atlas", asset.get("master")
+                                       if asset.get("master", "").startswith("fp-")
+                                       else "emblems" if "/map/" in asset["path"] else "panels"),
                     "before": "data:image/png;base64," + base64.b64encode(buffer.getvalue()).decode()})
 
 template = r'''<!doctype html><html lang="en"><meta charset="utf-8">
@@ -29,7 +31,7 @@ body{margin:0;background:#15191c;color:#e6edf2;font:16px system-ui}header{positi
 h1{margin:0 0 8px;font-size:23px}p{margin:6px 0;color:#b3c0ca}label{margin-right:18px}select{font:inherit;color:#fff;background:#34434e;border:1px solid #60798b;border-radius:5px;padding:7px;margin:8px}
 main{padding:24px;max-width:1500px;margin:auto}article{margin-bottom:22px;border:1px solid #43505b;border-radius:8px;overflow:auto;background:#242c32}h2{font-size:15px;font-weight:500;padding:13px 18px;margin:0;color:#c4d5e2}
 .pair{display:grid;grid-template-columns:1fr 1fr;min-width:max-content}.item{padding:14px 20px 22px;min-width:290px;display:flex;flex-direction:column;gap:12px}.item span{color:#cbd6df;font-size:13px}.stage{background:#858b8c;display:flex;justify-content:center;align-items:center;padding:12px;min-height:56px}.before{image-rendering:pixelated}img{display:block}
-</style><header><h1>Machines · Faithful HD HUD</h1><p>129 assets · 516 PNG variants · Original layout and dimensions</p>
+</style><header><h1>Machines · Faithful HD HUD</h1><p>__COUNT__ assets · __TEXTURES__ PNG variants · Original layout and dimensions</p>
 <label>Category<select id="group"></select></label><label>UI scale<select id="scale"><option value="1">100%</option><option value="2">200%</option><option value="3">300%</option><option value="4" selected>400%</option></select></label>
 <p>Original pixels and exported HD textures at their actual display sizes. In-game review remains separate.</p></header><main id="assets"></main>
 <script>const assets=__ASSETS__;const group=document.querySelector('#group'),scale=document.querySelector('#scale'),main=document.querySelector('main');
@@ -37,7 +39,9 @@ for(const name of [...new Set(assets.map(a=>a.group))]){const o=new Option(name,
 function render(){main.replaceChildren();const n=+scale.value;for(const a of assets.filter(x=>x.group===group.value)){const article=document.createElement('article'),heading=document.createElement('h2'),pair=document.createElement('div');heading.textContent=a.path;pair.className='pair';article.append(heading,pair);
 for(const hd of [false,true]){const cell=document.createElement('div'),label=document.createElement('span'),stage=document.createElement('div'),image=document.createElement('img');cell.className='item';stage.className='stage';label.textContent=hd?'Faithful HD render':'Original pixels enlarged';image.width=a.size[0]*n;image.height=a.size[1]*n;image.alt=a.path;image.src=hd?'../../mods/faithful-hd-hud/'+a.path.replace(/\.bmp$/,n===1?'.png':'_'+n+'x.png'):a.before;if(!hd)image.className='before';stage.append(image);cell.append(label,stage);pair.append(cell)}main.append(article)}}
 group.onchange=scale.onchange=render;render();</script></html>'''
-(ART / "preview.html").write_text(template.replace("__ASSETS__", json.dumps(entries)), encoding="utf-8")
+(ART / "preview.html").write_text(template.replace("__ASSETS__", json.dumps(entries))
+                                 .replace("__COUNT__", str(len(entries)))
+                                 .replace("__TEXTURES__", str(len(entries) * 4)), encoding="utf-8")
 
 selected = ["gui/misc/return1.bmp", "gui/misc/zenith.bmp", "gui/navigate/red/machines.bmp",
             "gui/navigate/red/construc.bmp", "gui/misc/scrollr.bmp", "gui/commands/move.bmp",
@@ -62,3 +66,31 @@ for relative in selected:
     y += size[1] + 46
 proof.convert("RGB").save(ART / "review-400.png", optimize=True, compress_level=9)
 print("Created art/hd-hud/preview.html and art/hd-hud/review-400.png")
+
+# A separate proof keeps the larger first-person housings at their real 400%
+# size, with enough room in each comparison column to avoid clipping.
+selected = ["gui/misc/tplight1.bmp", "gui/misc/red/inhead.bmp",
+            "gui/fstpersn/command/widget.bmp", "gui/fstpersn/machines/backgrnd.bmp",
+            "gui/fstpersn/command/move_invalid.bmp", "gui/fstpersn/command/follow_invalid.bmp",
+            "gui/fstpersn/command/attack_invalid.bmp", "gui/fstpersn/cursor/targ1.bmp",
+            "gui/fstpersn/cursor/compass.bmp", "gui/fstpersn/radar/rmmap.bmp"]
+if all(path in assets for path in selected):
+    height = sum(assets[p]["size"][1] * 4 + 46 for p in selected) + 52
+    proof = Image.new("RGBA", (2200, height), (133, 139, 140, 255))
+    draw = ImageDraw.Draw(proof)
+    draw.text((20, 12), "Original pixels at 400%", font=font, fill="black")
+    draw.text((1120, 12), "New exported textures at 400%", font=font, fill="black")
+    y = 52
+    for relative in selected:
+        size = tuple(n * 4 for n in assets[relative]["size"])
+        original = Image.open(io.BytesIO(base64.b64decode(
+            next(a for a in entries if a["path"] == relative)["before"].split(",")[1]
+        ))).resize(size, Image.Resampling.NEAREST)
+        path = Path(relative)
+        new = Image.open(PACK / path.parent / f"{path.stem}_4x.png").convert("RGBA")
+        for x, image in ((20, original), (1120, new)):
+            draw.text((x, y), relative, font=font, fill="black")
+            proof.alpha_composite(image, (x, y + 30))
+        y += size[1] + 46
+    proof.convert("RGB").save(ART / "review-first-person-400.png", optimize=True)
+    print("Created art/hd-hud/review-first-person-400.png")

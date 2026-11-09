@@ -2003,7 +2003,8 @@
         448,
         200
       ],
-      "source_sha256": "e42ed2619c3589cea35e15ef5b4cc8aa5e63a7d4cf8fd39c715879e7ca9627b0"
+      "source_sha256": "e42ed2619c3589cea35e15ef5b4cc8aa5e63a7d4cf8fd39c715879e7ca9627b0",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/command/move_valid.bmp",
@@ -2018,7 +2019,8 @@
         960,
         200
       ],
-      "source_sha256": "fec08278279faae0583c61aa59563ac76a66f9e9e340b23ccf77d6ef6100a771"
+      "source_sha256": "fec08278279faae0583c61aa59563ac76a66f9e9e340b23ccf77d6ef6100a771",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/command/move_activate.bmp",
@@ -2033,7 +2035,8 @@
         1472,
         200
       ],
-      "source_sha256": "d33e1607b693b18214539570cfc92ba13aadf7de6780911306513d55961b92fc"
+      "source_sha256": "d33e1607b693b18214539570cfc92ba13aadf7de6780911306513d55961b92fc",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/command/follow_invalid.bmp",
@@ -2048,7 +2051,8 @@
         448,
         456
       ],
-      "source_sha256": "e7073ee2ec1dfceb93993fb5e914731f556a2e27d03c970984cb21a17cb391ae"
+      "source_sha256": "e7073ee2ec1dfceb93993fb5e914731f556a2e27d03c970984cb21a17cb391ae",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/command/follow_valid.bmp",
@@ -2063,7 +2067,8 @@
         960,
         456
       ],
-      "source_sha256": "17b97d016dbab697b035b3352ea5aace8124d968baf53a41ea117c9f39da75b5"
+      "source_sha256": "17b97d016dbab697b035b3352ea5aace8124d968baf53a41ea117c9f39da75b5",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/command/follow_activate.bmp",
@@ -2078,7 +2083,8 @@
         1472,
         456
       ],
-      "source_sha256": "258144239cbe38086db47b91324a71da2790b2acba6e9d44eb18346368056c4a"
+      "source_sha256": "258144239cbe38086db47b91324a71da2790b2acba6e9d44eb18346368056c4a",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/command/attack_invalid.bmp",
@@ -2093,7 +2099,8 @@
         448,
         712
       ],
-      "source_sha256": "1a24c8ebd63270e722f27eeecf1767b0e7c1607f90480f383b75faaf10c08ae5"
+      "source_sha256": "1a24c8ebd63270e722f27eeecf1767b0e7c1607f90480f383b75faaf10c08ae5",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/command/attack_valid.bmp",
@@ -2108,7 +2115,8 @@
         960,
         712
       ],
-      "source_sha256": "77b84f0e87156052287e920d59ed061dfd54f072519549f5086031946c326f72"
+      "source_sha256": "77b84f0e87156052287e920d59ed061dfd54f072519549f5086031946c326f72",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/command/attack_activate.bmp",
@@ -2123,7 +2131,8 @@
         1472,
         712
       ],
-      "source_sha256": "c5e98efaf3e655807e9d7ebdb598ac0e82b3e08aa9ed8efcffbd45c544308eff"
+      "source_sha256": "c5e98efaf3e655807e9d7ebdb598ac0e82b3e08aa9ed8efcffbd45c544308eff",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/ping1.bmp",
@@ -2138,7 +2147,8 @@
         238,
         259
       ],
-      "source_sha256": "c3f8ff3691e8142fd97555d520ba42f9becf9dd01d7c53fe27450c3ab76c103b"
+      "source_sha256": "c3f8ff3691e8142fd97555d520ba42f9becf9dd01d7c53fe27450c3ab76c103b",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/ping2.bmp",
@@ -2153,7 +2163,8 @@
         510,
         259
       ],
-      "source_sha256": "7bb28f0edbc8fed62ae3afabed7133b0c6f836824c672ad1869216894c4d6374"
+      "source_sha256": "7bb28f0edbc8fed62ae3afabed7133b0c6f836824c672ad1869216894c4d6374",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/ping3.bmp",
@@ -2168,7 +2179,8 @@
         782,
         259
       ],
-      "source_sha256": "f3d2af8e5b4c77a97d02a56cf796b3f29becfba7474fb0dcea5f310624728916"
+      "source_sha256": "f3d2af8e5b4c77a97d02a56cf796b3f29becfba7474fb0dcea5f310624728916",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/ping4.bmp",
@@ -2183,7 +2195,8 @@
         1054,
         259
       ],
-      "source_sha256": "ae6448b3a996bafb9e337740f1456c65c293722e07b291c6950efae5f0675957"
+      "source_sha256": "ae6448b3a996bafb9e337740f1456c65c293722e07b291c6950efae5f0675957",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/ping5.bmp",
@@ -2198,7 +2211,8 @@
         1326,
         259
       ],
-      "source_sha256": "cac79588357334e483c5661cc2584c3555f396f54dd271e60ed3271c47198f58"
+      "source_sha256": "cac79588357334e483c5661cc2584c3555f396f54dd271e60ed3271c47198f58",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/ping6.bmp",
@@ -2213,7 +2227,8 @@
         238,
         555
       ],
-      "source_sha256": "8e800b3dcfcf97e990048903b0a13b2a065935a4192c7674c35f933063fccdee"
+      "source_sha256": "8e800b3dcfcf97e990048903b0a13b2a065935a4192c7674c35f933063fccdee",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/ping7.bmp",
@@ -2228,7 +2243,8 @@
         510,
         555
       ],
-      "source_sha256": "59d52a224e5f6125b446fe15d37289a24ccd2b79150bc78e37279a7f56fcb96f"
+      "source_sha256": "59d52a224e5f6125b446fe15d37289a24ccd2b79150bc78e37279a7f56fcb96f",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targ1.bmp",
@@ -2243,7 +2259,8 @@
         782,
         555
       ],
-      "source_sha256": "a4c203d888b24410159cb46512ffed6b8c4150fba7b96069559f1a3b0dfa980a"
+      "source_sha256": "a4c203d888b24410159cb46512ffed6b8c4150fba7b96069559f1a3b0dfa980a",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targ2.bmp",
@@ -2258,7 +2275,8 @@
         1054,
         555
       ],
-      "source_sha256": "8f0244366aada04e667c4be8eaa66a3062dfe107d0c9c95b8aaa04981654961e"
+      "source_sha256": "8f0244366aada04e667c4be8eaa66a3062dfe107d0c9c95b8aaa04981654961e",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targ3.bmp",
@@ -2273,7 +2291,8 @@
         1326,
         555
       ],
-      "source_sha256": "6ebce412e28941e7b55d72c514e30e6bb2ceed4b099cb9bc5d22b0ab57a92c44"
+      "source_sha256": "6ebce412e28941e7b55d72c514e30e6bb2ceed4b099cb9bc5d22b0ab57a92c44",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targ4.bmp",
@@ -2288,7 +2307,8 @@
         238,
         851
       ],
-      "source_sha256": "383dee69b1ed5fd677ebb3b45d02aa71f9690c2538c67249b2180d0f9df9e561"
+      "source_sha256": "383dee69b1ed5fd677ebb3b45d02aa71f9690c2538c67249b2180d0f9df9e561",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targ5.bmp",
@@ -2303,7 +2323,8 @@
         510,
         851
       ],
-      "source_sha256": "ca700df6fdd46eeac28626d26ab02e993ad935ceec8e4ee8ddf1db11bf4dead5"
+      "source_sha256": "ca700df6fdd46eeac28626d26ab02e993ad935ceec8e4ee8ddf1db11bf4dead5",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targ6.bmp",
@@ -2318,7 +2339,8 @@
         782,
         851
       ],
-      "source_sha256": "d43cf8640a90f3ff0329df2c8c38556966874682480e0525d3badf12e7fd0aff"
+      "source_sha256": "d43cf8640a90f3ff0329df2c8c38556966874682480e0525d3badf12e7fd0aff",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targ7.bmp",
@@ -2333,7 +2355,8 @@
         1054,
         851
       ],
-      "source_sha256": "1550beac1f35ea1977047aa12745345d4ca2caa2f4acb9c18b29237005135814"
+      "source_sha256": "1550beac1f35ea1977047aa12745345d4ca2caa2f4acb9c18b29237005135814",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targ8.bmp",
@@ -2348,7 +2371,8 @@
         1326,
         851
       ],
-      "source_sha256": "dc2b4407f290d33cac3a8ec831730a3da794872e18a57a3a6c62fc7b84acfa14"
+      "source_sha256": "dc2b4407f290d33cac3a8ec831730a3da794872e18a57a3a6c62fc7b84acfa14",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targnv1.bmp",
@@ -2363,7 +2387,8 @@
         238,
         1147
       ],
-      "source_sha256": "4bc73bbbe025cb82f2049c625eed375e6ee2579f472e31917c525fdbc02fc651"
+      "source_sha256": "4bc73bbbe025cb82f2049c625eed375e6ee2579f472e31917c525fdbc02fc651",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targnv2.bmp",
@@ -2378,7 +2403,8 @@
         510,
         1147
       ],
-      "source_sha256": "2893cafa788e64f18ae773b0e9523793b5930c8b3bb64eddb5ad8cff1f428dd7"
+      "source_sha256": "2893cafa788e64f18ae773b0e9523793b5930c8b3bb64eddb5ad8cff1f428dd7",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targv1.bmp",
@@ -2393,7 +2419,8 @@
         782,
         1147
       ],
-      "source_sha256": "d383437253f49496638f7097ca9e18845f28f09c5af51e188997e0d62b54f656"
+      "source_sha256": "d383437253f49496638f7097ca9e18845f28f09c5af51e188997e0d62b54f656",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/cursor/targv2.bmp",
@@ -2408,7 +2435,8 @@
         1054,
         1147
       ],
-      "source_sha256": "e2a6c42700ecfc034ebca0dcc3ade96a3e50944835602be5d3e0c77ea2d45853"
+      "source_sha256": "e2a6c42700ecfc034ebca0dcc3ade96a3e50944835602be5d3e0c77ea2d45853",
+      "master_background": "magenta"
     },
     {
       "path": "gui/fstpersn/radar/rhealth.bmp",
@@ -2585,7 +2613,568 @@
         1984,
         420
       ],
-      "source_sha256": "771955b4547e0d6c73640167da050d17b873548d1ffe34e1c67d525c7e69081c"
+      "source_sha256": "771955b4547e0d6c73640167da050d17b873548d1ffe34e1c67d525c7e69081c",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point1.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        28,
+        28,
+        228,
+        228
+      ],
+      "source_sha256": "a98aa53ae0c166e07919bb86ec75b68886bf16127f5dff4c5d6186db03c5a2c7",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point2.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        284,
+        28,
+        484,
+        228
+      ],
+      "source_sha256": "0c84d47c9f13b6558e75c11029d03a5f5b80e24f885505d347cfebcf73e9adb4",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point3.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        540,
+        28,
+        740,
+        228
+      ],
+      "source_sha256": "ee34212bfc415042fbff50f6433803cdcf1b6ac7098c1f225f4bce937c836045",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point4.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        796,
+        28,
+        996,
+        228
+      ],
+      "source_sha256": "c4b5f6073d403e99db39f895e5b69c2161cc7404fc35409afd5fbfa229728d77",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point5.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        28,
+        284,
+        228,
+        484
+      ],
+      "source_sha256": "2d90acd897b377e74c21c6738a71c5f0bdddad32dd54e88cc614f6f1f2ff4dc2",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point6.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        284,
+        284,
+        484,
+        484
+      ],
+      "source_sha256": "c985bb035f28f1ebe571e88cb1bb371369e8fdd8e973ad4b55804e6d2a0d718e",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point7.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        540,
+        284,
+        740,
+        484
+      ],
+      "source_sha256": "ad49e08b7b0e6cc50906a5d35ec29f2a816174b545a61c4a2ff3540e501cdf25",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point8.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        796,
+        284,
+        996,
+        484
+      ],
+      "source_sha256": "61affde92cf28c17589b40c337b5da36693f62c93e4af78d4a3991edf7a556dd",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point9.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        28,
+        540,
+        228,
+        740
+      ],
+      "source_sha256": "d1aff0f3a1203970cdfa80c46cf586e58ae61d9698adde8181a41e1b2a6f7ad5",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point10.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        284,
+        540,
+        484,
+        740
+      ],
+      "source_sha256": "e3cfb102f9e0d8c25b4b5208915bddda4a06329d73e4737e89b9f76b5ce786c8",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point11.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        540,
+        540,
+        740,
+        740
+      ],
+      "source_sha256": "5a6f8ca279af18d3be1a9447ed744c10f2ea2ddfb4fe955edfbec556b2dc8d35",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point12.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        796,
+        540,
+        996,
+        740
+      ],
+      "source_sha256": "300d41715db857fc5434cb4b57bcefcd5bd20f2b75e1e0bc8334908278383893",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point13.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        28,
+        796,
+        228,
+        996
+      ],
+      "source_sha256": "0950e072c724e726fc861b484caed1dabea0a277b37da36f614ba87df5c1590b",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point14.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        284,
+        796,
+        484,
+        996
+      ],
+      "source_sha256": "aa9089e8434d9ef433a8ff4ec7c1e7d723f5f75a304c2752d440cf8b83510504",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point15.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        540,
+        796,
+        740,
+        996
+      ],
+      "source_sha256": "21cce054daddfc13a3a0ca6a51f4e257b4bdb0466ba10ffa18447d5e734d33b1",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/arrow/point16.bmp",
+      "size": [
+        40,
+        40
+      ],
+      "atlas": "fp-radar-arrows",
+      "rect": [
+        796,
+        796,
+        996,
+        996
+      ],
+      "source_sha256": "5f21c50364433c65d078832076d067fddc3ebe5ce90af7d1e91631917cad86a7",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/artefact.bmp",
+      "size": [
+        6,
+        5
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        80,
+        88,
+        176,
+        168
+      ],
+      "source_sha256": "bfa8313b7e936405a8d4b78d2eed4710cfc07364ea7f6ed49d3fc7f740a43eca",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/bconspix.bmp",
+      "size": [
+        8,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        320,
+        64,
+        448,
+        192
+      ],
+      "source_sha256": "46d5b44b7eb4923d1207c97dee29184a3713abba5a18fe6884c2735452fc1b46",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/bmachpix.bmp",
+      "size": [
+        9,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        568,
+        64,
+        712,
+        192
+      ],
+      "source_sha256": "cdbcb87f33e3dd2361db904f5ee1a10826abe03623aa0cdee541cd623352f60d",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/bmisspix.bmp",
+      "size": [
+        8,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        832,
+        64,
+        960,
+        192
+      ],
+      "source_sha256": "0683a958175f49e7c6b00cdb3b1b37cf5bf04e612b5002b17939cf25ae7c54d4",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/bpodpix.bmp",
+      "size": [
+        10,
+        10
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        1072,
+        48,
+        1232,
+        208
+      ],
+      "source_sha256": "82b5dd466a63c9f291ab365135e9fe14152aedab95ee1ff56f62e9f81378fa32",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/debris.bmp",
+      "size": [
+        6,
+        4
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        80,
+        352,
+        176,
+        416
+      ],
+      "source_sha256": "b27e48d99accceb004e06c312781516ea0e5606cf7337f0471bfaca6127e3687",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/gconspix.bmp",
+      "size": [
+        8,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        320,
+        320,
+        448,
+        448
+      ],
+      "source_sha256": "5c1771b201340070d26b3177fbbadcff3e6c5b49c9e80f775af96c8d0bd8c7ab",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/gmachpix.bmp",
+      "size": [
+        9,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        568,
+        320,
+        712,
+        448
+      ],
+      "source_sha256": "269b04108c85ba5d04d9e3266f5bc879edfef80c4c483edcdd6faa6fbe1cd782",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/gmisspix.bmp",
+      "size": [
+        8,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        832,
+        320,
+        960,
+        448
+      ],
+      "source_sha256": "ef330a8b43c869de31752146ebc04180d8f017ace494a3766a4caa2cc6df3f25",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/gpodpix.bmp",
+      "size": [
+        10,
+        10
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        1072,
+        304,
+        1232,
+        464
+      ],
+      "source_sha256": "db13a6a8c0eee9d0c2b3e610dff7219716ebe0dd449a6cd71e04c425b48363ad",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/ore.bmp",
+      "size": [
+        7,
+        4
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        72,
+        608,
+        184,
+        672
+      ],
+      "source_sha256": "11f2a341480d5a1ef1dcf67e8fe5cfe85241f3e17d5098245b7440d805e11e08",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/rconspix.bmp",
+      "size": [
+        8,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        320,
+        576,
+        448,
+        704
+      ],
+      "source_sha256": "2ddaf32f6175f81ec073b535a10394d2290cd78da43924a60e4bfd5d134fdbc3",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/rmachpix.bmp",
+      "size": [
+        9,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        568,
+        576,
+        712,
+        704
+      ],
+      "source_sha256": "72c9ba821f10e1a214592037bdcd8edc6484265569d157b0ed071088879b06dd",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/rmisspix.bmp",
+      "size": [
+        8,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        832,
+        576,
+        960,
+        704
+      ],
+      "source_sha256": "d5e076624bf25c1eb8bd5571522de3ecae2bb9f84f63183f8224b0255a9778af",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/rpodpix.bmp",
+      "size": [
+        10,
+        10
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        1072,
+        560,
+        1232,
+        720
+      ],
+      "source_sha256": "8b98e3d20a204896ee8f090aeeaa0f459ab203d9ed5b2d146da62118824b14a7",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/yconspix.bmp",
+      "size": [
+        8,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        64,
+        832,
+        192,
+        960
+      ],
+      "source_sha256": "89acf972a1a6c24cf9cc22dd049ebdfa91055aa92d23f332e4fff151dff74cfe",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/ymachpix.bmp",
+      "size": [
+        9,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        312,
+        832,
+        456,
+        960
+      ],
+      "source_sha256": "2f579d63de9f670abc81e93d02764015b88ce4543fc96a7b5e549b3e743058e7",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/ymisspix.bmp",
+      "size": [
+        8,
+        8
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        576,
+        832,
+        704,
+        960
+      ],
+      "source_sha256": "bef8f988b9c8e4c7f3a82f3966c11aa607d96696a2e8fd208b1e59aaf1b8da08",
+      "master_background": "magenta"
+    },
+    {
+      "path": "gui/fstpersn/radar/blips/ypodpix.bmp",
+      "size": [
+        10,
+        10
+      ],
+      "atlas": "fp-radar-blips",
+      "rect": [
+        816,
+        816,
+        976,
+        976
+      ],
+      "source_sha256": "73f927b882483e49f39b222899ad0cd55c4fc462dc3b8b5842db26d37b272b89",
+      "master_background": "magenta"
     }
   ],
   "atlases": {
@@ -2764,6 +3353,32 @@
         768
       ],
       "count": 1
+    },
+    "fp-radar-arrows": {
+      "size": [
+        1024,
+        1024
+      ],
+      "columns": 4,
+      "rows": 4,
+      "cell": [
+        256,
+        256
+      ],
+      "count": 16
+    },
+    "fp-radar-blips": {
+      "size": [
+        1280,
+        1024
+      ],
+      "columns": 5,
+      "rows": 4,
+      "cell": [
+        256,
+        256
+      ],
+      "count": 19
     }
   }
 }

@@ -13,6 +13,11 @@ def prepare():
     manifest = json.loads(manifest_path.read_text())
     source = Path(manifest["source"])
     groups = {
+        "fp-radar-arrows": ([f"gui/fstpersn/radar/arrow/point{i}.bmp" for i in range(1, 17)],
+                            4, (256, 256), 5),
+        "fp-radar-blips": ([p.relative_to(source).as_posix() for p in
+                           sorted((source / "gui/fstpersn/radar/blips").glob("*.bmp"))],
+                          5, (256, 256), 16),
         "fp-compass": (["gui/fstpersn/cursor/compass.bmp"], 1, (2048, 768), 8),
         "panel-extras": (["gui/misc/tplight1.bmp", "gui/misc/tplight2.bmp"]
                          + [f"gui/misc/{race}/inhead.bmp" for race in
@@ -48,6 +53,9 @@ def prepare():
             entry = {"path": relative, "size": original_size,
                      "atlas": name, "rect": [x, y, x + w, y + h],
                      "source_sha256": sha(path.read_bytes())}
+            if name in ("fp-command-labels", "fp-reticles", "fp-compass",
+                        "fp-radar-arrows", "fp-radar-blips"):
+                entry["master_background"] = "magenta"
             if relative not in existing:
                 manifest["assets"].append(entry)
                 additions.append(relative)

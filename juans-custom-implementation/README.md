@@ -24,6 +24,7 @@ documentation folder itself is not another nested Git repository.
 - [Separate experiment clone, loading scaling, and robot audio](docs/migration/0010-loading-screen-and-separated-experiments.md)
 - [Personal HD HUD artwork and packaging](docs/migration/0011-faithful-hd-hud.md)
 - [Local commits and the personal dev branch](docs/migration/0012-local-dev-checkpoint.md)
+- [Additional panel and first-person HUD artwork](../art/hd-hud/EXTENSION_STATUS.md)
 
 ## Current evidence
 
@@ -46,6 +47,10 @@ native SDL image decoding/conversion. Its separate runtime at
 shared test at 400%, the user confirmed that the new artwork appears and the
 controls work. The separate menu-bug report is still pending. See the
 [HD HUD record](docs/migration/0011-faithful-hd-hud.md).
+An additional 82 shared panel/first-person assets are now exported, bringing the
+pack to 211 assets and 844 scale variants. Native image conversion passed for
+all 844; the new extension has not yet been tested interactively. Robot/model
+portraits remain unchanged. See the [extension record](../art/hd-hud/EXTENSION_STATUS.md).
 Vulkan has not been implemented in either checkout.
 
 Runtime paths in these records belong to the community checkout unless stated

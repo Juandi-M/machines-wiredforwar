@@ -3,17 +3,17 @@
 This is the editable/provenance side of the personal HD HUD experiment. The
 engine receives only `mods/faithful-hd-hud/gui/**/*.png`, not these large masters.
 
-The first-person HUD extension is currently being prepared. Its source manifest
-contains additional entries whose masters are not all ready; see
-[extension status](EXTENSION_STATUS.md) before running a full export. The saved
-129-asset/516-texture runtime pack remains the completed, tested version.
+The first-person HUD extension is exported and checked: 211 source assets and
+844 PNG variants in total, including 82 additions from the five supplied photos.
+See [extension status](EXTENSION_STATUS.md) for scope and validation limits.
 
-- `masters/`: the 15 completed HUD masters, saved extension masters, and exact render prompts.
+- `masters/`: 25 saved HUD masters and their exact render prompts.
 - `references/`: source images and prepared sprite sheets used for generation.
 - `source-manifest.json`: original paths, dimensions, SHA-256, and atlas crop rectangles.
 - `requirements.txt`: pinned export-tool dependencies.
 - `preview.html`: offline review page with 100–400% selection and original/HD comparisons.
 - `review-400.png`: a representative exported-texture comparison on a gray backing.
+- `review-first-person-400.png`: the new panel and first-person comparisons.
 
 The built-in image-generation tool rendered the artwork from the original
 references. No CLI model/API fallback was used. The original generated files are
@@ -40,6 +40,9 @@ py -3 -m venv build/asset-tools
 
 `prepare --source <game-runtime>` rebuilds references and the source manifest from
 the original installed assets; it does not regenerate the master artwork.
+Run `scripts/extend_hd_hud.py` after `prepare` to add the shared first-person
+references before exporting. The final line-art masters use a magenta-keyed
+format; the exporter decodes that to clean RGBA before lossless PNG compression.
 
 ## Native image-loader check
 
