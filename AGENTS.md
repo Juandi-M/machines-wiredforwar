@@ -1,193 +1,89 @@
-# Working agreement for Juan's Machines project
+# Working agreement for Juan's Machines workspace
 
-## Purpose and two working copies
+## Current layout: two project folders
 
-We have two distinct workstreams, intended to run in separate working copies:
+Workspace: `C:/Users/juanm/OneDrive/Documents/github/machines-wiredforwar`.
+The user's explicit two-folder choice on 2026-11-09 supersedes older layouts.
 
-| Copy | Purpose | Branch convention |
-| --- | --- | --- |
-| Upstream contribution copy | Focused fixes, features, tests, and documentation suitable for WiredForWar/machines. | `upstream/<topic>` |
-| Juan's experimental copy | Our Vulkan port, architecture experiments, preservation work, and project-specific documentation. | Local `dev` |
+- `project/` contains all community game source, build files and contribution
+  work. It is tracked by the OUTER repository. The outer `.git` remains at the
+  workspace root on `upstream/display-scaling-preferences`.
+- `experiment/` contains the full personal project, HD artwork, export tools,
+  documentation, stages, roadmap, architecture and migration records. It keeps
+  its own `.git`, local branch `dev`, and no remote. The outer `.gitignore`
+  ignores the ENTIRE folder, including its Git metadata.
+- Root files `README.md`, `AGENTS.md`, and `.gitignore` explain the workspace.
+  Do not put another game source tree or documentation collection at the root.
+- Do not recreate `local-experiments`, `machines-game-experiment`, or
+  `machines-juan-experiments`. Historical records keep former paths as evidence.
 
-Use descriptive project names for branches and contributions. Do not add tool or
-AI-provider branding to branch names, commit messages, or contribution prose.
+Use `git -C` with the intended absolute repository path. Contribution Git
+commands target the outer workspace; experimental Git commands target
+`.../machines-wiredforwar/experiment`. `project/` is not another Git repository
+or submodule. Do not force-add `experiment/` to the outer repository.
 
-Keep their code changes, commits, pushes, runtime state, and PRs separate.
-An experimental change is not automatically an upstream contribution.
+## Source, remotes, and publication
 
-**Current physical setup:** two independent clones live under
-`C:/Users/juanm/OneDrive/Documents/github/`:
+Outer remotes:
+- `origin`: `https://github.com/Juandi-M/machines-wiredforwar.git`.
+- `upstream`: `https://github.com/WiredForWar/machines.git`; read-only unless
+  the user explicitly requests a direct upstream push.
 
-- `machines-wiredforwar`: this upstream contribution checkout, currently on
-  `upstream/display-scaling-preferences`.
-- `machines-juan-experiments`: the personal experiment checkout, initially on
-  `experiment/ground-zero`, based on upstream `dev` at `104862d6`; ongoing personal
-  work now uses local `dev` at the user's request. Earlier experiment branches
-  remain as historical references.
+Use descriptive contribution branches such as `upstream/<topic>`. Preserve
+existing changes and check the intended repository, branch and status before
+editing. Concurrent tasks must not edit the same files; do not create workers
+or additional repositories without a request.
 
-Both use Juan's fork as `origin` and WiredForWar/machines as `upstream`, with the
-URLs below. The experimental clone contains the authoritative private documents
-in `juans-custom-implementation/`. The user requested this move; all 20 files
-were verified by SHA-256 after moving. Community changes and existing runtimes
-remain in this checkout. The personal HD HUD experiment now has an isolated
-runtime under its own `build/hd-hud/play/machines`, deliberately reusing the
-community native executable `d321a22c...` and copied base assets. Configuration,
-saves, logs, generated artwork, and its image-checker build remain separate.
-No community source patches were copied into that clone. Do not
-recreate or clean up the retired `machines-game-experiment` workspace.
+Before commits, inspect the staged diff and file list. Stage specific paths,
+keep runtime binaries, downloaded assets, caches and build outputs ignored,
+and describe the change and actual validation. Before pushes, verify the URL,
+source/destination branches and commits. Do not push, merge, force-push or
+rewrite shared history without authorization for that action and destination.
 
-When provisioning the experimental copy, use a separate clone or managed
-worktree outside this checkout. Do not put another Git repository inside this
-one. Update this setup section with its actual path, branch, and remotes. Do not
-move the existing documents or change their authoritative location silently.
+The outer repository now stores community files under the `project/` prefix.
+This local workspace reorganization is not an upstream game contribution.
+Extract selected changes into upstream's normal layout and revalidate before
+preparing a community PR. Keep private artwork, roadmap, migration history,
+and working agreements out of upstream PRs unless directly relevant.
 
-## Identify the destination before changing anything
+`experiment/` has no push destination. Its local commits preserve its work but
+are not uploaded by outer commits or pushes. Do not configure a remote without
+an explicit request. Promote selected source changes into `project/`
+deliberately; never overwrite the entire contribution project with experiments.
 
-- Determine whether the task is an upstream contribution, a private experiment,
-  or shared planning/documentation. If unclear, perform useful read-only work
-  and clarify the destination before mixing implementation changes.
-- Check the working directory, `git status --short`, current branch, remotes,
-  and the intended base commit. Inspect existing changes and preserve unrelated
-  work. A folder name alone does not prove which repository or branch is active.
-- Create topic branches from the appropriate base. The upstream default branch
-  is currently `dev`; verify that when starting a new contribution.
-- Keep game implementation out of shared/default branches. Keep one topic per
-  contribution branch and record the starting upstream revision for experiments.
-- Give parallel tasks separate working copies and branches. Do not let two
-  workers edit the same checkout concurrently. These workstreams do not by
-  themselves request sub-agents or authorize starting other workers.
+## Documents and agreed goals
 
-## Remotes, commits, and pushes
-
-Current remotes:
-
-- `origin`: `https://github.com/Juandi-M/machines-wiredforwar.git` — Juan's fork.
-- `upstream`: `https://github.com/WiredForWar/machines.git` — community project.
-
-Before every commit, inspect the complete staged diff and its file list. Stage
-specific paths; do not use a blanket `git add .` or `git add -A` when the checkout
-contains unrelated work, private documents, or experiments. Keep commits focused
-and independently understandable. Use a concrete subject describing the change;
-explain the reason and material validation in the body when useful. Do not put
-generated logs, downloaded assets, executables, DLLs, build outputs, debug
-symbols, or local caches into source commits.
-
-Before every push, verify the repository URL, local branch, remote branch, and
-commits being published. Push explicitly to the named topic branch on Juan's
-`origin`. Treat `upstream` as read-only unless the user explicitly requests a
-direct upstream push and access is available. Do not force-push, merge a PR,
-rewrite shared history, or update shared/default branches without specific
-authorization.
-
-User authorization to commit, push, or open a PR applies to the stated scope and
-destination; do not repeatedly request it. A request to investigate, build, fix,
-or write documentation alone does not request publication. Complete the local
-work and relevant checks so any requested review concerns a concrete result.
-
-## Upstream contributions and PR contents
-
-- Base an upstream contribution on the appropriate upstream branch. Keep our
-  private Vulkan work, project roadmap, migration diary, this local working
-  agreement, and unrelated changes out of the upstream PR by default.
-- Follow upstream's current contribution instructions, conventions, supported
-  build paths, and relevant tests. Inspect any PR template before writing the PR.
-- Check the full PR diff against its intended base, not just the last commit.
-  Review both file names and commit history for accidental experimental content.
-- Public documentation directly explaining the contributed behavior belongs
-  with the contribution, using upstream's existing locations and style.
-
-Each PR description should provide the information relevant to that change:
-
-1. The problem and reproduction steps, linked issue, or reason for the feature.
-2. The resulting behavior, approach, and important tradeoffs.
-3. Validation actually performed: commands, results, and relevant environment
-   details, including source/data revisions or toolchain when they matter.
-4. Known limitations, untested cases, and compatibility or behavior changes.
-5. Before/after screenshots or a short capture for visual changes, when useful;
-   concise reproduction instructions for timing, audio, or multiplayer changes.
-
-Scale this to the change. A small fix needs a short clear description, not a
-ceremony. Do not claim a build, automated test, manual play test, or comparison
-passed unless it actually did. Distinguish assistant observations from user
-reports. Avoid uploading raw private logs, personal paths, credentials, or
-unrelated screenshots. Opening a PR does not authorize posting other messages
-or contacting maintainers through another channel.
-
-## Our documentation and experiments
-
-Our authoritative project documentation is in the sibling experimental clone,
-under `../machines-juan-experiments/juans-custom-implementation/docs/`, indexed by
-`../machines-juan-experiments/juans-custom-implementation/README.md`:
-
-- `PROJECT_BRIEF.md`: purpose, problem, scope, preservation policy, open decisions.
-- `ROADMAP.md`: stages, intended outcomes, and acceptance criteria.
-- `ARCHITECTURE.md`: current design, proposed boundaries, and technical decisions.
-- `guides/`: reproducible build, setup, testing, and maintenance procedures.
-- `migration/`: changes, rationale, alternatives, provenance, evidence, and lessons.
-
-Keep documents synchronized when their subject changes. Separate historical
-results from current facts and proposed work. The imported two-source-tree and
-2020-port notes describe the retired experiment; they are not current setup
-instructions. Do not copy them into an upstream PR as evidence for another build.
-
-For a meaningful experiment, record what changed, why, the base revision and
-relevant dependencies/assets/settings, how it was checked, and what remains
-uncertain. Keep raw/generated artifacts in ignored local build directories and
-summarize useful findings in the documentation. Do not require a separate report
-for every trivial edit.
-
-Our agreed stages remain:
-
+The authoritative index is `experiment/juans-custom-implementation/README.md`.
+Its `docs/ROADMAP.md`, `docs/PROJECT_BRIEF.md`, and `docs/ARCHITECTURE.md` retain
+all plans and decisions. The agreed stages are:
 1. The whole game playable on Windows 11 with Vulkan, including multiplayer;
    known bugs are allowed, missing functionality is not.
-2. Stable behavior faithful to the 1999 retail experience. Preserve inherited
-   retail quirks by default; fix our regressions and document uncertain origins.
-3. Modern C++, dependencies, and architecture while preserving that experience.
+2. Faithful stabilization: preserve inherited retail behavior, fix migration
+   regressions, and document uncertain cases.
+3. Modernize C++, dependencies and architecture while preserving the experience.
 
-The community fork intentionally contains changes beyond retail behavior.
-Distinguish those from our changes and from verified retail quirks. Its OpenGL
-play test passes an initial ground-zero checkpoint, not stage one. Native
-Windows source compilation has also passed; complete feature coverage remains
-a separate check.
+The OpenGL build is ground zero, not completion of Vulkan. The requested HD pack
+is at `experiment/mods/faithful-hd-hud/`, with 844 textures and 25 masters under
+`experiment/art/hd-hud/`. Only the initial 516 textures were user-tested; the
+full extension still requires interactive review. Never invent test results.
 
-## Reusing changes between copies
+## Native Windows work and preservation
 
-Transfer only deliberately selected changes. Prefer focused, attributable
-commits over copying a whole source tree or merging all experimental history
-into an upstream contribution. Revalidate a fix in the receiving copy and
-record its source commit. Rework or extract an experimental change onto a clean
-upstream topic branch before proposing it publicly.
+Build from `project/` or `experiment/` using native Windows C++ tools. Do not use
+Docker or WSL unless explicitly requested. Builds stay under each project's
+`build/`. Moved CMake caches contain historical absolute source paths; configure
+fresh build directories rather than reusing them.
 
-Use separate build directories and writable runtime folders, configurations,
-saves, mods, and logs for the two copies. Do not reuse a CMake cache across
-working copies; it contains absolute paths. Shared immutable asset archives are
-fine, but concurrent tests must not share writable game state.
+Do not launch the game, control the screen or change display state without
+session authorization and a check for active local runners. Stop when the user
+stops automation or takes over. File reorganization does not require a launch.
 
-## Running and cleaning up
+Preserve source, artwork, working runtimes, settings, saves and Git metadata.
+Recovery archives and manifests are under
+`project/build/consolidation/2026-11-09/`; the two-folder checkpoint is in
+`two-folder-layout/`. Verify exact resolved paths before recursive moves or
+deletion, preserve unique work first, and never erase experiments with git clean.
 
-Use a native Windows C++ toolchain for this project. Do not use Docker or WSL
-for builds, tests, or dependency installation unless the user explicitly requests
-that approach. Install and maintain the native tools within the authorized task
-scope; discuss a different build environment before introducing it.
-
-Do not launch an interactive game, take screen control, or change display state
-without the user's authorization for that test session. Establish whether local
-runners are active before an interactive test; once the user confirms the test
-is authorized and runners are off, proceed within that scope without asking
-again. Stop screen automation immediately if the user stops it, and yield when
-they take over the controls. A documentation task does not require launching.
-
-Preserve the known working runtime and required game files during cleanup.
-Verify resolved paths before recursive deletion or moving, and keep operations
-inside the named workspace. Remove only task-owned containers/images; never
-globally prune shared Docker resources, caches, or volumes. If an action is
-blocked, report it accurately and use only permitted safer alternatives; do not
-claim quarantined files were permanently deleted. The Windows game runs without
-Docker; the source still supports Docker as one build option.
-
-## Handoff
-
-State which copy and branch changed, what changed and why, relevant checks and
-their limits, and whether anything was committed, pushed, or proposed upstream.
-Include the commit or PR link when applicable. Explicitly identify pending work
-and cross-copy transfers so the next task starts with the correct context.
+For handoff, state the affected folder, branch, actual checks and their limits,
+commit/publication status, and remaining work. Keep this layout as the single
+current source of truth.
